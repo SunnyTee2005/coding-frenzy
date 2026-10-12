@@ -1,0 +1,11 @@
+id = "478"
+title = "Points in Figures: Rectangles, Circles, and Triangles"
+stars = 2
+time_limit = 3.0
+uva = 478
+cpe26 = 26091
+category = "正暴窮舉"
+
+[tests]
+public = 3
+hidden = 10

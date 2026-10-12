@@ -13,6 +13,7 @@
 - check：獨立的 Python 解法，函式本體以 `def solve(s: str) -> str:` 為開頭。
 - 題文不用寫：App 直接顯示 UVa 原文 PDF。
 """
+import json
 import pathlib
 import textwrap
 
@@ -49,7 +50,7 @@ def add(
     (d / "sample").mkdir(parents=True, exist_ok=True)
     meta = [
         f'id = "{uva}"',
-        f'title = "{title}"',
+        f"title = {json.dumps(title, ensure_ascii=False)}",  # TOML 基本字串與 JSON 字串的跳脫規則相容
         f"stars = {stars}",
         f"time_limit = {time_limit}",
         f"uva = {uva}",
@@ -57,7 +58,7 @@ def add(
     if cpe26:
         meta.append(f"cpe26 = {cpe26}")
     if category:
-        meta.append(f'category = "{category}"')
+        meta.append(f"category = {json.dumps(category, ensure_ascii=False)}")
     meta += ["", "[tests]", f"public = {public}", f"hidden = {hidden}", ""]
     (d / "meta.toml").write_text("\n".join(meta), encoding="utf-8")
     (d / "sample" / "1.in").write_text(textwrap.dedent(sample).lstrip("\n"), encoding="utf-8")

@@ -1,0 +1,11 @@
+id = "913"
+title = "Joana and the Odd Numbers"
+stars = 1
+time_limit = 3.0
+uva = 913
+cpe26 = 26102
+category = "二維排數"
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,11 @@
+id = "11728"
+title = "Alternate Task"
+stars = 1
+time_limit = 3.0
+uva = 11728
+cpe26 = 26094
+category = "正暴窮舉"
+
+[tests]
+public = 3
+hidden = 10

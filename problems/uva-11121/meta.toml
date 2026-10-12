@@ -1,0 +1,11 @@
+id = "11121"
+title = "Base -2"
+stars = 1
+time_limit = 3.0
+uva = 11121
+cpe26 = 26063
+category = "進制基底"
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,11 @@
+id = "10010"
+title = "Where's Waldorf?"
+stars = 2
+time_limit = 3.0
+uva = 10010
+cpe26 = 26072
+category = "二維寫真"
+
+[tests]
+public = 3
+hidden = 10

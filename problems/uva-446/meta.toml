@@ -1,0 +1,11 @@
+id = "446"
+title = "Kibbles \"n\" Bits \"n\" Bits \"n\" Bits"
+stars = 1
+time_limit = 3.0
+uva = 446
+cpe26 = 26061
+category = "進制基底"
+
+[tests]
+public = 3
+hidden = 10

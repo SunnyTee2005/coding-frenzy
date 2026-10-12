@@ -1,0 +1,11 @@
+id = "10409"
+title = "Die Game"
+stars = 1
+time_limit = 3.0
+uva = 10409
+cpe26 = 26082
+category = "規則模擬"
+
+[tests]
+public = 3
+hidden = 10

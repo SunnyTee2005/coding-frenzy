@@ -1,0 +1,11 @@
+id = "10800"
+title = "Not That Kind of Graph"
+stars = 2
+time_limit = 3.0
+uva = 10800
+cpe26 = 26074
+category = "二維寫真"
+
+[tests]
+public = 3
+hidden = 10

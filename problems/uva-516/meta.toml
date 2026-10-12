@@ -1,0 +1,11 @@
+id = "516"
+title = "Prime Land"
+stars = 2
+time_limit = 3.0
+uva = 516
+cpe26 = 26054
+category = "質因倍數"
+
+[tests]
+public = 3
+hidden = 10

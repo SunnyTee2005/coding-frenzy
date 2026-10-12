@@ -1,0 +1,11 @@
+id = "10699"
+title = "Count the factors"
+stars = 1
+time_limit = 3.0
+uva = 10699
+cpe26 = 26051
+category = "質因倍數"
+
+[tests]
+public = 3
+hidden = 10

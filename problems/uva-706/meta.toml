@@ -1,0 +1,11 @@
+id = "706"
+title = "LC-Display"
+stars = 2
+time_limit = 3.0
+uva = 706
+cpe26 = 26073
+category = "二維寫真"
+
+[tests]
+public = 3
+hidden = 10

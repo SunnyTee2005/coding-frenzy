@@ -1,0 +1,11 @@
+id = "993"
+title = "Product of digits"
+stars = 1
+time_limit = 3.0
+uva = 993
+cpe26 = 26053
+category = "質因倍數"
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,11 @@
+id = "10258"
+title = "Contest Scoreboard"
+stars = 2
+time_limit = 3.0
+uva = 10258
+cpe26 = 26084
+category = "規則模擬"
+
+[tests]
+public = 3
+hidden = 10

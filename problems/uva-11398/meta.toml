@@ -1,0 +1,11 @@
+id = "11398"
+title = "The Base-1 Number System"
+stars = 1
+time_limit = 3.0
+uva = 11398
+cpe26 = 26062
+category = "進制基底"
+
+[tests]
+public = 3
+hidden = 10
