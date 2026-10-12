@@ -8,7 +8,8 @@ use crate::Verdict;
 /// - 預期有輸出、實際完全沒有 → NO-OUTPUT。
 /// - 其餘 → WRONG-ANSWER。
 ///
-/// TODO(Phase 0)：對照原程式的比對規則（尤其行尾空白、檔尾換行）調整。
+/// 官方文件沒有寫明行尾空白的處理；考場比對程式（FrenzyBat.exe）為原生程式，無法直接確認。
+/// 這裡採類 UVa 的嚴格規則：行尾多空白也算 PRESENTATION-ERROR。依據見 docs/research.md §4。
 pub fn compare(expected: &[u8], actual: &[u8]) -> Verdict {
     let expected = normalize_newlines(expected);
     let actual = normalize_newlines(actual);
