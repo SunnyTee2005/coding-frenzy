@@ -1,0 +1,9 @@
+id = "11233"
+title = "Deli Deli"
+stars = 1
+time_limit = 3.0
+uva = 11233
+
+[tests]
+public = 3
+hidden = 10

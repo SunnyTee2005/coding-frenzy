@@ -1,0 +1,9 @@
+id = "10071"
+title = "Back to High School Physics"
+stars = 1
+time_limit = 3.0
+uva = 10071
+
+[tests]
+public = 3
+hidden = 10

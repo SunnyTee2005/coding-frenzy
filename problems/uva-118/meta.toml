@@ -1,0 +1,9 @@
+id = "118"
+title = "Mutant Flatworld Explorers"
+stars = 1
+time_limit = 3.0
+uva = 118
+
+[tests]
+public = 3
+hidden = 10
