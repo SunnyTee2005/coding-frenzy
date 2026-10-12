@@ -17,7 +17,7 @@ struct LanguageFile {
     language: Vec<Language>,
 }
 
-/// 內建的語言清單（C、C++、Python 3）。
+/// 內建的語言清單（CCPP:MinGW、Python）。
 pub fn builtin_languages() -> Vec<Language> {
     let file: LanguageFile =
         toml::from_str(include_str!("../languages.toml")).expect("languages.toml 格式錯誤");
@@ -31,6 +31,6 @@ mod tests {
     #[test]
     fn builtin_table_parses() {
         let ids: Vec<_> = builtin_languages().into_iter().map(|l| l.id).collect();
-        assert_eq!(ids, ["c", "cpp", "python"]);
+        assert_eq!(ids, ["ccpp", "python"]);
     }
 }

@@ -6,10 +6,10 @@
 
 ## 目前進度
 
-- [x] 判題核心（`crates/judge`）：C / C++ / Python 3；可判 CORRECT、WRONG-ANSWER、PRESENTATION-ERROR、COMPILER-ERROR、RUN-ERROR、NO-OUTPUT、逾時
+- [x] 判題核心（`crates/judge`）：CCPP（C/C++，和考場一樣都用 g++ 以 C++ 編譯）與 Python；結果字串與考場相同（CORRECT、WRONG-ANSWER、PRESENTATION-ERROR、COMPILER-ERROR、RUN-ERROR、NO-OUTPUT、TIMELIMIT）
 - [x] Tauri 桌面 App 骨架，以及環境檢查畫面（Mac 會自動引導安裝 Xcode Command Line Tools）
 - [x] ICPC 計分與抽題邏輯
-- [ ] Phase 0：取得原考場軟體的 UI 規格（見 [docs/research.md](docs/research.md)）
+- [x] Phase 0：依官方考生手冊截圖與瘋狂程設套件整理畫面規格（[docs/ui-spec.md](docs/ui-spec.md)、[docs/research.md](docs/research.md)）
 - [ ] 仿真考場畫面
 - [ ] 一顆星 49 題題庫（目前只有範例題 UVa 10055）
 - [ ] Mac 安裝腳本 / Homebrew、Windows 版
@@ -40,7 +40,8 @@ app/                 Tauri 2 + React 前端
   src-tauri/         Rust 後端 command
 problems/uva-*/      題庫：meta.toml、statement.md、sample/、public/、hidden/、sol.cpp、gen.py
 tools/               測資產生工具
-docs/research.md     考場環境研究筆記與待確認清單
+docs/research.md     考場環境研究筆記、題庫清單、成績分布
+docs/ui-spec.md      考場畫面規格（版面、選單、快捷鍵、對話框）
 ```
 
 ## 題目格式

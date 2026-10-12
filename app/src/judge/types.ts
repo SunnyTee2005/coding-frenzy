@@ -7,7 +7,8 @@ export type Verdict =
   | 'COMPILER-ERROR'
   | 'RUN-ERROR'
   | 'NO-OUTPUT'
-  | 'TIME-LIMIT-EXCEEDED'
+  | 'TIMELIMIT'
+  | 'PENDING'
 
 export type TestSet = 'sample' | 'public'
 

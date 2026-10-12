@@ -1,35 +1,33 @@
 # 可用語言設定表。新增語言（例如 Java）只要在這裡加一筆。
 #
-# display  : 編譯器選單顯示的文字。Phase 0 反編譯原程式後，改成和考場完全一致的字串。
+# display  : 編譯器選單顯示的文字，照考場的「語言:編譯器」格式。
 # source   : 原始碼存檔名稱。
 # programs : 依序尋找的執行檔，第一個找得到的就用，代入 {cc}。
-# compile  : 編譯指令；Python 只做語法檢查，讓語法錯誤也回報 COMPILER-ERROR。
+# compile  : 編譯指令；沒有這一項就直接執行。
 # run      : 執行指令。
 #
 # 可用的代換：{cc} 編譯器 / 直譯器、{src} 原始檔、{exe} 執行檔、{shim} bits/stdc++.h 補丁目錄。
-# 參數對齊考場的 MinGW GCC 6.3.0（預設 -std=gnu++14）；實際參數以 Phase 0 查到的原程式指令為準。
+# 依據：瘋狂程設 FrenzyBat/frenzybat-*.bat（見 docs/ui-spec.md §6）。
 
+# 考場的 CCPP:MinGW：C 和 C++ 共用，原始碼一律存成 main.cpp、用 g++ 編譯，
+# 所以 C 程式也照 C++ 規則編譯（例如 malloc 的回傳值要轉型）。
+# 考場指令：g++ -O2 -lm -static-libgcc -static-libstdc++ -Wl,-Bstatic -lstdc++ -m32 -omain.exe main.cpp
+# 考場沒有指定 -std，MinGW GCC 6.3 的預設是 gnu++14；這裡明確寫出，避免較新的編譯器改用別的預設。
+# -m32 / 靜態連結在 macOS 上無法使用，所以拿掉。
 [[language]]
-id = "c"
-display = "C"
-source = "main.c"
-programs = ["gcc", "clang", "cc"]
-compile = ["{cc}", "-std=gnu11", "-O2", "-o", "{exe}", "{src}", "-lm"]
-run = ["{exe}"]
-
-[[language]]
-id = "cpp"
-display = "C++"
+id = "ccpp"
+display = "CCPP:MinGW"
 source = "main.cpp"
 programs = ["g++", "clang++", "c++"]
 # -idirafter：GCC 自帶的 bits/stdc++.h 會先被找到；Mac 的 clang 沒有，才退回使用補丁。
-compile = ["{cc}", "-std=gnu++14", "-O2", "-idirafter", "{shim}", "-o", "{exe}", "{src}", "-lm"]
+compile = ["{cc}", "-O2", "-std=gnu++14", "-idirafter", "{shim}", "-o", "{exe}", "{src}", "-lm"]
 run = ["{exe}"]
 
+# 考場的 Python 沒有編譯步驟，直接 `python main.py`；語法錯誤在執行時才出現。
+# 選單字串推測是 PYTH:Python39（考場安裝 Python 3.9.6），尚無截圖確認。
 [[language]]
 id = "python"
-display = "Python 3"
+display = "PYTH:Python39"
 source = "main.py"
 programs = ["python3", "python"]
-compile = ["{cc}", "-c", "import sys; compile(open(sys.argv[1], encoding='utf-8').read(), sys.argv[1], 'exec')", "{src}"]
 run = ["{cc}", "{src}"]

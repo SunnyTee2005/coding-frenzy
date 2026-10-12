@@ -30,8 +30,9 @@ pub enum Verdict {
     CompilerError,
     RunError,
     NoOutput,
-    // TODO(Phase 0)：確認原程式逾時的狀態字串。
-    TimeLimitExceeded,
+    /// 考場的寫法沒有連字號（見考生手冊 1.5）。
+    #[serde(rename = "TIMELIMIT")]
+    TimeLimit,
 }
 
 impl Verdict {
@@ -43,7 +44,7 @@ impl Verdict {
             Verdict::CompilerError => "COMPILER-ERROR",
             Verdict::RunError => "RUN-ERROR",
             Verdict::NoOutput => "NO-OUTPUT",
-            Verdict::TimeLimitExceeded => "TIME-LIMIT-EXCEEDED",
+            Verdict::TimeLimit => "TIMELIMIT",
         }
     }
 }
@@ -197,16 +198,16 @@ impl Compiled {
 /// 由執行結果與預期輸出決定評判結果。
 pub fn verdict_for(out: &ProcOutcome, expected: &[u8], time_limit: Duration) -> Verdict {
     match out.status {
-        ProcStatus::TimedOut => Verdict::TimeLimitExceeded,
+        ProcStatus::TimedOut => Verdict::TimeLimit,
         ProcStatus::OutputLimit => Verdict::RunError,
         ProcStatus::Signaled(_) | ProcStatus::Exited(1..) | ProcStatus::Exited(..=-1) => {
             if out.cpu_exceeded {
-                Verdict::TimeLimitExceeded
+                Verdict::TimeLimit
             } else {
                 Verdict::RunError
             }
         }
-        ProcStatus::Exited(0) if out.elapsed > time_limit => Verdict::TimeLimitExceeded,
+        ProcStatus::Exited(0) if out.elapsed > time_limit => Verdict::TimeLimit,
         ProcStatus::Exited(_) => compare(expected, &out.stdout),
     }
 }

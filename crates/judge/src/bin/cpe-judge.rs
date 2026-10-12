@@ -47,7 +47,11 @@ fn toolchains() -> Result<bool> {
 }
 
 fn language_for(path: &Path) -> Result<Language> {
-    let ext = path.extension().and_then(|e| e.to_str()).unwrap_or_default();
+    let ext = match path.extension().and_then(|e| e.to_str()).unwrap_or_default() {
+        // 考場的 CCPP 把 C 程式也當 main.cpp 編譯
+        "c" | "cc" | "cxx" => "cpp",
+        other => other,
+    };
     builtin_languages()
         .into_iter()
         .find(|l| Path::new(&l.source).extension().and_then(|e| e.to_str()) == Some(ext))

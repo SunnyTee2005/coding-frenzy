@@ -6,8 +6,7 @@ import { api, isTauri } from './judge/api'
 import type { Language, ProblemMeta, ToolchainReport } from './judge/types'
 
 const TEMPLATE: Record<string, string> = {
-  cpp: '#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    long long a, b;\n    while (cin >> a >> b) cout << llabs(a - b) << "\\n";\n}\n',
-  c: '#include <stdio.h>\n\nint main(void) {\n    long long a, b;\n    while (scanf("%lld %lld", &a, &b) == 2) printf("%lld\\n", a > b ? a - b : b - a);\n    return 0;\n}\n',
+  ccpp: '#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    long long a, b;\n    while (cin >> a >> b) cout << llabs(a - b) << "\\n";\n}\n',
   python: 'import sys\n\nfor line in sys.stdin:\n    a, b = map(int, line.split())\n    print(abs(a - b))\n',
 }
 
@@ -17,8 +16,8 @@ export default function App() {
   const [languages, setLanguages] = useState<Language[]>([])
   const [problems, setProblems] = useState<ProblemMeta[]>([])
   const [problemId, setProblemId] = useState('')
-  const [lang, setLang] = useState('cpp')
-  const [source, setSource] = useState(TEMPLATE.cpp)
+  const [lang, setLang] = useState('ccpp')
+  const [source, setSource] = useState(TEMPLATE.ccpp)
   const [result, setResult] = useState('')
   const [busy, setBusy] = useState(false)
 

@@ -15,17 +15,15 @@ export const mockBackend: JudgeApi = {
     delay({
       commandLineToolsInstalled: true,
       tools: [
-        { lang_id: 'c', display: 'C', program: '/usr/bin/clang', version: 'mock' },
-        { lang_id: 'cpp', display: 'C++', program: '/usr/bin/clang++', version: 'mock' },
-        { lang_id: 'python', display: 'Python 3', program: '/usr/bin/python3', version: 'mock' },
+        { lang_id: 'ccpp', display: 'CCPP:MinGW', program: '/usr/bin/clang++', version: 'mock' },
+        { lang_id: 'python', display: 'PYTH:Python39', program: '/usr/bin/python3', version: 'mock' },
       ],
     }),
   installCommandLineTools: () => delay(undefined),
   languages: () =>
     delay([
-      { id: 'c', display: 'C', source: 'main.c' },
-      { id: 'cpp', display: 'C++', source: 'main.cpp' },
-      { id: 'python', display: 'Python 3', source: 'main.py' },
+      { id: 'ccpp', display: 'CCPP:MinGW', source: 'main.cpp' },
+      { id: 'python', display: 'PYTH:Python39', source: 'main.py' },
     ]),
   problems: () => delay([sample.meta]),
   problem: () => delay(sample),
