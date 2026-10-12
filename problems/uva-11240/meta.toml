@@ -1,0 +1,9 @@
+id = "11240"
+title = "Antimonotonicity"
+stars = 2
+time_limit = 3.0
+uva = 11240
+
+[tests]
+public = 3
+hidden = 10

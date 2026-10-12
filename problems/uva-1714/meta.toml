@@ -1,0 +1,9 @@
+id = "1714"
+title = "Keyboarding"
+stars = 3
+time_limit = 3.0
+uva = 1714
+
+[tests]
+public = 3
+hidden = 10

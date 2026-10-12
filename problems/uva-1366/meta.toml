@@ -1,0 +1,9 @@
+id = "1366"
+title = "Martian Mining"
+stars = 3
+time_limit = 3.0
+uva = 1366
+
+[tests]
+public = 3
+hidden = 10

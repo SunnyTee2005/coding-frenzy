@@ -1,0 +1,9 @@
+id = "11624"
+title = "Fire!"
+stars = 3
+time_limit = 3.0
+uva = 11624
+
+[tests]
+public = 3
+hidden = 10

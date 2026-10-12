@@ -1,0 +1,9 @@
+id = "12455"
+title = "Bars"
+stars = 2
+time_limit = 3.0
+uva = 12455
+
+[tests]
+public = 3
+hidden = 10
