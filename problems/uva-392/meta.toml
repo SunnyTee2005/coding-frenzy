@@ -1,0 +1,11 @@
+id = "392"
+title = "Polynomial Showdown"
+stars = 2
+time_limit = 3.0
+uva = 392
+cpe26 = 26014
+category = "輸入格式"
+
+[tests]
+public = 3
+hidden = 10

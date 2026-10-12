@@ -1,0 +1,11 @@
+id = "11352"
+title = "Crazy King"
+stars = 2
+time_limit = 3.0
+uva = 11352
+cpe26 = 26144
+category = "堆疊佇列"
+
+[tests]
+public = 3
+hidden = 10

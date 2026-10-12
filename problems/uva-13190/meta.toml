@@ -1,0 +1,11 @@
+id = "13190"
+title = "Rockabye Tobby"
+stars = 2
+time_limit = 3.0
+uva = 13190
+cpe26 = 26142
+category = "堆疊佇列"
+
+[tests]
+public = 3
+hidden = 10

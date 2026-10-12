@@ -1,0 +1,11 @@
+id = "729"
+title = "The Hamming Distance Problem"
+stars = 2
+time_limit = 3.0
+uva = 729
+cpe26 = 26113
+category = "排列組合"
+
+[tests]
+public = 3
+hidden = 10

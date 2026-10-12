@@ -1,0 +1,11 @@
+id = "10730"
+title = "Antiarithmetic?"
+stars = 2
+time_limit = 3.0
+uva = 10730
+cpe26 = 26134
+category = "集合映對"
+
+[tests]
+public = 3
+hidden = 10

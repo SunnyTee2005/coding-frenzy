@@ -1,0 +1,11 @@
+id = "11369"
+title = "Shopaholic"
+stars = 1
+time_limit = 3.0
+uva = 11369
+cpe26 = 26122
+category = "排序處秩"
+
+[tests]
+public = 3
+hidden = 10

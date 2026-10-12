@@ -1,0 +1,11 @@
+id = "10943"
+title = "How do you add?"
+stars = 2
+time_limit = 3.0
+uva = 10943
+cpe26 = 26112
+category = "排列組合"
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,11 @@
+id = "530"
+title = "Binomial Showdown"
+stars = 1
+time_limit = 3.0
+uva = 530
+cpe26 = 26111
+category = "排列組合"
+
+[tests]
+public = 3
+hidden = 10
