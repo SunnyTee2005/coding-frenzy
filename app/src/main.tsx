@@ -7,13 +7,12 @@ import { MainWindow } from './screens/MainWindow'
 import { SolveWindow } from './screens/SolveWindow'
 import { Scoreboard } from './screens/Scoreboard'
 import { PracticeWindow } from './screens/Practice'
-import { DictionaryWindow } from './screens/Dictionary'
 import type { Mode } from './judge/types'
 
 // 每個 Tauri 視窗載入同一個頁面，用 hash 決定要顯示什麼：
 //   #/                         主畫面（授權 → 登入 → 題目列表）
 //   #/solve/{exam|practice|view}/{題號}  解題視窗（view 為「看題」）
-//   #/scoreboard  #/practice  #/dictionary
+//   #/scoreboard  #/practice
 function route() {
   const parts = location.hash.replace(/^#\/?/, '').split('/')
   switch (parts[0]) {
@@ -23,8 +22,6 @@ function route() {
       return <Scoreboard />
     case 'practice':
       return <PracticeWindow />
-    case 'dictionary':
-      return <DictionaryWindow />
     default:
       return <MainWindow />
   }

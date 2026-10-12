@@ -385,13 +385,26 @@ async fn open_solve_window(app: AppHandle, mode: String, id: String, title: Stri
     open_window(&app, &label, &format!("index.html#/solve/{mode}/{id}"), &title, (1280.0, 820.0))
 }
 
-/// 開啟成績表、練習區等輔助視窗。
+/// 開啟成績表、練習區、C++ 參考資料等輔助視窗。
 #[tauri::command]
 async fn open_tool_window(app: AppHandle, kind: String, title: String) -> CmdResult<()> {
+    if kind == "cppref" {
+        // 考場的「C++參考資料」是網站形式；外部網頁無法放自繪標題列，所以用系統原生外框
+        if let Some(w) = app.get_webview_window("cppref") {
+            let _ = w.unminimize();
+            return w.set_focus().map_err(err);
+        }
+        let url = "https://en.cppreference.com/w/".parse().map_err(err)?;
+        WebviewWindowBuilder::new(&app, "cppref", WebviewUrl::External(url))
+            .title(title)
+            .inner_size(1100.0, 760.0)
+            .build()
+            .map_err(err)?;
+        return Ok(());
+    }
     let size = match kind.as_str() {
         "scoreboard" => (1200.0, 640.0),
-        "practice" => (900.0, 700.0),
-        "dictionary" => (520.0, 600.0),
+        "practice" => (1000.0, 760.0),
         _ => return Err(format!("未知的視窗：{kind}")),
     };
     open_window(&app, &kind, &format!("index.html#/{kind}"), &title, size)

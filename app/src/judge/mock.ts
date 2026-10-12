@@ -194,7 +194,8 @@ export const mockBackend: Backend = {
     return Promise.resolve()
   },
   openToolWindow: (kind) => {
-    window.open(`${location.pathname}#/${kind}`, kind)
+    if (kind === 'cppref') window.open('https://en.cppreference.com/w/', kind)
+    else window.open(`${location.pathname}#/${kind}`, kind)
     return Promise.resolve()
   },
 }

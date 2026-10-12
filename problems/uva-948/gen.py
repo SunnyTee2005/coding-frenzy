@@ -16,7 +16,7 @@ elif kind == "hidden" and k == 2:
     # Fibonacci 數本身與前後一個數
     xs = [v + d for v in fib if v <= LIMIT for d in (-1, 0, 1) if 1 <= v + d <= LIMIT] + [LIMIT]
 elif kind == "hidden" and k >= 8:
-    xs = [rng.randint(1, LIMIT) for _ in range(3000)]
+    xs = [rng.randint(1, LIMIT) for _ in range(400)]
 else:
     xs = [rng.randint(1, 10 ** rng.randint(1, 8) - 1) for _ in range(rng.randint(5, 100))]
 sys.stdout.write(f"{len(xs)}\n" + "".join(f"{x}\n" for x in xs))

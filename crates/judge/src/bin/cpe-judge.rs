@@ -66,6 +66,9 @@ fn all_tests(problem: &Problem) -> Result<Vec<cpe_judge::TestCase>> {
     Ok(cases)
 }
 
+/// 每題 public + hidden 測資的大小上限。題庫會打包進 App，太大會讓安裝檔變肥。
+const MAX_TEST_BYTES: usize = 100 * 1024;
+
 fn verify(root: &Path, only: &[String]) -> Result<bool> {
     let env = JudgeEnv::default();
     let mut ok = true;
@@ -84,6 +87,14 @@ fn verify(root: &Path, only: &[String]) -> Result<bool> {
                 problems_found.push(format!("{} 沒有測資", set.dir_name()));
             }
         }
+        let size: usize = cases
+            .iter()
+            .filter(|c| !c.name.starts_with("sample/"))
+            .map(|c| c.input.len() + c.output.len())
+            .sum();
+        if size > MAX_TEST_BYTES {
+            problems_found.push(format!("public + hidden 測資共 {} KB，超過上限 {} KB", size / 1024, MAX_TEST_BYTES / 1024));
+        }
         if sol.is_file() {
             let report = judge(&language_for(&sol)?, &std::fs::read_to_string(&sol)?, &cases, problem.time_limit(), false, &env);
             if let Some(msg) = &report.compile_message {
@@ -94,7 +105,7 @@ fn verify(root: &Path, only: &[String]) -> Result<bool> {
             }
             let slowest = report.cases.iter().map(|c| c.time_ms).max().unwrap_or(0);
             if problems_found.is_empty() {
-                println!("OK    {:<8} {} 筆測資，最慢 {slowest} ms", problem.meta.id, cases.len());
+                println!("OK    {:<8} {:>3} 筆測資 {:>4} KB，最慢 {slowest} ms", problem.meta.id, cases.len(), size / 1024);
                 continue;
             }
         }

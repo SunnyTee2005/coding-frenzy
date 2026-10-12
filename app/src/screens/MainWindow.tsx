@@ -63,8 +63,9 @@ function Toolbar({ session }: { session: Session }) {
     { label: '教室成績', mnemonic: 'M', after: '(Score Board)', onSelect: () => api.openToolWindow('scoreboard', '教室成績') },
     { sep: true },
     { label: 'Java參考資料', mnemonic: 'J', after: '(Java Reference)', disabled: true },
-    { label: 'C++參考資料', mnemonic: 'C', after: '(C++ Reference)', disabled: true },
-    { label: '英漢字典', mnemonic: 'E', after: '(Dictionary)', onSelect: () => api.openToolWindow('dictionary', '英漢字典') },
+    { label: 'C++參考資料', mnemonic: 'C', after: '(C++ Reference)', onSelect: () => api.openToolWindow('cppref', 'C++參考資料') },
+    // 考場有英漢字典，但模擬考場不實作（使用者決定）
+    { label: '英漢字典', mnemonic: 'E', after: '(Dictionary)', disabled: true },
     { sep: true },
     { label: '維修：更新主頁', mnemonic: 'R', onSelect: () => location.reload() },
     { label: '維修：取得考試題目', onSelect: () => location.reload() },

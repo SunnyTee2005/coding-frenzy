@@ -16,8 +16,10 @@ if kind == "hidden" and k == 1:
     parts = ["1 1\n*\n", "1 1\n.\n", field(3, 3, 1.0), field(4, 5, 0.0), field(1, 30, 0.3), field(30, 1, 0.3)]
 elif kind == "hidden" and k == 2:
     parts = ["1 1\n.\n"]  # 只有一個場地：不能多印空行
+elif kind == "hidden" and k == 10:
+    parts = [field(100, 100, rng.random() * 0.4)]
 elif kind == "hidden" and k >= 8:
-    parts = [field(100, 100, rng.random()) for _ in range(4)]
+    parts = [field(rng.randint(20, 40), rng.randint(20, 40), rng.random() * 0.4) for _ in range(2)]
 else:
     parts = [field(rng.randint(1, 12), rng.randint(1, 12), rng.random() * 0.5) for _ in range(rng.randint(1, 8))]
 sys.stdout.write("".join(parts) + "0 0\n")

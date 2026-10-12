@@ -35,6 +35,6 @@ if kind == "hidden" and k == 1:
 elif kind == "hidden" and k == 2:
     sys.stdout.write('"a" "b" "c" "d" "e" "f"\n' * 50)
 elif kind == "hidden" and k >= 8:
-    sys.stdout.write(text(3000, 0.2))
+    sys.stdout.write(text(250, 0.2))
 else:
     sys.stdout.write(text(rng.randint(5, 60), 0.15))

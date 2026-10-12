@@ -45,7 +45,7 @@ export interface Backend {
   saveCode(name: string, draft: CodeDraft): Promise<SavedCode>
 
   openSolveWindow(mode: Mode | 'view', id: string, title: string): Promise<void>
-  openToolWindow(kind: 'scoreboard' | 'practice' | 'dictionary', title: string): Promise<void>
+  openToolWindow(kind: 'scoreboard' | 'practice' | 'cppref', title: string): Promise<void>
 }
 
 const tauriBackend: Backend = {

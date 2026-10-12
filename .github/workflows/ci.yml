@@ -37,6 +37,8 @@ jobs:
       - name: Judge tests
         run: cargo test -p cpe-judge
       - name: Verify problem bank
-        run: cargo run -q -p cpe-judge -- verify problems
+        run: |
+          cargo run -q -p cpe-judge -- verify problems
+          python3 tools/crosscheck/run.py
       - name: Clippy
         run: cargo clippy --workspace --all-targets -- -D warnings

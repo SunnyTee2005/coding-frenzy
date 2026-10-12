@@ -31,7 +31,7 @@ def case():
 if kind == "hidden" and k == 1:
     lines = ["", "(", ")", "[]", "][", "([)]", "(((", "()()()", "[" * 64 + "]" * 64, "(" * 64 + "]" * 64]
 elif kind == "hidden" and k >= 8:
-    lines = [case() for _ in range(3000)]
+    lines = [case() for _ in range(250)]
 else:
     lines = [case() for _ in range(rng.randint(3, 60))]
 sys.stdout.write(f"{len(lines)}\n" + "".join(l + "\n" for l in lines))

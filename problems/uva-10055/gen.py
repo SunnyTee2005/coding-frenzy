@@ -16,9 +16,9 @@ elif k == 2:
     sys.stdout.write(f"{MAX} 1")
     sys.exit()
 elif k <= 6:
-    lines = [(rng.randint(0, MAX), rng.randint(0, MAX)) for _ in range(1000)]
+    lines = [(rng.randint(0, MAX), rng.randint(0, MAX)) for _ in range(200)]
 else:
     # 大量資料
-    lines = [(rng.randint(0, MAX), rng.randint(0, MAX)) for _ in range(3000)]
+    lines = [(rng.randint(0, MAX), rng.randint(0, MAX)) for _ in range(400)]
 
 sys.stdout.write("".join(f"{a} {b}\n" for a, b in lines))
