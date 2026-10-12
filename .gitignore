@@ -1,0 +1,7 @@
+/target
+node_modules/
+dist/
+# Phase 0 參考資料（官方程式、反編譯結果、原程式截圖）只留在本機，不進 repo
+/research/
+.DS_Store
+/app/src-tauri/gen/

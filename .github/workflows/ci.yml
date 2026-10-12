@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        # macOS 用 Apple clang + libc++，可以驗證 bits/stdc++.h 補丁
+        os: [ubuntu-24.04, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Install Linux build dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev librsvg2-dev
+      - name: Frontend
+        working-directory: app
+        run: |
+          npm ci
+          npm test
+          npm run build
+      - name: Judge tests
+        run: cargo test -p cpe-judge
+      - name: Verify problem bank
+        run: cargo run -q -p cpe-judge -- verify problems
+      - name: Clippy
+        run: cargo clippy --workspace --all-targets -- -D warnings

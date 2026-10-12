@@ -1,0 +1,10 @@
+id = "10055"
+title = "Hashmat the Brave Warrior"
+stars = 1
+time_limit = 3.0
+uva = 10055
+
+# tools/build_tests.py 依此產生測資數量
+[tests]
+public = 3
+hidden = 10

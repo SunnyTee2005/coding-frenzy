@@ -1,0 +1,41 @@
+name: Release (macOS)
+
+# 推 v* tag 時建立 GitHub Release 草稿並附上 universal .dmg（Apple Silicon + Intel）。
+# 也可以在 Actions 頁面手動執行，只產出 artifact、不建立 Release。
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin,x86_64-apple-darwin
+      - uses: Swatinem/rust-cache@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
+      - name: Build universal app
+        working-directory: app
+        run: npx tauri build --target universal-apple-darwin --bundles app,dmg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cpe-sim-macos-universal
+          path: target/universal-apple-darwin/release/bundle/dmg/*.dmg
+      - name: Attach to draft release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || gh release create "$GITHUB_REF_NAME" --draft --title "$GITHUB_REF_NAME" --notes "見 README 的安裝說明。"
+          gh release upload "$GITHUB_REF_NAME" target/universal-apple-darwin/release/bundle/dmg/*.dmg --clobber

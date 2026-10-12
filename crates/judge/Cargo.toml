@@ -1,0 +1,14 @@
+[package]
+name = "cpe-judge"
+description = "CPE 模擬考場的判題核心：編譯、執行（含時間限制）、比對輸出"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+tempfile = "3"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
