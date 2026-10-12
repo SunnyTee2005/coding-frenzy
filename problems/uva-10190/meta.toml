@@ -1,0 +1,9 @@
+id = "10190"
+title = "Divide, But Not Quite Conquer!"
+stars = 1
+time_limit = 3.0
+uva = 10190
+
+[tests]
+public = 3
+hidden = 10

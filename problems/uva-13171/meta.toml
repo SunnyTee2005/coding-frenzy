@@ -1,0 +1,9 @@
+id = "13171"
+title = "Pixel Art"
+stars = 1
+time_limit = 3.0
+uva = 13171
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,9 @@
+id = "12970"
+title = "Alcoholic Pilots"
+stars = 1
+time_limit = 3.0
+uva = 12970
+
+[tests]
+public = 3
+hidden = 10

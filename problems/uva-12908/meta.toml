@@ -1,0 +1,9 @@
+id = "12908"
+title = "The book thief"
+stars = 1
+time_limit = 3.0
+uva = 12908
+
+[tests]
+public = 3
+hidden = 10
