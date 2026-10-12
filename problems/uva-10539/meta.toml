@@ -1,0 +1,9 @@
+id = "10539"
+title = "Almost Prime Numbers"
+stars = 3
+time_limit = 3.0
+uva = 10539
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,9 @@
+id = "11518"
+title = "Dominos 2"
+stars = 2
+time_limit = 3.0
+uva = 11518
+
+[tests]
+public = 3
+hidden = 10

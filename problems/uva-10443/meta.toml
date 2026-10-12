@@ -1,0 +1,9 @@
+id = "10443"
+title = "Rock, Scissors, Paper"
+stars = 2
+time_limit = 3.0
+uva = 10443
+
+[tests]
+public = 3
+hidden = 10

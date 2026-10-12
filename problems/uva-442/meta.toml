@@ -1,0 +1,9 @@
+id = "442"
+title = "Matrix Chain Multiplication"
+stars = 2
+time_limit = 3.0
+uva = 442
+
+[tests]
+public = 3
+hidden = 10

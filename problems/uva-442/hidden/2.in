@@ -1,0 +1,53 @@
+15
+S 16 40
+B 31 38
+U 38 3
+H 3 2
+O 24 10
+R 25 47
+P 5 13
+N 13 2
+W 2 23
+G 23 38
+Y 38 9
+X 9 42
+E 42 32
+V 32 38
+Q 38 29
+((WG)(YX))
+((S(BU))H)
+E
+((NW)G)
+N
+(WY)
+(NW)
+(Y((UX)(YG)))
+((GY)(XE))
+(OR)
+((YS)((R(QW))R))
+(((WG)Y)X)
+(N((E(NO))Y))
+E
+Q
+(P((N(W(GY)))X))
+(O(RP))
+((BY)W)
+((HG)((BY)U))
+((BU)((HO)R))
+Q
+((XE)(VQ))
+X
+(Q(W(UE)))
+(((OO)Q)(QW))
+Q
+(V(HP))
+((((NW)(GY))((XE)V))Q)
+(SR)
+(H((OR)P))
+(B((((UE)R)N)R))
+(B(((BX)H)W))
+(Y(X((EV)Q)))
+(EV)
+(W(PG))
+((((BU)(HO))R)P)
+B

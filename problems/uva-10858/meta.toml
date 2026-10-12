@@ -1,0 +1,9 @@
+id = "10858"
+title = "Unique Factorization"
+stars = 3
+time_limit = 3.0
+uva = 10858
+
+[tests]
+public = 3
+hidden = 10

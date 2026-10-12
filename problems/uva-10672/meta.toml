@@ -1,0 +1,9 @@
+id = "10672"
+title = "Marbles on a tree"
+stars = 3
+time_limit = 3.0
+uva = 10672
+
+[tests]
+public = 3
+hidden = 10

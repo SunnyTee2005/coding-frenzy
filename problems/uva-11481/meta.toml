@@ -1,9 +1,0 @@
-id = "11481"
-title = "Arrange the Numbers"
-stars = 3
-time_limit = 3.0
-uva = 11481
-
-[tests]
-public = 3
-hidden = 10
