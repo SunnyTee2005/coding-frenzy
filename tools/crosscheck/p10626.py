@@ -3,15 +3,13 @@
 
 from functools import lru_cache
 
-# 每買一瓶可投入的硬幣組合：拿掉任何一枚就不夠 8 元（多投沒有好處）
+# 每買一瓶可投入的硬幣組合：全部列出（多投有時划算，例如 10+1+1+1 可以換回一枚 5 元）
 PAYS = []
 for a in range(3):
-    for b in range(3):
+    for b in range(4):
         for c in range(9):
             paid = 10 * a + 5 * b + c
             if paid < 8:
-                continue
-            if any(paid - v >= 8 for v, cnt in ((10, a), (5, b), (1, c)) if cnt):
                 continue
             ch = paid - 8
             PAYS.append((a, b, c, ch // 10, ch % 10 // 5, ch % 5))
