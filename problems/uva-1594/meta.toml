@@ -1,0 +1,9 @@
+id = "1594"
+title = "Ducci Sequence"
+stars = 1
+time_limit = 3.0
+uva = 1594
+
+[tests]
+public = 3
+hidden = 10

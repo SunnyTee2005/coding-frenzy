@@ -1,0 +1,9 @@
+id = "11220"
+title = "Decoding the message"
+stars = 1
+time_limit = 3.0
+uva = 11220
+
+[tests]
+public = 3
+hidden = 10

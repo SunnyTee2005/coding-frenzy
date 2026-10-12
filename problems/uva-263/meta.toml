@@ -1,0 +1,9 @@
+id = "263"
+title = "Number Chains"
+stars = 1
+time_limit = 3.0
+uva = 263
+
+[tests]
+public = 3
+hidden = 10

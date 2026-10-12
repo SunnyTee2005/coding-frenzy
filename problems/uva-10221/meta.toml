@@ -1,0 +1,9 @@
+id = "10221"
+title = "Satellites"
+stars = 1
+time_limit = 3.0
+uva = 10221
+
+[tests]
+public = 3
+hidden = 10

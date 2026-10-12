@@ -1,0 +1,9 @@
+id = "11349"
+title = "Symmetric Matrix"
+stars = 1
+time_limit = 3.0
+uva = 11349
+
+[tests]
+public = 3
+hidden = 10
