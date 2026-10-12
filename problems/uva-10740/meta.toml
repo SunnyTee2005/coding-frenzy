@@ -1,0 +1,9 @@
+id = "10740"
+title = "Not the Best"
+stars = 3
+time_limit = 3.0
+uva = 10740
+
+[tests]
+public = 3
+hidden = 10

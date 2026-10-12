@@ -1,0 +1,9 @@
+id = "12442"
+title = "Forwarding Emails"
+stars = 3
+time_limit = 3.0
+uva = 12442
+
+[tests]
+public = 3
+hidden = 10

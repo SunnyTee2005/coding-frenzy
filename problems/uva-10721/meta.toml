@@ -1,0 +1,9 @@
+id = "10721"
+title = "Bar Codes"
+stars = 2
+time_limit = 3.0
+uva = 10721
+
+[tests]
+public = 3
+hidden = 10

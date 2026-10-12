@@ -1,0 +1,9 @@
+id = "10273"
+title = "Eat or not to Eat?"
+stars = 3
+time_limit = 3.0
+uva = 10273
+
+[tests]
+public = 3
+hidden = 10

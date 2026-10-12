@@ -1,0 +1,9 @@
+id = "10150"
+title = "Doublets"
+stars = 3
+time_limit = 3.0
+uva = 10150
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,9 @@
+id = "543"
+title = "Goldbach's Conjecture"
+stars = 2
+time_limit = 3.0
+uva = 543
+
+[tests]
+public = 3
+hidden = 10

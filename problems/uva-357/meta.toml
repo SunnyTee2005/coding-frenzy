@@ -1,0 +1,9 @@
+id = "357"
+title = "Let Me Count The Ways"
+stars = 2
+time_limit = 3.0
+uva = 357
+
+[tests]
+public = 3
+hidden = 10

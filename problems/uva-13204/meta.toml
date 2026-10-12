@@ -1,0 +1,9 @@
+id = "13204"
+title = "Count these Permutations"
+stars = 3
+time_limit = 3.0
+uva = 13204
+
+[tests]
+public = 3
+hidden = 10

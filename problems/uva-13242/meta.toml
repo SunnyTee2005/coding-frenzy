@@ -1,0 +1,9 @@
+id = "13242"
+title = "Pool Filling"
+stars = 3
+time_limit = 3.0
+uva = 13242
+
+[tests]
+public = 3
+hidden = 10

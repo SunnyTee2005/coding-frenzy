@@ -1,0 +1,9 @@
+id = "10690"
+title = "Expression Again"
+stars = 3
+time_limit = 3.0
+uva = 10690
+
+[tests]
+public = 3
+hidden = 10
