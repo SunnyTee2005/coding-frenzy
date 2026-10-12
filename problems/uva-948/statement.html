@@ -1,0 +1,22 @@
+<!-- Statement paraphrased for this simulator (not the UVa original text). Original: UVa 948 -->
+<h1>Fibonaccimal Base</h1>
+<h2>The Problem</h2>
+<p>Use the Fibonacci numbers 1, 2, 3, 5, 8, 13, 21, ... (each one is the sum of the two before it) as the place values of a number system. Every positive integer can be written as a sum of distinct Fibonacci numbers in which no two consecutive Fibonacci numbers are used. This representation is unique and can be found greedily: repeatedly take the largest Fibonacci number that does not exceed what is left.</p>
+<p>Write the representation as a string of 0s and 1s, with the digit for the largest Fibonacci number used on the left and the digit for 1 on the right. For example, 11 = 8 + 3, so it is written <tt>10100</tt>.</p>
+<h2>Input</h2>
+<p>The first line contains an integer <i>N</i>, the number of test cases. Each of the next <i>N</i> lines contains one positive integer smaller than 100&nbsp;000&nbsp;000.</p>
+<h2>Output</h2>
+<p>For each number <i>x</i>, print one line in the form <tt><i>x</i> = <i>representation</i> (fib)</tt>.</p>
+<h2>Sample Input</h2>
+<pre>4
+11
+1
+7
+20
+</pre>
+<h2>Sample Output</h2>
+<pre>11 = 10100 (fib)
+1 = 1 (fib)
+7 = 1010 (fib)
+20 = 101010 (fib)
+</pre>

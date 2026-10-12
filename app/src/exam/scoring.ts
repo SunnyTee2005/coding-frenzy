@@ -107,3 +107,19 @@ function shuffle<T>(items: T[], random: () => number): T[] {
   }
   return a
 }
+
+/**
+ * 官方成果報告 2022/3/22 場次（2561 人到考）各答對題數的人數，索引 = 題數。
+ * 見 docs/research.md §6。
+ */
+const OFFICIAL_2022_03 = [849, 592, 440, 305, 277, 84, 9, 5]
+
+/** 答對 `solved` 題時，大約贏過多少比例的考生（0~100，四捨五入到小數一位）。 */
+export function percentileFor(solved: number): number {
+  const total = OFFICIAL_2022_03.reduce((a, b) => a + b, 0)
+  const s = Math.max(0, Math.min(solved, OFFICIAL_2022_03.length - 1))
+  const below = OFFICIAL_2022_03.slice(0, s).reduce((a, b) => a + b, 0)
+  // 同題數的人算一半，避免 0 題也顯示「贏過 0%」以外的怪數字
+  const pr = ((below + OFFICIAL_2022_03[s] / 2) / total) * 100
+  return Math.round(pr * 10) / 10
+}

@@ -1,0 +1,24 @@
+<!-- Statement paraphrased for this simulator (not the UVa original text). Original: UVa 10035 -->
+<h1>Primary Arithmetic</h1>
+<h2>The Problem</h2>
+<p>When children first learn to add multi-digit numbers column by column from right to left, the hardest part is the <i>carry</i>: when the digits of a column add up to 10 or more, a 1 is carried into the next column. Teachers would like to know how many carry operations each exercise contains so that they can judge how difficult it is.</p>
+<p>Given two numbers, count how many carry operations happen when they are added.</p>
+<h2>Input</h2>
+<p>Each line contains two unsigned integers with fewer than 10 digits. The last line contains <tt>0 0</tt> and must not be processed.</p>
+<h2>Output</h2>
+<p>For each line except the last, print the number of carry operations in exactly one of the following forms:</p>
+<pre>No carry operation.
+1 carry operation.
+<i>n</i> carry operations.
+</pre>
+<h2>Sample Input</h2>
+<pre>321 456
+37 85
+5 999
+0 0
+</pre>
+<h2>Sample Output</h2>
+<pre>No carry operation.
+2 carry operations.
+3 carry operations.
+</pre>

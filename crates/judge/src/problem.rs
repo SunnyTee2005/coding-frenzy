@@ -3,7 +3,7 @@
 //! ```text
 //! problems/uva-10055/
 //!   meta.toml        id、題名、星等、時限、UVa 編號
-//!   statement.md     自行改寫的題目敘述
+//!   statement.html   自行改寫的題目敘述（HTML 片段，仿 UVa 題目頁）
 //!   sample/  1.in 1.out ...   題目預設測試資料（題目上的範例）
 //!   public/  1.in 1.out ...   人工公開測試資料
 //!   hidden/  1.in 1.out ...   正式評判用的暗中測試資料
@@ -25,6 +25,11 @@ pub struct ProblemMeta {
     pub time_limit: f64,
     #[serde(default)]
     pub uva: Option<u32>,
+    /// CPE26 選集編號（例如 26011）與分類，不在選集中的題目為 None。
+    #[serde(default)]
+    pub cpe26: Option<u32>,
+    #[serde(default)]
+    pub category: Option<String>,
 }
 
 // TODO(Phase 0)：確認考場的預設時限。
@@ -79,7 +84,7 @@ pub fn load_problem(dir: &Path) -> io::Result<Problem> {
     let meta_text = std::fs::read_to_string(dir.join("meta.toml"))?;
     let meta: ProblemMeta = toml::from_str(&meta_text)
         .map_err(|e| io::Error::new(io::ErrorKind::InvalidData, format!("{}: {e}", dir.display())))?;
-    let statement = std::fs::read_to_string(dir.join("statement.md")).unwrap_or_default();
+    let statement = std::fs::read_to_string(dir.join("statement.html")).unwrap_or_default();
     Ok(Problem { meta, statement, dir: dir.to_path_buf() })
 }
 

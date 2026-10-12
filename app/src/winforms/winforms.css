@@ -1,0 +1,491 @@
+/*
+ * 仿 Windows 7 WinForms 的元件樣式（考場電腦是 Windows 7/10，瘋狂程設是 .NET 2.0 WinForms）。
+ * 尺寸與配色依考生使用手冊截圖目測，見 docs/ui-spec.md。
+ * 只用自繪樣式，不使用原程式的任何圖檔。
+ */
+
+:root {
+  /* WinForms 預設字型；Mac 上沒有微軟正黑體時退回蘋方 */
+  --wf-font: 'Microsoft JhengHei UI', 'Microsoft JhengHei', 'Segoe UI', 'PingFang TC', 'Heiti TC', sans-serif;
+  /* 嵌入的 IE 網頁預設字型 */
+  --html-font: 'Times New Roman', PMingLiU, 'Songti TC', 'LiSong Pro', serif;
+  /* SyntaxBox 編輯器 */
+  --code-font: 'Courier New', Courier, 'Liberation Mono', monospace;
+
+  --wf-control: #f0f0f0;
+  --wf-border: #adadad;
+  --wf-border-dark: #707070;
+  --wf-highlight: #3399ff;
+  --wf-menu-hover: #d5e7f8;
+  --wf-menu-hover-border: #7aa7d9;
+  --wf-disabled: #a0a0a0;
+  --wf-link: #0000ee;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--wf-control);
+  font-family: var(--wf-font);
+  font-size: 12px;
+  color: #000;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ───────── 視窗外框 ───────── */
+
+.wf-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #6b8fbf;
+}
+
+.wf-titlebar {
+  flex: none;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-left: 8px;
+  background: linear-gradient(#cfdff2, #b7cce9 45%, #a9c1e4 46%, #bdd2ee);
+  color: #000;
+  font-size: 12px;
+}
+
+.wf-titlebar .wf-title {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+
+.wf-titlebar .wf-app-icon {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  pointer-events: none;
+}
+
+.wf-caption-buttons {
+  display: flex;
+  align-self: flex-start;
+  margin-right: 6px;
+}
+
+.wf-caption-buttons button {
+  width: 27px;
+  height: 19px;
+  border: 1px solid #4a6a95;
+  border-top: none;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#e2ebf7, #c3d5ee 50%, #aec5e7 51%, #c9daf2);
+  font-size: 11px;
+  line-height: 17px;
+  color: #1d3557;
+  cursor: default;
+}
+
+.wf-caption-buttons button + button {
+  border-left: none;
+}
+
+.wf-caption-buttons button:first-child {
+  border-bottom-left-radius: 4px;
+}
+
+.wf-caption-buttons button:only-child {
+  border-bottom-left-radius: 4px;
+}
+
+.wf-caption-buttons .wf-close {
+  width: 46px;
+  border-bottom-right-radius: 4px;
+  background: linear-gradient(#e8a493, #d2654b 50%, #c43c1e 51%, #d88368);
+  color: #fff;
+  font-weight: bold;
+}
+
+.wf-caption-buttons button:hover {
+  filter: brightness(1.12);
+}
+
+.wf-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--wf-control);
+}
+
+/* ───────── 選單列 ───────── */
+
+.wf-menubar {
+  flex: none;
+  display: flex;
+  align-items: stretch;
+  height: 24px;
+  padding: 0 2px;
+  background: linear-gradient(#fbfcfd, #e6ebf1);
+  border-bottom: 1px solid #c5ccd6;
+  position: relative;
+  z-index: 20;
+}
+
+.wf-menubar .wf-grip {
+  width: 6px;
+  margin: 4px 3px;
+  background: radial-gradient(circle, #8d9bb0 1px, transparent 1.4px) 0 0 / 3px 3px;
+}
+
+.wf-menu-root {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 7px;
+  margin: 2px 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.wf-menu-root.bold {
+  font-weight: bold;
+}
+
+.wf-menu-root.boxed {
+  outline: 2px solid #e00;
+  outline-offset: -2px;
+}
+
+.wf-menu-root:hover,
+.wf-menu-root.open {
+  background: linear-gradient(#f1f7fd, #d5e7f8);
+  border-color: var(--wf-menu-hover-border);
+}
+
+.wf-menu-root.disabled {
+  color: var(--wf-disabled);
+}
+
+.wf-dropdown {
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  min-width: 180px;
+  padding: 2px;
+  background: #f5f5f5;
+  border: 1px solid #979797;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  z-index: 30;
+  font-weight: normal;
+}
+
+.wf-dropdown::before {
+  /* WinForms 選單左側的圖示欄 */
+  content: '';
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  width: 26px;
+  background: #f1f1f1;
+  border-right: 1px solid #e2e3e3;
+}
+
+.wf-menu-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 18px 0 34px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.wf-menu-item .wf-shortcut {
+  margin-left: auto;
+  padding-left: 32px;
+}
+
+.wf-menu-item:not(.disabled):hover {
+  background: linear-gradient(#f1f7fd, #d5e7f8);
+  border-color: var(--wf-menu-hover-border);
+}
+
+.wf-menu-item.disabled {
+  color: var(--wf-disabled);
+}
+
+.wf-menu-item .wf-check {
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  text-align: center;
+}
+
+.wf-menu-item.disabled .wf-check {
+  color: #bbb;
+}
+
+.wf-menu-sep {
+  height: 1px;
+  margin: 3px 2px 3px 32px;
+  background: #e0e0e0;
+  border-bottom: 1px solid #fff;
+}
+
+/* ───────── 按鈕、輸入框 ───────── */
+
+.wf-button {
+  font: inherit;
+  min-width: 75px;
+  height: 23px;
+  padding: 0 10px;
+  border: 1px solid var(--wf-border-dark);
+  border-radius: 3px;
+  background: linear-gradient(#f2f2f2, #ebebeb 50%, #dddddd 51%, #cfcfcf);
+  color: #000;
+  cursor: default;
+}
+
+.wf-button:hover:not(:disabled) {
+  border-color: #3c7fb1;
+  background: linear-gradient(#eaf6fd, #d9f0fc 50%, #bee6fd 51%, #a7d9f5);
+}
+
+.wf-button:active:not(:disabled) {
+  border-color: #2c628b;
+  background: linear-gradient(#e5f4fc, #c4e5f6 50%, #98d1ef 51%, #68b3db);
+}
+
+.wf-button.default {
+  border-color: #3399ff;
+  box-shadow: inset 0 0 0 1px #9cd2f7;
+}
+
+.wf-button:disabled {
+  color: var(--wf-disabled);
+  border-color: #c5c5c5;
+  background: #f4f4f4;
+}
+
+.wf-textbox {
+  font: inherit;
+  height: 21px;
+  padding: 1px 3px;
+  border: 1px solid #abadb3;
+  border-top-color: #707070;
+  background: #fff;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.wf-textbox:focus {
+  outline: none;
+  border-color: #3d7bad;
+}
+
+/* ───────── 進度條（剩餘時間） ───────── */
+
+.wf-progress {
+  position: relative;
+  height: 15px;
+  border: 1px solid #bcbcbc;
+  border-radius: 2px;
+  background: linear-gradient(#f3f3f3, #dcdcdc);
+  overflow: hidden;
+}
+
+.wf-progress > div {
+  height: 100%;
+  background: linear-gradient(#a8e6a0, #37c32a 45%, #06b025 46%, #5fd35a);
+  transition: width 0.4s linear;
+}
+
+/* ───────── 對話框 ───────── */
+
+.wf-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.wf-dialog {
+  min-width: 280px;
+  max-width: calc(100vw - 40px);
+  border: 1px solid #6b8fbf;
+  border-radius: 6px 6px 0 0;
+  background: var(--wf-control);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+
+.wf-dialog .wf-titlebar {
+  height: 26px;
+}
+
+.wf-dialog-content {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 22px 24px 20px;
+  background: #fff;
+  font-size: 12px;
+}
+
+.wf-dialog-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 11px 12px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.wf-icon-question {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #8fc3ff, #1f6fd6 70%);
+  color: #fff;
+  font: bold 22px/32px Arial, sans-serif;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px #154b94;
+}
+
+/* ───────── Dock 面板 ───────── */
+
+.wf-dock-pane {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  background: #fff;
+  border: 1px solid #8ea4c4;
+}
+
+.wf-dock-caption {
+  flex: none;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 4px 0 4px;
+  background: linear-gradient(#e9eef5, #d3dce8);
+  border-bottom: 1px solid #a8b8cf;
+  font-size: 11.5px;
+  color: #1e1e1e;
+}
+
+.wf-dock-caption .wf-dock-title {
+  flex: 1;
+}
+
+.wf-dock-caption button {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin-left: 2px;
+  border: none;
+  background: transparent;
+  font-size: 11px;
+  line-height: 15px;
+  color: #000;
+}
+
+.wf-dock-caption button:hover {
+  background: #ffe7a2;
+  outline: 1px solid #e5c365;
+}
+
+.wf-dock-body {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+.wf-splitter-v {
+  flex: none;
+  width: 5px;
+  cursor: col-resize;
+  background: var(--wf-control);
+}
+
+.wf-splitter-h {
+  flex: none;
+  height: 5px;
+  cursor: row-resize;
+  background: var(--wf-control);
+}
+
+/* 面板底部的分頁（您的輸出 / 正確輸出） */
+.wf-doc-tabs {
+  flex: none;
+  display: flex;
+  gap: 1px;
+  height: 21px;
+  padding-left: 2px;
+  background: linear-gradient(#e0e6ef, #cbd5e3);
+  border-top: 1px solid #a8b8cf;
+}
+
+.wf-doc-tab {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0 7px;
+  margin-top: -1px;
+  border: 1px solid #a8b8cf;
+  border-top: none;
+  background: linear-gradient(#f2f5f9, #dfe6ee);
+  font-size: 11.5px;
+}
+
+.wf-doc-tab.active {
+  background: #fff;
+}
+
+.wf-doc-tab .wf-tab-icon {
+  width: 11px;
+  height: 11px;
+  background: linear-gradient(135deg, #f8c64a, #d9821d);
+  border: 1px solid #a65f12;
+}
+
+/* ───────── 清單（提檔續答） ───────── */
+
+.wf-listbox {
+  height: 290px;
+  overflow: auto;
+  border: 1px solid #828790;
+  background: #fff;
+  font-family: var(--html-font);
+  font-size: 15px;
+}
+
+.wf-listbox div {
+  padding: 0 3px;
+  white-space: nowrap;
+}
+
+.wf-listbox div.selected {
+  background: var(--wf-highlight);
+  color: #fff;
+}

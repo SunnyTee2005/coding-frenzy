@@ -1,0 +1,11 @@
+id = "1225"
+title = "Digit Counting"
+stars = 1
+time_limit = 3.0
+uva = 1225
+cpe26 = 26093
+category = "正暴窮舉"
+
+[tests]
+public = 3
+hidden = 10

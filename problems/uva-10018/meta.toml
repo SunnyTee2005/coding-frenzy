@@ -1,0 +1,11 @@
+id = "10018"
+title = "Reverse and Add"
+stars = 1
+time_limit = 3.0
+uva = 10018
+cpe26 = 26081
+category = "規則模擬"
+
+[tests]
+public = 3
+hidden = 10

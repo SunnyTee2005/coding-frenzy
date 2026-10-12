@@ -16,12 +16,12 @@ pub use lang::{builtin_languages, Language};
 pub use problem::{list_problems, load_problem, load_tests, Problem, ProblemMeta, TestCase, TestSet};
 pub use process::{ProcLimits, ProcOutcome, ProcStatus};
 
-use serde::Serialize;
+use serde::{Deserialize, Serialize};
 use std::path::{Path, PathBuf};
 use std::time::Duration;
 
 /// 評判結果。字串形式沿用考場的 `WRONG-ANSWER` 這種寫法。
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "SCREAMING-KEBAB-CASE")]
 pub enum Verdict {
     Correct,

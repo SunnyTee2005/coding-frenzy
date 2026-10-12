@@ -1,0 +1,11 @@
+id = "10935"
+title = "Throwing cards away I"
+stars = 2
+time_limit = 3.0
+uva = 10935
+cpe26 = 26141
+category = "堆疊佇列"
+
+[tests]
+public = 3
+hidden = 10

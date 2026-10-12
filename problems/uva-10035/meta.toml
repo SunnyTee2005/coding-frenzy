@@ -1,0 +1,11 @@
+id = "10035"
+title = "Primary Arithmetic"
+stars = 1
+time_limit = 3.0
+uva = 10035
+cpe26 = 26042
+category = "算子運算"
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,11 @@
+id = "948"
+title = "Fibonaccimal Base"
+stars = 1
+time_limit = 3.0
+uva = 948
+cpe26 = 26064
+category = "進制基底"
+
+[tests]
+public = 3
+hidden = 10

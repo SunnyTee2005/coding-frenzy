@@ -1,7 +1,14 @@
 {
   "$schema": "../gen/schemas/desktop-schema.json",
   "identifier": "default",
-  "description": "主視窗權限",
-  "windows": ["main"],
-  "permissions": ["core:default"]
+  "description": "所有視窗（主畫面、解題視窗、成績表…）都用自繪的 Windows 樣式標題列",
+  "windows": ["*"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-start-dragging",
+    "core:window:allow-minimize",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-close",
+    "core:window:allow-set-focus"
+  ]
 }

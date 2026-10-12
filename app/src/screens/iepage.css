@@ -1,0 +1,266 @@
+/* 主畫面與「建置測試」面板是嵌入的 IE 網頁：預設 Times New Roman / 新細明體、白底、藍色底線連結 */
+
+.ie-page {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  background: #fff;
+  font-family: var(--html-font);
+  font-size: 16px;
+  line-height: 1.25;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.ie-page a,
+.ie-link {
+  color: var(--wf-link);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ie-page h1 {
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0.4em 0 0.3em;
+}
+
+.ie-page ul {
+  margin: 0.6em 0;
+  padding-left: 40px;
+}
+
+.ie-page button,
+.ie-page input {
+  font-family: var(--wf-font);
+  font-size: 12px;
+}
+
+.ie-hilite {
+  background: yellow;
+  color: red;
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+.ie-red {
+  color: red;
+  font-weight: bold;
+}
+
+/* ALT + TAB 提示框 */
+.ie-alttab {
+  display: inline-block;
+  padding: 0 8px;
+  border: 1px solid #00f;
+  background: yellow;
+  color: red;
+  font: bold 26px/34px var(--html-font);
+}
+
+/* 題目列表：雙線外框 */
+.ie-problems {
+  display: inline-block;
+  border: 3px double #000;
+  padding: 2px;
+  margin-top: 8px;
+}
+
+.ie-problems table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.ie-problems td {
+  border: 1px solid #ccc;
+  padding: 1px 3px;
+  font-size: 16px;
+}
+
+/* 個資表 (A)(B)(C)(D) */
+.ie-idcard {
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+}
+
+.ie-idcard td {
+  border: 1px solid #ccc;
+  padding: 2px 4px;
+  color: #00f;
+  font-weight: bold;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+/* 主畫面上方的 WinForms 工具列 */
+.main-toolbar {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 24px;
+  padding: 0 4px;
+  background: linear-gradient(#fdfdfd, #eef0f3);
+  border-bottom: 1px solid #c5ccd6;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.main-toolbar .menu-red {
+  outline: 2px solid #e00;
+  outline-offset: -1px;
+}
+
+.main-toolbar .examiner {
+  padding: 0 4px;
+  background: #fde4e4;
+}
+
+.main-toolbar .host {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.main-toolbar .end-exam {
+  height: 22px;
+  padding: 0 6px;
+  border: none;
+  background: #e00;
+  color: #ff0;
+  font: bold 12px var(--wf-font);
+  cursor: default;
+}
+
+.apple {
+  font-size: 13px;
+}
+
+/* 模擬器自己加的區塊（非考場畫面），用灰框標示 */
+.sim-box {
+  margin: 18px 8px;
+  padding: 8px 12px;
+  border: 1px dashed #999;
+  background: #f7f7f7;
+  font-family: var(--wf-font);
+  font-size: 13px;
+  color: #333;
+}
+
+.sim-box b {
+  color: #555;
+}
+
+/* ───────── 解題視窗 ───────── */
+
+/* 建置測試面板的區塊鈕（題目資料 / 語法規範 / 語量規範 / 語意檢測） */
+.ie-tab-btn {
+  height: 24px;
+  padding: 0 8px;
+  font: 13px var(--wf-font);
+  cursor: pointer;
+}
+
+.build-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.build-table td {
+  border: 1px solid #aaa;
+  padding: 2px 4px;
+  vertical-align: top;
+}
+
+.build-table td.out .same {
+  color: blue;
+  background: white;
+}
+
+.build-table td.out .diff {
+  color: red;
+  background: yellow;
+}
+
+.build-table td.out {
+  font-family: var(--code-font);
+  font-size: 12px;
+  color: #00c;
+  white-space: pre-wrap;
+  word-break: break-all;
+  min-width: 40px;
+}
+
+/* 題文：仿 UVa 題目頁 */
+.uva-statement {
+  padding: 8px 14px 24px;
+  font-family: var(--html-font);
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.uva-statement h1 {
+  display: table;
+  margin: 18px auto 22px;
+  padding: 2px 8px;
+  background: #0070e8;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.uva-statement h2 {
+  margin: 18px 0 6px;
+  color: #0070e8;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.uva-statement pre {
+  margin: 4px 0 4px 20px;
+  font-family: var(--code-font);
+  font-size: 14px;
+}
+
+.uva-statement .note {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* 下方「您的輸出 / 正確輸出」面板：有行號的等寬文字 */
+.output-lines {
+  font-family: var(--code-font);
+  font-size: 15px;
+  font-weight: bold;
+  color: #006262;
+  white-space: pre;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.output-lines .ln {
+  display: inline-block;
+  width: 34px;
+  padding-right: 10px;
+  text-align: right;
+  color: #2b91af;
+  font-weight: normal;
+}
+
+.solve-timer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  padding-right: 8px;
+  color: #00f;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.solve-timer button {
+  height: 18px;
+  padding: 0 4px;
+  font-size: 11px;
+}

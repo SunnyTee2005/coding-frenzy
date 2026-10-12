@@ -1,0 +1,27 @@
+<!-- Statement paraphrased for this simulator (not the UVa original text). Original: UVa 673 -->
+<h1>Parentheses Balance</h1>
+<h2>The Problem</h2>
+<p>A string made only of the characters <tt>(</tt>, <tt>)</tt>, <tt>[</tt> and <tt>]</tt> is called <i>correct</i> if:</p>
+<ol>
+<li>it is the empty string, or</li>
+<li>it is the concatenation of two correct strings <i>A</i> and <i>B</i>, or</li>
+<li>it has the form <tt>(</tt><i>A</i><tt>)</tt> or <tt>[</tt><i>A</i><tt>]</tt> where <i>A</i> is correct.</li>
+</ol>
+<p>Decide for each given string whether it is correct.</p>
+<h2>Input</h2>
+<p>The first line contains a positive integer <i>n</i>, the number of strings. Each of the next <i>n</i> lines contains one string of length at most 128. A string may be empty, in which case its line is empty.</p>
+<h2>Output</h2>
+<p>For each string, print <tt>Yes</tt> if it is correct and <tt>No</tt> otherwise, one answer per line.</p>
+<h2>Sample Input</h2>
+<pre>4
+[()]
+([)]
+(([])[])
+
+</pre>
+<h2>Sample Output</h2>
+<pre>Yes
+No
+Yes
+Yes
+</pre>

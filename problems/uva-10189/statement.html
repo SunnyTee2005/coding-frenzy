@@ -1,0 +1,29 @@
+<!-- Statement paraphrased for this simulator (not the UVa original text). Original: UVa 10189 -->
+<h1>Minesweeper</h1>
+<h2>The Problem</h2>
+<p>In the game Minesweeper, a rectangular field hides some mines. Every square that is not a mine shows how many mines are in the up to eight squares that touch it (horizontally, vertically or diagonally).</p>
+<p>Given a field in which mines are marked, produce the hint numbers for every safe square.</p>
+<h2>Input</h2>
+<p>The input contains several fields. Each field starts with a line with two integers <i>n</i> and <i>m</i> (0 &lt; <i>n</i>, <i>m</i> &le; 100), the number of rows and columns. The next <i>n</i> lines each contain exactly <i>m</i> characters: <tt>*</tt> for a mine and <tt>.</tt> for a safe square. A line with <tt>0 0</tt> ends the input and must not be processed.</p>
+<h2>Output</h2>
+<p>For field number <i>x</i> (starting at 1), print the line <tt>Field #<i>x</i>:</tt> followed by the <i>n</i> rows of the field, with every <tt>.</tt> replaced by the number of adjacent mines and every <tt>*</tt> left unchanged. Print an empty line between two consecutive fields.</p>
+<h2>Sample Input</h2>
+<pre>3 4
+*...
+..*.
+....
+2 2
+.*
+*.
+0 0
+</pre>
+<h2>Sample Output</h2>
+<pre>Field #1:
+*211
+12*1
+0111
+
+Field #2:
+2*
+*2
+</pre>

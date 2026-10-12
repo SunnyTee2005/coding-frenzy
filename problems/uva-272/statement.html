@@ -1,0 +1,19 @@
+<!-- Statement paraphrased for this simulator (not the UVa original text). Original: UVa 272 -->
+<h1>TEX Quotes</h1>
+<h2>The Problem</h2>
+<p>A typewriter has only one key for the double-quote character <tt>"</tt>, but a typesetting system such as T<sub>E</sub>X wants opening and closing quotation marks to look different. In T<sub>E</sub>X, an opening quotation mark is written as two back-quotes <tt>``</tt> and a closing quotation mark is written as two apostrophes <tt>''</tt>.</p>
+<p>Write a program that converts plain text into T<sub>E</sub>X style. The first <tt>"</tt> in the text opens a quotation, the next one closes it, the one after that opens a new quotation, and so on. Quotation marks are paired across the whole input, not line by line.</p>
+<h2>Input</h2>
+<p>The input is a block of text that may contain any printable characters and an even number of double-quote characters. It ends at end of file.</p>
+<h2>Output</h2>
+<p>Print the text exactly as given, except that every <tt>"</tt> is replaced by <tt>``</tt> or <tt>''</tt> as described above.</p>
+<h2>Sample Input</h2>
+<pre>She said "hello" and
+then "walked
+away" quietly.
+</pre>
+<h2>Sample Output</h2>
+<pre>She said ``hello'' and
+then ``walked
+away'' quietly.
+</pre>

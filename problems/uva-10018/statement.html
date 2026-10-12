@@ -1,0 +1,21 @@
+<!-- Statement paraphrased for this simulator (not the UVa original text). Original: UVa 10018 -->
+<h1>Reverse and Add</h1>
+<h2>The Problem</h2>
+<p>Take a positive integer, reverse the order of its digits, and add the reversed number to the original. Keep repeating this step on the sum until the result is a palindrome (a number that reads the same forwards and backwards).</p>
+<p>For example, starting from 195: 195 + 591 = 786, 786 + 687 = 1473, 1473 + 3741 = 5214, 5214 + 4125 = 9339. After 4 additions we reach the palindrome 9339.</p>
+<p>The step is always applied at least once, even if the starting number is already a palindrome.</p>
+<h2>Input</h2>
+<p>The first line contains <i>N</i> (0 &lt; <i>N</i> &le; 100), the number of test cases. Each of the next <i>N</i> lines contains one starting number <i>P</i>. For every test case a palindrome is reached within 1000 additions, and that palindrome is not larger than 4,294,967,295.</p>
+<h2>Output</h2>
+<p>For each test case, print the number of additions and the resulting palindrome, separated by one space.</p>
+<h2>Sample Input</h2>
+<pre>3
+195
+87
+4
+</pre>
+<h2>Sample Output</h2>
+<pre>4 9339
+4 4884
+1 8
+</pre>

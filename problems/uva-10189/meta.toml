@@ -1,0 +1,11 @@
+id = "10189"
+title = "Minesweeper"
+stars = 2
+time_limit = 3.0
+uva = 10189
+cpe26 = 26071
+category = "二維寫真"
+
+[tests]
+public = 3
+hidden = 10

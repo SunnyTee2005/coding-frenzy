@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { compareScores, drawExam, elapsedMinutes, scoreExam } from './scoring'
+import { compareScores, drawExam, elapsedMinutes, percentileFor, scoreExam } from './scoring'
 
 describe('scoreExam', () => {
   it('matches the official ICPC example: 10 + 32 + 20×1 = 62', () => {
@@ -90,5 +90,18 @@ describe('drawExam', () => {
 
   it('returns fewer problems when the bank is too small', () => {
     expect(drawExam(bank({ 1: 2 }))).toHaveLength(2)
+  })
+})
+
+describe('percentileFor', () => {
+  it('maps solved counts onto the official 2022/3 distribution', () => {
+    expect(percentileFor(0)).toBe(16.6)
+    expect(percentileFor(2)).toBe(64.9)
+    expect(percentileFor(7)).toBe(99.9)
+    expect(percentileFor(9)).toBe(99.9)
+  })
+
+  it('increases with more problems solved', () => {
+    for (let s = 1; s <= 7; s++) expect(percentileFor(s)).toBeGreaterThan(percentileFor(s - 1))
   })
 })

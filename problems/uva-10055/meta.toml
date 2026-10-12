@@ -3,6 +3,7 @@ title = "Hashmat the Brave Warrior"
 stars = 1
 time_limit = 3.0
 uva = 10055
+category = "其他"
 
 # tools/build_tests.py 依此產生測資數量
 [tests]

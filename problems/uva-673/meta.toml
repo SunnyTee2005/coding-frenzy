@@ -1,0 +1,11 @@
+id = "673"
+title = "Parentheses Balance"
+stars = 2
+time_limit = 3.0
+uva = 673
+cpe26 = 26143
+category = "堆疊佇列"
+
+[tests]
+public = 3
+hidden = 10
