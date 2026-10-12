@@ -69,6 +69,9 @@ pub struct Exam {
     pub submissions: Vec<Submission>,
     /// 按下「結束評量」的時間；時間到不會寫入，由 `is_over` 判斷。
     pub ended_at_ms: Option<u64>,
+    /// 考卷名稱（預約考卷才有）。
+    #[serde(default)]
+    pub title: Option<String>,
 }
 
 impl Exam {
@@ -95,6 +98,15 @@ pub struct PracticeRecord {
     pub last_verdict: Option<Verdict>,
 }
 
+/// 預約的考卷（考古題整場重考、預測模擬卷）。下次登入時用它出題，而不是隨機抽題。
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub struct PlannedExam {
+    /// 顯示用名稱，例如「2025/12/09 CPE 考古題」。
+    pub title: String,
+    pub problem_ids: Vec<String>,
+}
+
 #[derive(Debug, Clone, Serialize, Deserialize, Default)]
 #[serde(rename_all = "camelCase")]
 pub struct Session {
@@ -103,6 +115,8 @@ pub struct Session {
     pub exam: Option<Exam>,
     #[serde(default)]
     pub practice: BTreeMap<String, PracticeRecord>,
+    #[serde(default)]
+    pub planned: Option<PlannedExam>,
 }
 
 /// 考試長度：3 小時。
@@ -132,8 +146,19 @@ impl Session {
         }
     }
 
-    /// 登入並開始一場新的考試。
+    /// 預約下一場考試的題目，並回到登入畫面（原本的考試會被清掉）。
+    pub fn plan_exam(&mut self, planned: PlannedExam) {
+        self.reset_exam();
+        self.phase = Phase::Login;
+        self.planned = Some(planned);
+    }
+
+    /// 登入並開始一場新的考試。有預約考卷時，用預約的題目並清除預約。
     pub fn login_and_start(&mut self, examinee: Examinee, problem_ids: &[String], now: u64) {
+        let (problem_ids, title) = match self.planned.take() {
+            Some(p) => (p.problem_ids, Some(p.title)),
+            None => (problem_ids.to_vec(), None),
+        };
         let code = "00A".to_string();
         let problems = problem_ids
             .iter()
@@ -148,6 +173,7 @@ impl Session {
             problems,
             submissions: Vec::new(),
             ended_at_ms: None,
+            title,
         });
         self.phase = Phase::Exam;
     }
@@ -348,6 +374,23 @@ mod tests {
         s.end_exam(10);
         assert_eq!(s.record_submission("272", Verdict::Correct, 20), Err(SessionError::ExamOver));
         assert_eq!(Session::default().record_submission("272", Verdict::Correct, 0), Err(SessionError::NotInExam));
+    }
+
+    #[test]
+    fn planned_exam_overrides_draw_once() {
+        let mut s = started(0);
+        s.plan_exam(PlannedExam { title: "2025/12/09 CPE".into(), problem_ids: vec!["10079".into(), "11321".into()] });
+        assert_eq!(s.phase, Phase::Login);
+        assert!(s.exam.is_none());
+        s.login_and_start(examinee(), &["272".into()], 5);
+        let exam = s.exam.as_ref().unwrap();
+        let ids: Vec<_> = exam.problems.iter().map(|p| p.problem_id.as_str()).collect();
+        assert_eq!(ids, ["10079", "11321"]);
+        assert_eq!(exam.title.as_deref(), Some("2025/12/09 CPE"));
+        assert!(s.planned.is_none());
+        // 下一場又回到隨機抽題
+        s.login_and_start(examinee(), &["272".into()], 6);
+        assert_eq!(s.exam.as_ref().unwrap().problems[0].problem_id, "272");
     }
 
     #[test]

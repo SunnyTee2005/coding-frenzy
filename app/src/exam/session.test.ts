@@ -9,6 +9,7 @@ const exam = (over: Partial<Exam> = {}): Exam => ({
   problems: [],
   submissions: [],
   endedAtMs: null,
+  title: null,
   ...over,
 })
 

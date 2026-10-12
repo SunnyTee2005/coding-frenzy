@@ -34,7 +34,7 @@ export function MainWindow() {
       <Toolbar session={session} />
       <div className="ie-page">
         {session.phase === 'license' && <LicensePage />}
-        {session.phase === 'login' && <LoginPage bank={bank} />}
+        {session.phase === 'login' && <LoginPage bank={bank} session={session} />}
         {session.phase === 'exam' && <ExamPage session={session} bank={bank} />}
       </div>
     </Window>
@@ -237,7 +237,7 @@ function Notices() {
   )
 }
 
-function LoginPage({ bank }: { bank: ProblemMeta[] }) {
+function LoginPage({ bank, session }: { bank: ProblemMeta[]; session: Session }) {
   const dialogs = useDialogs()
   const [idNo, setIdNo] = useState('')
   const [ticket, setTicket] = useState('')
@@ -247,9 +247,10 @@ function LoginPage({ bank }: { bank: ProblemMeta[] }) {
       await dialogs.message('登入', '請填寫身分證字號與准考碼。', { icon: 'info' })
       return
     }
-    const picked = drawExam(bank)
+    // 有預約考卷（考古題、預測卷）時由後端改用預約的題目
+    const picked = session.planned ? session.planned.problemIds : drawExam(bank).map((p) => p.id)
     try {
-      await api.sessionLogin(idNo, ticket, picked.map((p) => p.id))
+      await api.sessionLogin(idNo, ticket, picked)
     } catch (e) {
       await dialogs.message('登入', String(e), { icon: 'info' })
     }
@@ -306,6 +307,11 @@ function LoginPage({ bank }: { bank: ProblemMeta[] }) {
           </ol>
         </li>
       </ol>
+      {session.planned && (
+        <div className="sim-box" style={{ borderColor: '#c00', background: '#fff3f3' }}>
+          <b>【模擬器】本次考卷：{session.planned.title}</b>（{session.planned.problemIds.length} 題）。登入後立即開始 3 小時的考試。
+        </div>
+      )}
       <div className="sim-box">
         <b>【模擬器】</b>身分證字號與准考碼可任意填寫。登入後會從題庫抽出 7 題（較簡單的三題排在前三題），立即開始 3 小時的模擬考。
         想先自由練習可以使用 <span className="ie-link" onClick={() => api.openToolWindow('practice', '練習區')}>練習區</span>。
@@ -342,6 +348,7 @@ function ExamPage({ session, bank }: { session: Session; bank: ProblemMeta[] }) 
                 請慢慢開題!! (點擊之後 請等待!!)
                 <div className="ie-red" style={{ fontSize: 17 }}>
                   正式考題 {exam.code}
+                  {exam.title && <span style={{ color: '#555', fontWeight: 'normal', fontSize: 14 }}>（{exam.title}）</span>}
                 </div>
               </td>
             </tr>

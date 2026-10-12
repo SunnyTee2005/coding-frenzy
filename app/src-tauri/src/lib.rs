@@ -11,7 +11,7 @@ use cpe_judge::{
     ProblemMeta, ProcStatus, TestCase, TestSet, Verdict,
 };
 use serde::{Deserialize, Serialize};
-use session::{now_ms, CodeDraft, Examinee, SavedCode, Session, Store};
+use session::{now_ms, CodeDraft, Examinee, PlannedExam, SavedCode, Session, Store};
 use statements::StatementCache;
 use std::collections::HashMap;
 use std::path::PathBuf;
@@ -334,19 +334,34 @@ fn session_login(app: AppHandle, id_no: String, ticket: String, problem_ids: Vec
     update_session(&app, |s| s.login_and_start(examinee, &problem_ids, now_ms()))
 }
 
+/// 預約下一場考試的題目（考古題整場重考、預測模擬卷），並回到登入畫面。
+#[tauri::command]
+async fn session_plan_exam(app: AppHandle, title: String, problem_ids: Vec<String>) -> CmdResult<()> {
+    if problem_ids.is_empty() {
+        return Err("考卷沒有題目".into());
+    }
+    close_exam_windows(&app);
+    app.state::<AppState>().store.clear_drafts("exam").map_err(err)?;
+    update_session(&app, |s| s.plan_exam(PlannedExam { title, problem_ids }))
+}
+
 #[tauri::command]
 fn session_end_exam(app: AppHandle) -> CmdResult<()> {
     update_session(&app, |s| s.end_exam(now_ms()))
 }
 
-#[tauri::command]
-async fn session_reset(app: AppHandle) -> CmdResult<()> {
-    // 關掉所有考試的解題視窗
+/// 關掉所有考試的解題視窗、看題視窗與成績表。
+fn close_exam_windows(app: &AppHandle) {
     for (label, w) in app.webview_windows() {
         if label.starts_with("exam-") || label.starts_with("view-") || label == "scoreboard" {
             let _ = w.close();
         }
     }
+}
+
+#[tauri::command]
+async fn session_reset(app: AppHandle) -> CmdResult<()> {
+    close_exam_windows(&app);
     app.state::<AppState>().store.clear_drafts("exam").map_err(err)?;
     update_session(&app, |s| s.reset_exam())
 }
@@ -462,6 +477,7 @@ pub fn run() {
             session_get,
             session_agree_license,
             session_login,
+            session_plan_exam,
             session_end_exam,
             session_reset,
             draft_load,

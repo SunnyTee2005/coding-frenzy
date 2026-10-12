@@ -35,6 +35,8 @@ export interface Backend {
   sessionGet(): Promise<SessionView>
   sessionAgreeLicense(): Promise<void>
   sessionLogin(idNo: string, ticket: string, problemIds: string[]): Promise<void>
+  /** 預約下一場考試的題目並回到登入畫面 */
+  sessionPlanExam(title: string, problemIds: string[]): Promise<void>
   sessionEndExam(): Promise<void>
   sessionReset(): Promise<void>
   onSessionChanged(cb: (s: Session) => void): Promise<() => void>
@@ -62,6 +64,7 @@ const tauriBackend: Backend = {
   sessionGet: () => invoke('session_get'),
   sessionAgreeLicense: () => invoke('session_agree_license'),
   sessionLogin: (idNo, ticket, problemIds) => invoke('session_login', { idNo, ticket, problemIds }),
+  sessionPlanExam: (title, problemIds) => invoke('session_plan_exam', { title, problemIds }),
   sessionEndExam: () => invoke('session_end_exam'),
   sessionReset: () => invoke('session_reset'),
   onSessionChanged: (cb) => listen<Session>('session-changed', (e) => cb(e.payload)),

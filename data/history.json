@@ -1,0 +1,4682 @@
+[
+ {
+  "date": "2013-10-01",
+  "avgSolved": 1.38,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10190,
+    "title": "Divide, But Not Quite Conquer!",
+    "uvaTitle": null,
+    "submissions": 1312,
+    "attempted": 597,
+    "solved": 439,
+    "rateSubmit": 33.46,
+    "rateAttempt": 73.53,
+    "rateAll": 54.13
+   },
+   {
+    "pos": 2,
+    "uva": 264,
+    "title": "Count on Cantor",
+    "uvaTitle": null,
+    "submissions": 516,
+    "attempted": 357,
+    "solved": 316,
+    "rateSubmit": 61.24,
+    "rateAttempt": 88.52,
+    "rateAll": 38.96
+   },
+   {
+    "pos": 3,
+    "uva": 10018,
+    "title": "Reverse and Add",
+    "uvaTitle": null,
+    "submissions": 380,
+    "attempted": 280,
+    "solved": 262,
+    "rateSubmit": 68.95,
+    "rateAttempt": 93.57,
+    "rateAll": 32.31
+   },
+   {
+    "pos": 4,
+    "uva": 612,
+    "title": "DNA Sorting",
+    "uvaTitle": null,
+    "submissions": 193,
+    "attempted": 86,
+    "solved": 55,
+    "rateSubmit": 28.5,
+    "rateAttempt": 63.95,
+    "rateAll": 6.78
+   },
+   {
+    "pos": 5,
+    "uva": 151,
+    "title": "Power Crisis",
+    "uvaTitle": null,
+    "submissions": 64,
+    "attempted": 52,
+    "solved": 45,
+    "rateSubmit": 70.31,
+    "rateAttempt": 86.54,
+    "rateAll": 5.55
+   },
+   {
+    "pos": 6,
+    "uva": 11336,
+    "title": "DRM",
+    "uvaTitle": null,
+    "submissions": 23,
+    "attempted": 15,
+    "solved": 4,
+    "rateSubmit": 17.39,
+    "rateAttempt": 26.67,
+    "rateAll": 0.49
+   },
+   {
+    "pos": 7,
+    "uva": 10309,
+    "title": "Turn the Lights Off",
+    "uvaTitle": null,
+    "submissions": 6,
+    "attempted": 5,
+    "solved": 1,
+    "rateSubmit": 16.67,
+    "rateAttempt": 20,
+    "rateAll": 0.12
+   }
+  ]
+ },
+ {
+  "date": "2013-12-17",
+  "avgSolved": 1.27,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 12602,
+    "title": "Nice Licence Plates",
+    "uvaTitle": null,
+    "submissions": 1230,
+    "attempted": 838,
+    "solved": 706,
+    "rateSubmit": 57.4,
+    "rateAttempt": 84.25,
+    "rateAll": 55.2
+   },
+   {
+    "pos": 2,
+    "uva": 10235,
+    "title": "Simply Emirp",
+    "uvaTitle": null,
+    "submissions": 1780,
+    "attempted": 814,
+    "solved": 606,
+    "rateSubmit": 34.04,
+    "rateAttempt": 74.45,
+    "rateAll": 47.38
+   },
+   {
+    "pos": 3,
+    "uva": 11917,
+    "title": "Do Your Own Homework!",
+    "uvaTitle": null,
+    "submissions": 434,
+    "attempted": 282,
+    "solved": 253,
+    "rateSubmit": 58.29,
+    "rateAttempt": 89.72,
+    "rateAll": 19.78
+   },
+   {
+    "pos": 4,
+    "uva": 10666,
+    "title": "The Eurocup is Here!",
+    "uvaTitle": null,
+    "submissions": 57,
+    "attempted": 54,
+    "solved": 37,
+    "rateSubmit": 64.91,
+    "rateAttempt": 68.52,
+    "rateAll": 2.89
+   },
+   {
+    "pos": 5,
+    "uva": 657,
+    "title": "The Die is Cast",
+    "uvaTitle": null,
+    "submissions": 52,
+    "attempted": 32,
+    "solved": 15,
+    "rateSubmit": 28.85,
+    "rateAttempt": 46.88,
+    "rateAll": 1.17
+   },
+   {
+    "pos": 6,
+    "uva": 12654,
+    "title": "Patches",
+    "uvaTitle": null,
+    "submissions": 19,
+    "attempted": 16,
+    "solved": 5,
+    "rateSubmit": 26.32,
+    "rateAttempt": 31.25,
+    "rateAll": 0.39
+   },
+   {
+    "pos": 7,
+    "uva": 288,
+    "title": "Arithmetic Operations With Large Integers",
+    "uvaTitle": null,
+    "submissions": 18,
+    "attempted": 12,
+    "solved": 2,
+    "rateSubmit": 11.11,
+    "rateAttempt": 16.67,
+    "rateAll": 0.16
+   }
+  ]
+ },
+ {
+  "date": "2014-03-25",
+  "avgSolved": 0.93,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10931,
+    "title": "Parity",
+    "uvaTitle": null,
+    "submissions": 1817,
+    "attempted": 949,
+    "solved": 728,
+    "rateSubmit": 40.07,
+    "rateAttempt": 76.71,
+    "rateAll": 48.99
+   },
+   {
+    "pos": 2,
+    "uva": 406,
+    "title": "Prime Cuts",
+    "uvaTitle": null,
+    "submissions": 731,
+    "attempted": 428,
+    "solved": 321,
+    "rateSubmit": 43.91,
+    "rateAttempt": 75,
+    "rateAll": 21.6
+   },
+   {
+    "pos": 3,
+    "uva": 401,
+    "title": "Palindromes",
+    "uvaTitle": null,
+    "submissions": 713,
+    "attempted": 311,
+    "solved": 214,
+    "rateSubmit": 30.01,
+    "rateAttempt": 68.81,
+    "rateAll": 14.4
+   },
+   {
+    "pos": 4,
+    "uva": 11040,
+    "title": "Add bricks in the wall",
+    "uvaTitle": null,
+    "submissions": 151,
+    "attempted": 128,
+    "solved": 113,
+    "rateSubmit": 74.83,
+    "rateAttempt": 88.28,
+    "rateAll": 7.6
+   },
+   {
+    "pos": 5,
+    "uva": 11094,
+    "title": "Continents",
+    "uvaTitle": null,
+    "submissions": 62,
+    "attempted": 37,
+    "solved": 9,
+    "rateSubmit": 14.52,
+    "rateAttempt": 24.32,
+    "rateAll": 0.61
+   },
+   {
+    "pos": 6,
+    "uva": 929,
+    "title": "Number Maze",
+    "uvaTitle": null,
+    "submissions": 63,
+    "attempted": 37,
+    "solved": 3,
+    "rateSubmit": 4.76,
+    "rateAttempt": 8.11,
+    "rateAll": 0.2
+   },
+   {
+    "pos": 7,
+    "uva": 315,
+    "title": "Network",
+    "uvaTitle": null,
+    "submissions": 18,
+    "attempted": 10,
+    "solved": 1,
+    "rateSubmit": 5.56,
+    "rateAttempt": 10,
+    "rateAll": 0.07
+   }
+  ]
+ },
+ {
+  "date": "2014-05-27",
+  "avgSolved": 1.15,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10783,
+    "title": "Odd Sum",
+    "uvaTitle": null,
+    "submissions": 1790,
+    "attempted": 1252,
+    "solved": 1166,
+    "rateSubmit": 65.14,
+    "rateAttempt": 93.13,
+    "rateAll": 82.87
+   },
+   {
+    "pos": 2,
+    "uva": 141,
+    "title": "The Spot Game",
+    "uvaTitle": null,
+    "submissions": 157,
+    "attempted": 102,
+    "solved": 43,
+    "rateSubmit": 27.39,
+    "rateAttempt": 42.16,
+    "rateAll": 3.06
+   },
+   {
+    "pos": 3,
+    "uva": 105,
+    "title": "The Skyline Problem",
+    "uvaTitle": null,
+    "submissions": 549,
+    "attempted": 386,
+    "solved": 320,
+    "rateSubmit": 58.29,
+    "rateAttempt": 82.9,
+    "rateAll": 22.74
+   },
+   {
+    "pos": 4,
+    "uva": 516,
+    "title": "Prime Land",
+    "uvaTitle": null,
+    "submissions": 58,
+    "attempted": 35,
+    "solved": 26,
+    "rateSubmit": 44.83,
+    "rateAttempt": 74.29,
+    "rateAll": 1.85
+   },
+   {
+    "pos": 5,
+    "uva": 11039,
+    "title": "Building designing",
+    "uvaTitle": null,
+    "submissions": 211,
+    "attempted": 118,
+    "solved": 47,
+    "rateSubmit": 22.27,
+    "rateAttempt": 39.83,
+    "rateAll": 3.34
+   },
+   {
+    "pos": 6,
+    "uva": 10099,
+    "title": "The Tourist Guide",
+    "uvaTitle": null,
+    "submissions": 28,
+    "attempted": 18,
+    "solved": 10,
+    "rateSubmit": 35.71,
+    "rateAttempt": 55.56,
+    "rateAll": 0.71
+   },
+   {
+    "pos": 7,
+    "uva": 1101,
+    "title": "addmul",
+    "uvaTitle": null,
+    "submissions": 8,
+    "attempted": 7,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   }
+  ]
+ },
+ {
+  "date": "2014-09-23",
+  "avgSolved": 1.09,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 579,
+    "title": "ClockHands",
+    "uvaTitle": null,
+    "submissions": 902,
+    "attempted": 607,
+    "solved": 504,
+    "rateSubmit": 55.88,
+    "rateAttempt": 83.03,
+    "rateAll": 54.55
+   },
+   {
+    "pos": 2,
+    "uva": 10409,
+    "title": "Die Game",
+    "uvaTitle": null,
+    "submissions": 386,
+    "attempted": 322,
+    "solved": 281,
+    "rateSubmit": 72.8,
+    "rateAttempt": 87.27,
+    "rateAll": 30.41
+   },
+   {
+    "pos": 3,
+    "uva": 630,
+    "title": "Anagrams (II)",
+    "uvaTitle": null,
+    "submissions": 308,
+    "attempted": 141,
+    "solved": 110,
+    "rateSubmit": 35.71,
+    "rateAttempt": 78.01,
+    "rateAll": 11.9
+   },
+   {
+    "pos": 4,
+    "uva": 10763,
+    "title": "Foreign Exchange",
+    "uvaTitle": null,
+    "submissions": 355,
+    "attempted": 160,
+    "solved": 65,
+    "rateSubmit": 18.31,
+    "rateAttempt": 40.63,
+    "rateAll": 7.03
+   },
+   {
+    "pos": 5,
+    "uva": 10407,
+    "title": "Simple division",
+    "uvaTitle": null,
+    "submissions": 79,
+    "attempted": 42,
+    "solved": 21,
+    "rateSubmit": 26.58,
+    "rateAttempt": 50,
+    "rateAll": 2.27
+   },
+   {
+    "pos": 6,
+    "uva": 501,
+    "title": "Black Box",
+    "uvaTitle": null,
+    "submissions": 33,
+    "attempted": 26,
+    "solved": 13,
+    "rateSubmit": 39.39,
+    "rateAttempt": 50,
+    "rateAll": 1.41
+   },
+   {
+    "pos": 7,
+    "uva": 753,
+    "title": "A Plug for UNIX",
+    "uvaTitle": null,
+    "submissions": 6,
+    "attempted": 5,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   }
+  ]
+ },
+ {
+  "date": "2014-12-23",
+  "avgSolved": 0.56,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 494,
+    "title": "Kindergarten Counting Game",
+    "uvaTitle": null,
+    "submissions": 2351,
+    "attempted": 884,
+    "solved": 480,
+    "rateSubmit": 20.42,
+    "rateAttempt": 54.3,
+    "rateAll": 29.32
+   },
+   {
+    "pos": 2,
+    "uva": 11054,
+    "title": "Wine trading in Gergovig",
+    "uvaTitle": null,
+    "submissions": 521,
+    "attempted": 328,
+    "solved": 258,
+    "rateSubmit": 49.52,
+    "rateAttempt": 78.66,
+    "rateAll": 15.76
+   },
+   {
+    "pos": 3,
+    "uva": 11005,
+    "title": "Cheapest Base",
+    "uvaTitle": null,
+    "submissions": 161,
+    "attempted": 135,
+    "solved": 117,
+    "rateSubmit": 72.67,
+    "rateAttempt": 86.67,
+    "rateAll": 7.15
+   },
+   {
+    "pos": 4,
+    "uva": 337,
+    "title": "Interpreting Control Sequence",
+    "uvaTitle": null,
+    "submissions": 50,
+    "attempted": 42,
+    "solved": 33,
+    "rateSubmit": 66,
+    "rateAttempt": 78.57,
+    "rateAll": 2.02
+   },
+   {
+    "pos": 5,
+    "uva": 397,
+    "title": "Equation Elation",
+    "uvaTitle": null,
+    "submissions": 61,
+    "attempted": 43,
+    "solved": 22,
+    "rateSubmit": 36.07,
+    "rateAttempt": 51.16,
+    "rateAll": 1.34
+   },
+   {
+    "pos": 6,
+    "uva": 798,
+    "title": "Title Puzzle",
+    "uvaTitle": null,
+    "submissions": 14,
+    "attempted": 7,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   },
+   {
+    "pos": 7,
+    "uva": 820,
+    "title": "Internet Bandwidth",
+    "uvaTitle": null,
+    "submissions": 34,
+    "attempted": 22,
+    "solved": 2,
+    "rateSubmit": 5.88,
+    "rateAttempt": 9.09,
+    "rateAll": 0.12
+   }
+  ]
+ },
+ {
+  "date": "2015-03-24",
+  "avgSolved": 0.89,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 591,
+    "title": "Box of Bricks",
+    "uvaTitle": null,
+    "submissions": 3502,
+    "attempted": 1413,
+    "solved": 1113,
+    "rateSubmit": 31.78,
+    "rateAttempt": 78.77,
+    "rateAll": 60.79
+   },
+   {
+    "pos": 2,
+    "uva": 10922,
+    "title": "2 the 9s",
+    "uvaTitle": null,
+    "submissions": 1161,
+    "attempted": 557,
+    "solved": 361,
+    "rateSubmit": 31.09,
+    "rateAttempt": 64.81,
+    "rateAll": 19.72
+   },
+   {
+    "pos": 3,
+    "uva": 409,
+    "title": "Exeuses, Excuses!",
+    "uvaTitle": null,
+    "submissions": 295,
+    "attempted": 157,
+    "solved": 104,
+    "rateSubmit": 35.25,
+    "rateAttempt": 66.24,
+    "rateAll": 5.68
+   },
+   {
+    "pos": 4,
+    "uva": 11538,
+    "title": "Chess Queen",
+    "uvaTitle": null,
+    "submissions": 123,
+    "attempted": 79,
+    "solved": 38,
+    "rateSubmit": 30.89,
+    "rateAttempt": 48.1,
+    "rateAll": 2.08
+   },
+   {
+    "pos": 5,
+    "uva": 534,
+    "title": "Frogger",
+    "uvaTitle": null,
+    "submissions": 50,
+    "attempted": 36,
+    "solved": 10,
+    "rateSubmit": 20,
+    "rateAttempt": 27.78,
+    "rateAll": 0.55
+   },
+   {
+    "pos": 6,
+    "uva": 242,
+    "title": "Stamps and Envelope Size",
+    "uvaTitle": null,
+    "submissions": 18,
+    "attempted": 12,
+    "solved": 7,
+    "rateSubmit": 38.89,
+    "rateAttempt": 58.33,
+    "rateAll": 0.38
+   },
+   {
+    "pos": 7,
+    "uva": 302,
+    "title": "John's trip",
+    "uvaTitle": null,
+    "submissions": 21,
+    "attempted": 6,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   }
+  ]
+ },
+ {
+  "date": "2015-05-26",
+  "avgSolved": 1.11,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 1585,
+    "title": "Score",
+    "uvaTitle": null,
+    "submissions": 1748,
+    "attempted": 1269,
+    "solved": 1047,
+    "rateSubmit": 59.9,
+    "rateAttempt": 82.51,
+    "rateAll": 57.59
+   },
+   {
+    "pos": 2,
+    "uva": 10474,
+    "title": "Where is the marble",
+    "uvaTitle": null,
+    "submissions": 956,
+    "attempted": 715,
+    "solved": 633,
+    "rateSubmit": 66.21,
+    "rateAttempt": 88.53,
+    "rateAll": 34.82
+   },
+   {
+    "pos": 3,
+    "uva": 10908,
+    "title": "Largest Squares",
+    "uvaTitle": null,
+    "submissions": 635,
+    "attempted": 356,
+    "solved": 264,
+    "rateSubmit": 41.57,
+    "rateAttempt": 74.16,
+    "rateAll": 14.52
+   },
+   {
+    "pos": 4,
+    "uva": 540,
+    "title": "Team Queue",
+    "uvaTitle": null,
+    "submissions": 106,
+    "attempted": 60,
+    "solved": 35,
+    "rateSubmit": 33.02,
+    "rateAttempt": 58.33,
+    "rateAll": 1.93
+   },
+   {
+    "pos": 5,
+    "uva": 536,
+    "title": "Tree Recovery",
+    "uvaTitle": null,
+    "submissions": 52,
+    "attempted": 39,
+    "solved": 26,
+    "rateSubmit": 50,
+    "rateAttempt": 66.67,
+    "rateAll": 1.43
+   },
+   {
+    "pos": 6,
+    "uva": 10369,
+    "title": "Arctic Network",
+    "uvaTitle": null,
+    "submissions": 24,
+    "attempted": 13,
+    "solved": 3,
+    "rateSubmit": 12.5,
+    "rateAttempt": 23.08,
+    "rateAll": 0.17
+   },
+   {
+    "pos": 7,
+    "uva": 714,
+    "title": "Copying Books",
+    "uvaTitle": null,
+    "submissions": 26,
+    "attempted": 20,
+    "solved": 3,
+    "rateSubmit": 11.54,
+    "rateAttempt": 15,
+    "rateAll": 0.17
+   }
+  ]
+ },
+ {
+  "date": "2015-10-06",
+  "avgSolved": 0.6,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 455,
+    "title": "Periodic Strings",
+    "uvaTitle": null,
+    "submissions": 1499,
+    "attempted": 677,
+    "solved": 333,
+    "rateSubmit": 22.21,
+    "rateAttempt": 49.19,
+    "rateAll": 20.18
+   },
+   {
+    "pos": 2,
+    "uva": 490,
+    "title": "Rotating Sentences",
+    "uvaTitle": null,
+    "submissions": 719,
+    "attempted": 507,
+    "solved": 393,
+    "rateSubmit": 54.66,
+    "rateAttempt": 77.51,
+    "rateAll": 23.82
+   },
+   {
+    "pos": 3,
+    "uva": 11389,
+    "title": "The Bus Driver Problem",
+    "uvaTitle": null,
+    "submissions": 633,
+    "attempted": 357,
+    "solved": 207,
+    "rateSubmit": 32.7,
+    "rateAttempt": 57.98,
+    "rateAll": 12.55
+   },
+   {
+    "pos": 4,
+    "uva": 967,
+    "title": "Circular",
+    "uvaTitle": null,
+    "submissions": 186,
+    "attempted": 84,
+    "solved": 46,
+    "rateSubmit": 24.73,
+    "rateAttempt": 54.76,
+    "rateAll": 2.79
+   },
+   {
+    "pos": 5,
+    "uva": 378,
+    "title": "Intersecting Lines",
+    "uvaTitle": null,
+    "submissions": 204,
+    "attempted": 49,
+    "solved": 10,
+    "rateSubmit": 4.9,
+    "rateAttempt": 20.41,
+    "rateAll": 0.61
+   },
+   {
+    "pos": 6,
+    "uva": 1632,
+    "title": "Alibaba",
+    "uvaTitle": null,
+    "submissions": 7,
+    "attempted": 5,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   },
+   {
+    "pos": 7,
+    "uva": 240,
+    "title": "Variable Radix Huffman Encoding",
+    "uvaTitle": null,
+    "submissions": 1,
+    "attempted": 1,
+    "solved": 1,
+    "rateSubmit": 100,
+    "rateAttempt": 100,
+    "rateAll": 0.06
+   }
+  ]
+ },
+ {
+  "date": "2015-12-22",
+  "avgSolved": 1.09,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11332,
+    "title": "Summing Digits",
+    "uvaTitle": null,
+    "submissions": 2195,
+    "attempted": 1526,
+    "solved": 1325,
+    "rateSubmit": 60.36,
+    "rateAttempt": 86.83,
+    "rateAll": 66.78
+   },
+   {
+    "pos": 2,
+    "uva": 10487,
+    "title": "Closest Sums",
+    "uvaTitle": null,
+    "submissions": 1070,
+    "attempted": 603,
+    "solved": 481,
+    "rateSubmit": 44.95,
+    "rateAttempt": 79.77,
+    "rateAll": 24.24
+   },
+   {
+    "pos": 3,
+    "uva": 706,
+    "title": "LC-Display",
+    "uvaTitle": null,
+    "submissions": 319,
+    "attempted": 282,
+    "solved": 243,
+    "rateSubmit": 76.18,
+    "rateAttempt": 86.17,
+    "rateAll": 12.25
+   },
+   {
+    "pos": 4,
+    "uva": 10382,
+    "title": "Watering Grass",
+    "uvaTitle": null,
+    "submissions": 41,
+    "attempted": 24,
+    "solved": 6,
+    "rateSubmit": 14.63,
+    "rateAttempt": 25,
+    "rateAll": 0.3
+   },
+   {
+    "pos": 5,
+    "uva": 748,
+    "title": "Exponentiation",
+    "uvaTitle": null,
+    "submissions": 85,
+    "attempted": 48,
+    "solved": 30,
+    "rateSubmit": 35.29,
+    "rateAttempt": 62.5,
+    "rateAll": 1.51
+   },
+   {
+    "pos": 6,
+    "uva": 10533,
+    "title": "Digit Primes",
+    "uvaTitle": null,
+    "submissions": 420,
+    "attempted": 196,
+    "solved": 73,
+    "rateSubmit": 17.38,
+    "rateAttempt": 37.24,
+    "rateAll": 3.68
+   },
+   {
+    "pos": 7,
+    "uva": 11003,
+    "title": "Boxes",
+    "uvaTitle": null,
+    "submissions": 35,
+    "attempted": 25,
+    "solved": 2,
+    "rateSubmit": 5.71,
+    "rateAttempt": 8,
+    "rateAll": 0.1
+   }
+  ]
+ },
+ {
+  "date": "2016-03-22",
+  "avgSolved": 1.42,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11764,
+    "title": "Cricket Field",
+    "uvaTitle": "Jumping Mario",
+    "submissions": 2092,
+    "attempted": 1538,
+    "solved": 1422,
+    "rateSubmit": 67.97,
+    "rateAttempt": 92.46,
+    "rateAll": 69.57
+   },
+   {
+    "pos": 2,
+    "uva": 10082,
+    "title": "WERTYU",
+    "uvaTitle": null,
+    "submissions": 1747,
+    "attempted": 818,
+    "solved": 643,
+    "rateSubmit": 36.81,
+    "rateAttempt": 78.61,
+    "rateAll": 31.46
+   },
+   {
+    "pos": 3,
+    "uva": 10062,
+    "title": "Tell me the frequencies!",
+    "uvaTitle": null,
+    "submissions": 683,
+    "attempted": 497,
+    "solved": 407,
+    "rateSubmit": 59.59,
+    "rateAttempt": 81.89,
+    "rateAll": 19.91
+   },
+   {
+    "pos": 4,
+    "uva": 406,
+    "title": "Prime Cuts",
+    "uvaTitle": null,
+    "submissions": 354,
+    "attempted": 263,
+    "solved": 227,
+    "rateSubmit": 64.12,
+    "rateAttempt": 86.31,
+    "rateAll": 11.11
+   },
+   {
+    "pos": 5,
+    "uva": 10106,
+    "title": "Product",
+    "uvaTitle": null,
+    "submissions": 442,
+    "attempted": 238,
+    "solved": 155,
+    "rateSubmit": 35.07,
+    "rateAttempt": 65.13,
+    "rateAll": 7.58
+   },
+   {
+    "pos": 6,
+    "uva": 10026,
+    "title": "Shoemaker's Problem",
+    "uvaTitle": null,
+    "submissions": 75,
+    "attempted": 48,
+    "solved": 43,
+    "rateSubmit": 57.33,
+    "rateAttempt": 89.58,
+    "rateAll": 2.1
+   },
+   {
+    "pos": 7,
+    "uva": 10032,
+    "title": "Tug of War",
+    "uvaTitle": null,
+    "submissions": 66,
+    "attempted": 41,
+    "solved": 3,
+    "rateSubmit": 4.55,
+    "rateAttempt": 7.32,
+    "rateAll": 0.15
+   }
+  ]
+ },
+ {
+  "date": "2016-05-24",
+  "avgSolved": 1.39,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11942,
+    "title": "Lumberjack Sequencing",
+    "uvaTitle": null,
+    "submissions": 2547,
+    "attempted": 1593,
+    "solved": 1395,
+    "rateSubmit": 54.77,
+    "rateAttempt": 87.57,
+    "rateAll": 70.17
+   },
+   {
+    "pos": 2,
+    "uva": 499,
+    "title": "What's The Frequency, Kenneth?",
+    "uvaTitle": null,
+    "submissions": 773,
+    "attempted": 546,
+    "solved": 483,
+    "rateSubmit": 62.48,
+    "rateAttempt": 88.46,
+    "rateAll": 24.3
+   },
+   {
+    "pos": 3,
+    "uva": 948,
+    "title": "Fibonaccimal Base",
+    "uvaTitle": null,
+    "submissions": 992,
+    "attempted": 691,
+    "solved": 587,
+    "rateSubmit": 59.17,
+    "rateAttempt": 84.95,
+    "rateAll": 29.53
+   },
+   {
+    "pos": 4,
+    "uva": 10200,
+    "title": "Prime Time",
+    "uvaTitle": null,
+    "submissions": 600,
+    "attempted": 280,
+    "solved": 161,
+    "rateSubmit": 26.83,
+    "rateAttempt": 57.5,
+    "rateAll": 8.1
+   },
+   {
+    "pos": 5,
+    "uva": 11995,
+    "title": "I Can Guess the Data Structure!",
+    "uvaTitle": null,
+    "submissions": 235,
+    "attempted": 127,
+    "solved": 90,
+    "rateSubmit": 38.3,
+    "rateAttempt": 70.87,
+    "rateAll": 4.53
+   },
+   {
+    "pos": 6,
+    "uva": 10025,
+    "title": "The ? 1 ? 2 ? ... ? n = k problem",
+    "uvaTitle": null,
+    "submissions": 69,
+    "attempted": 62,
+    "solved": 40,
+    "rateSubmit": 57.97,
+    "rateAttempt": 64.52,
+    "rateAll": 2.01
+   },
+   {
+    "pos": 7,
+    "uva": 11472,
+    "title": "Beautiful Numbers",
+    "uvaTitle": null,
+    "submissions": 26,
+    "attempted": 22,
+    "solved": 4,
+    "rateSubmit": 15.38,
+    "rateAttempt": 18.18,
+    "rateAll": 0.2
+   }
+  ]
+ },
+ {
+  "date": "2016-10-04",
+  "avgSolved": 0.82,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11192,
+    "title": "Group Reverse",
+    "uvaTitle": null,
+    "submissions": 1513,
+    "attempted": 843,
+    "solved": 637,
+    "rateSubmit": 42.1,
+    "rateAttempt": 75.56,
+    "rateAll": 37.94
+   },
+   {
+    "pos": 2,
+    "uva": 1587,
+    "title": "Box",
+    "uvaTitle": null,
+    "submissions": 1666,
+    "attempted": 709,
+    "solved": 418,
+    "rateSubmit": 25.09,
+    "rateAttempt": 58.96,
+    "rateAll": 24.9
+   },
+   {
+    "pos": 3,
+    "uva": 10415,
+    "title": "Eb Alto Saxophone Player",
+    "uvaTitle": null,
+    "submissions": 440,
+    "attempted": 267,
+    "solved": 205,
+    "rateSubmit": 46.59,
+    "rateAttempt": 76.78,
+    "rateAll": 12.21
+   },
+   {
+    "pos": 4,
+    "uva": 11344,
+    "title": "The Huge One",
+    "uvaTitle": null,
+    "submissions": 164,
+    "attempted": 95,
+    "solved": 46,
+    "rateSubmit": 28.05,
+    "rateAttempt": 48.42,
+    "rateAll": 2.74
+   },
+   {
+    "pos": 5,
+    "uva": 12694,
+    "title": "Meeting Room Arrangement",
+    "uvaTitle": null,
+    "submissions": 93,
+    "attempted": 60,
+    "solved": 41,
+    "rateSubmit": 44.09,
+    "rateAttempt": 68.33,
+    "rateAll": 2.44
+   },
+   {
+    "pos": 6,
+    "uva": 439,
+    "title": "Knight Moves",
+    "uvaTitle": null,
+    "submissions": 41,
+    "attempted": 32,
+    "solved": 18,
+    "rateSubmit": 43.9,
+    "rateAttempt": 56.25,
+    "rateAll": 1.07
+   },
+   {
+    "pos": 7,
+    "uva": 11624,
+    "title": "Fire!",
+    "uvaTitle": null,
+    "submissions": 33,
+    "attempted": 18,
+    "solved": 4,
+    "rateSubmit": 12.12,
+    "rateAttempt": 22.22,
+    "rateAll": 0.24
+   }
+  ]
+ },
+ {
+  "date": "2016-12-20",
+  "avgSolved": 0.97,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11364,
+    "title": "Parking",
+    "uvaTitle": null,
+    "submissions": 1880,
+    "attempted": 1393,
+    "solved": 1242,
+    "rateSubmit": 66.06,
+    "rateAttempt": 89.16,
+    "rateAll": 56.58
+   },
+   {
+    "pos": 2,
+    "uva": 10242,
+    "title": "Fourth Point!!",
+    "uvaTitle": null,
+    "submissions": 1813,
+    "attempted": 650,
+    "solved": 344,
+    "rateSubmit": 18.97,
+    "rateAttempt": 52.92,
+    "rateAll": 15.67
+   },
+   {
+    "pos": 3,
+    "uva": 865,
+    "title": "Substitution Cypher",
+    "uvaTitle": null,
+    "submissions": 752,
+    "attempted": 407,
+    "solved": 256,
+    "rateSubmit": 34.04,
+    "rateAttempt": 62.9,
+    "rateAll": 11.66
+   },
+   {
+    "pos": 4,
+    "uva": 1644,
+    "title": "Prime Gap",
+    "uvaTitle": null,
+    "submissions": 296,
+    "attempted": 244,
+    "solved": 217,
+    "rateSubmit": 73.31,
+    "rateAttempt": 88.93,
+    "rateAll": 9.89
+   },
+   {
+    "pos": 5,
+    "uva": 10066,
+    "title": "The Twin Towers",
+    "uvaTitle": null,
+    "submissions": 94,
+    "attempted": 70,
+    "solved": 32,
+    "rateSubmit": 34.04,
+    "rateAttempt": 45.71,
+    "rateAll": 1.46
+   },
+   {
+    "pos": 6,
+    "uva": 10721,
+    "title": "Bar Codes",
+    "uvaTitle": null,
+    "submissions": 33,
+    "attempted": 23,
+    "solved": 5,
+    "rateSubmit": 15.15,
+    "rateAttempt": 21.74,
+    "rateAll": 0.23
+   },
+   {
+    "pos": 7,
+    "uva": 11401,
+    "title": "Triangle Counting",
+    "uvaTitle": null,
+    "submissions": 228,
+    "attempted": 110,
+    "solved": 29,
+    "rateSubmit": 12.72,
+    "rateAttempt": 26.36,
+    "rateAll": 1.32
+   }
+  ]
+ },
+ {
+  "date": "2017-03-28",
+  "avgSolved": 0.65,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 482,
+    "title": "Permutation Arrays",
+    "uvaTitle": null,
+    "submissions": 802,
+    "attempted": 541,
+    "solved": 310,
+    "rateSubmit": 38.65,
+    "rateAttempt": 57.3,
+    "rateAll": 14.26
+   },
+   {
+    "pos": 2,
+    "uva": 10038,
+    "title": "Jolly Jumpers",
+    "uvaTitle": null,
+    "submissions": 2421,
+    "attempted": 1067,
+    "solved": 648,
+    "rateSubmit": 26.77,
+    "rateAttempt": 60.73,
+    "rateAll": 29.81
+   },
+   {
+    "pos": 3,
+    "uva": 496,
+    "title": "Simply Subsets",
+    "uvaTitle": null,
+    "submissions": 364,
+    "attempted": 262,
+    "solved": 183,
+    "rateSubmit": 50.27,
+    "rateAttempt": 69.85,
+    "rateAll": 8.42
+   },
+   {
+    "pos": 4,
+    "uva": 993,
+    "title": "Product of Digits",
+    "uvaTitle": null,
+    "submissions": 320,
+    "attempted": 233,
+    "solved": 194,
+    "rateSubmit": 60.63,
+    "rateAttempt": 83.26,
+    "rateAll": 8.92
+   },
+   {
+    "pos": 5,
+    "uva": 11067,
+    "title": "Little Red Riding Hood",
+    "uvaTitle": null,
+    "submissions": 71,
+    "attempted": 59,
+    "solved": 44,
+    "rateSubmit": 61.97,
+    "rateAttempt": 74.58,
+    "rateAll": 2.02
+   },
+   {
+    "pos": 6,
+    "uva": 122,
+    "title": "Trees on the level",
+    "uvaTitle": null,
+    "submissions": 51,
+    "attempted": 36,
+    "solved": 22,
+    "rateSubmit": 43.14,
+    "rateAttempt": 61.11,
+    "rateAll": 1.01
+   },
+   {
+    "pos": 7,
+    "uva": 1650,
+    "title": "Number String",
+    "uvaTitle": null,
+    "submissions": 32,
+    "attempted": 24,
+    "solved": 3,
+    "rateSubmit": 9.38,
+    "rateAttempt": 12.5,
+    "rateAll": 0.14
+   }
+  ]
+ },
+ {
+  "date": "2017-05-23",
+  "avgSolved": 1.22,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 1225,
+    "title": "Digit Counting",
+    "uvaTitle": null,
+    "submissions": 2247,
+    "attempted": 1437,
+    "solved": 1182,
+    "rateSubmit": 52.6,
+    "rateAttempt": 82.25,
+    "rateAll": 57.35
+   },
+   {
+    "pos": 2,
+    "uva": 12195,
+    "title": "Jingle Composing",
+    "uvaTitle": null,
+    "submissions": 1472,
+    "attempted": 936,
+    "solved": 845,
+    "rateSubmit": 57.4,
+    "rateAttempt": 90.28,
+    "rateAll": 41
+   },
+   {
+    "pos": 3,
+    "uva": 10056,
+    "title": "What is the Probability?",
+    "uvaTitle": null,
+    "submissions": 969,
+    "attempted": 387,
+    "solved": 303,
+    "rateSubmit": 31.27,
+    "rateAttempt": 78.29,
+    "rateAll": 14.7
+   },
+   {
+    "pos": 4,
+    "uva": 1200,
+    "title": "A DP Problem",
+    "uvaTitle": null,
+    "submissions": 362,
+    "attempted": 203,
+    "solved": 149,
+    "rateSubmit": 41.16,
+    "rateAttempt": 73.4,
+    "rateAll": 7.23
+   },
+   {
+    "pos": 5,
+    "uva": 12797,
+    "title": "Letters",
+    "uvaTitle": null,
+    "submissions": 30,
+    "attempted": 20,
+    "solved": 2,
+    "rateSubmit": 6.67,
+    "rateAttempt": 10,
+    "rateAll": 0.1
+   },
+   {
+    "pos": 6,
+    "uva": 1208,
+    "title": "Oreon",
+    "uvaTitle": null,
+    "submissions": 68,
+    "attempted": 45,
+    "solved": 26,
+    "rateSubmit": 38.24,
+    "rateAttempt": 57.78,
+    "rateAll": 1.26
+   },
+   {
+    "pos": 7,
+    "uva": 1513,
+    "title": "Movie collection",
+    "uvaTitle": null,
+    "submissions": 52,
+    "attempted": 35,
+    "solved": 3,
+    "rateSubmit": 5.77,
+    "rateAttempt": 8.57,
+    "rateAll": 0.15
+   }
+  ]
+ },
+ {
+  "date": "2017-09-26",
+  "avgSolved": 1.34,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11743,
+    "title": "Credit Check",
+    "uvaTitle": null,
+    "submissions": 1882,
+    "attempted": 1273,
+    "solved": 1078,
+    "rateSubmit": 57.28,
+    "rateAttempt": 84.68,
+    "rateAll": 58.14
+   },
+   {
+    "pos": 2,
+    "uva": 299,
+    "title": "Train Swapping",
+    "uvaTitle": null,
+    "submissions": 1295,
+    "attempted": 1008,
+    "solved": 912,
+    "rateSubmit": 70.42,
+    "rateAttempt": 90.48,
+    "rateAll": 49.19
+   },
+   {
+    "pos": 3,
+    "uva": 13190,
+    "title": "Rockabye Tobby",
+    "uvaTitle": null,
+    "submissions": 756,
+    "attempted": 435,
+    "solved": 363,
+    "rateSubmit": 48.02,
+    "rateAttempt": 83.45,
+    "rateAll": 19.58
+   },
+   {
+    "pos": 4,
+    "uva": 696,
+    "title": "How Many Knights",
+    "uvaTitle": null,
+    "submissions": 254,
+    "attempted": 137,
+    "solved": 86,
+    "rateSubmit": 33.86,
+    "rateAttempt": 62.77,
+    "rateAll": 4.64
+   },
+   {
+    "pos": 5,
+    "uva": 11264,
+    "title": "Coin Collector",
+    "uvaTitle": null,
+    "submissions": 129,
+    "attempted": 69,
+    "solved": 20,
+    "rateSubmit": 15.5,
+    "rateAttempt": 28.99,
+    "rateAll": 1.08
+   },
+   {
+    "pos": 6,
+    "uva": 532,
+    "title": "Dungeon Master",
+    "uvaTitle": null,
+    "submissions": 48,
+    "attempted": 42,
+    "solved": 30,
+    "rateSubmit": 62.5,
+    "rateAttempt": 71.43,
+    "rateAll": 1.62
+   },
+   {
+    "pos": 7,
+    "uva": 12223,
+    "title": "Moving to Nuremberg",
+    "uvaTitle": null,
+    "submissions": 15,
+    "attempted": 12,
+    "solved": 2,
+    "rateSubmit": 13.33,
+    "rateAttempt": 16.67,
+    "rateAll": 0.11
+   }
+  ]
+ },
+ {
+  "date": "2017-12-19",
+  "avgSolved": 1.29,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10591,
+    "title": "Happy Number",
+    "uvaTitle": null,
+    "submissions": 2552,
+    "attempted": 1245,
+    "solved": 764,
+    "rateSubmit": 29.94,
+    "rateAttempt": 61.37,
+    "rateAll": 30.17
+   },
+   {
+    "pos": 2,
+    "uva": 10071,
+    "title": "Back to High School Physics",
+    "uvaTitle": null,
+    "submissions": 3717,
+    "attempted": 2118,
+    "solved": 1881,
+    "rateSubmit": 50.61,
+    "rateAttempt": 88.81,
+    "rateAll": 74.29
+   },
+   {
+    "pos": 3,
+    "uva": 11233,
+    "title": "Deli Deli",
+    "uvaTitle": null,
+    "submissions": 887,
+    "attempted": 598,
+    "solved": 531,
+    "rateSubmit": 59.86,
+    "rateAttempt": 88.8,
+    "rateAll": 20.97
+   },
+   {
+    "pos": 4,
+    "uva": 10142,
+    "title": "Australian Voting",
+    "uvaTitle": null,
+    "submissions": 75,
+    "attempted": 51,
+    "solved": 22,
+    "rateSubmit": 29.33,
+    "rateAttempt": 43.14,
+    "rateAll": 0.87
+   },
+   {
+    "pos": 5,
+    "uva": 12382,
+    "title": "Grid of Lamps",
+    "uvaTitle": null,
+    "submissions": 40,
+    "attempted": 35,
+    "solved": 18,
+    "rateSubmit": 45,
+    "rateAttempt": 51.43,
+    "rateAll": 0.71
+   },
+   {
+    "pos": 6,
+    "uva": 10074,
+    "title": "Take the Land",
+    "uvaTitle": null,
+    "submissions": 92,
+    "attempted": 68,
+    "solved": 42,
+    "rateSubmit": 45.65,
+    "rateAttempt": 61.76,
+    "rateAll": 1.66
+   },
+   {
+    "pos": 7,
+    "uva": 437,
+    "title": "The Tower of Babylon",
+    "uvaTitle": null,
+    "submissions": 24,
+    "attempted": 18,
+    "solved": 8,
+    "rateSubmit": 33.33,
+    "rateAttempt": 44.44,
+    "rateAll": 0.32
+   }
+  ]
+ },
+ {
+  "date": "2018-03-27",
+  "avgSolved": 0.96,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 488,
+    "title": "Triangle Wave",
+    "uvaTitle": null,
+    "submissions": 3539,
+    "attempted": 1773,
+    "solved": 1467,
+    "rateSubmit": 41.45,
+    "rateAttempt": 82.74,
+    "rateAll": 66.26
+   },
+   {
+    "pos": 2,
+    "uva": 10633,
+    "title": "Rare Easy Problem",
+    "uvaTitle": null,
+    "submissions": 1322,
+    "attempted": 702,
+    "solved": 367,
+    "rateSubmit": 27.76,
+    "rateAttempt": 52.28,
+    "rateAll": 16.58
+   },
+   {
+    "pos": 3,
+    "uva": 118,
+    "title": "Mutant Flatworld Explorers",
+    "uvaTitle": null,
+    "submissions": 871,
+    "attempted": 373,
+    "solved": 200,
+    "rateSubmit": 22.96,
+    "rateAttempt": 53.62,
+    "rateAll": 9.03
+   },
+   {
+    "pos": 4,
+    "uva": 1730,
+    "title": "Sum of MSLCM",
+    "uvaTitle": null,
+    "submissions": 129,
+    "attempted": 99,
+    "solved": 34,
+    "rateSubmit": 26.36,
+    "rateAttempt": 34.34,
+    "rateAll": 1.54
+   },
+   {
+    "pos": 5,
+    "uva": 10004,
+    "title": "Bicoloring",
+    "uvaTitle": null,
+    "submissions": 63,
+    "attempted": 49,
+    "solved": 35,
+    "rateSubmit": 55.56,
+    "rateAttempt": 71.43,
+    "rateAll": 1.58
+   },
+   {
+    "pos": 6,
+    "uva": 10664,
+    "title": "Luggage",
+    "uvaTitle": null,
+    "submissions": 127,
+    "attempted": 72,
+    "solved": 28,
+    "rateSubmit": 22.05,
+    "rateAttempt": 38.89,
+    "rateAll": 1.26
+   },
+   {
+    "pos": 7,
+    "uva": 11085,
+    "title": "Back to the 8-Queens",
+    "uvaTitle": null,
+    "submissions": 38,
+    "attempted": 17,
+    "solved": 5,
+    "rateSubmit": 13.16,
+    "rateAttempt": 29.41,
+    "rateAll": 0.23
+   }
+  ]
+ },
+ {
+  "date": "2018-05-29",
+  "avgSolved": 1.51,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11455,
+    "title": "Behold My Quadrangle",
+    "uvaTitle": null,
+    "submissions": 3998,
+    "attempted": 1753,
+    "solved": 1381,
+    "rateSubmit": 34.54,
+    "rateAttempt": 78.78,
+    "rateAll": 63.32
+   },
+   {
+    "pos": 2,
+    "uva": 913,
+    "title": "Joana and the Odd Numbers",
+    "uvaTitle": null,
+    "submissions": 2281,
+    "attempted": 1259,
+    "solved": 954,
+    "rateSubmit": 41.82,
+    "rateAttempt": 75.77,
+    "rateAll": 43.74
+   },
+   {
+    "pos": 3,
+    "uva": 11321,
+    "title": "Sort! Sort!! And Sort!!!",
+    "uvaTitle": null,
+    "submissions": 711,
+    "attempted": 418,
+    "solved": 350,
+    "rateSubmit": 49.23,
+    "rateAttempt": 83.73,
+    "rateAll": 16.05
+   },
+   {
+    "pos": 4,
+    "uva": 686,
+    "title": "Goldbach’s Conjecture (II)",
+    "uvaTitle": null,
+    "submissions": 483,
+    "attempted": 421,
+    "solved": 399,
+    "rateSubmit": 82.61,
+    "rateAttempt": 94.77,
+    "rateAll": 18.29
+   },
+   {
+    "pos": 5,
+    "uva": 514,
+    "title": "Rails",
+    "uvaTitle": null,
+    "submissions": 214,
+    "attempted": 142,
+    "solved": 111,
+    "rateSubmit": 51.87,
+    "rateAttempt": 78.17,
+    "rateAll": 5.09
+   },
+   {
+    "pos": 6,
+    "uva": 11908,
+    "title": "Skyscraper",
+    "uvaTitle": null,
+    "submissions": 71,
+    "attempted": 44,
+    "solved": 20,
+    "rateSubmit": 28.17,
+    "rateAttempt": 45.45,
+    "rateAll": 0.92
+   },
+   {
+    "pos": 7,
+    "uva": 12532,
+    "title": "Interval Product",
+    "uvaTitle": null,
+    "submissions": 122,
+    "attempted": 104,
+    "solved": 79,
+    "rateSubmit": 64.75,
+    "rateAttempt": 75.96,
+    "rateAll": 3.62
+   }
+  ]
+ },
+ {
+  "date": "2018-10-02",
+  "avgSolved": 1.02,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 12650,
+    "title": "Dangerous Dive",
+    "uvaTitle": null,
+    "submissions": 2654,
+    "attempted": 1243,
+    "solved": 991,
+    "rateSubmit": 37.34,
+    "rateAttempt": 79.73,
+    "rateAll": 43.45
+   },
+   {
+    "pos": 2,
+    "uva": 10409,
+    "title": "Die Game",
+    "uvaTitle": null,
+    "submissions": 815,
+    "attempted": 650,
+    "solved": 537,
+    "rateSubmit": 65.89,
+    "rateAttempt": 82.62,
+    "rateAll": 23.54
+   },
+   {
+    "pos": 3,
+    "uva": 145,
+    "title": "Gondwanaland Telecom",
+    "uvaTitle": null,
+    "submissions": 357,
+    "attempted": 220,
+    "solved": 135,
+    "rateSubmit": 37.82,
+    "rateAttempt": 61.36,
+    "rateAll": 5.92
+   },
+   {
+    "pos": 4,
+    "uva": 11157,
+    "title": "Dynamic Frog",
+    "uvaTitle": null,
+    "submissions": 73,
+    "attempted": 43,
+    "solved": 19,
+    "rateSubmit": 26.03,
+    "rateAttempt": 44.19,
+    "rateAll": 0.83
+   },
+   {
+    "pos": 5,
+    "uva": 13185,
+    "title": "DPA Numbers I",
+    "uvaTitle": null,
+    "submissions": 806,
+    "attempted": 678,
+    "solved": 615,
+    "rateSubmit": 76.3,
+    "rateAttempt": 90.71,
+    "rateAll": 26.96
+   },
+   {
+    "pos": 6,
+    "uva": 12208,
+    "title": "How Many Ones Needed?",
+    "uvaTitle": null,
+    "submissions": 626,
+    "attempted": 235,
+    "solved": 20,
+    "rateSubmit": 3.19,
+    "rateAttempt": 8.51,
+    "rateAll": 0.88
+   },
+   {
+    "pos": 7,
+    "uva": 10364,
+    "title": "Square",
+    "uvaTitle": null,
+    "submissions": 237,
+    "attempted": 117,
+    "solved": 8,
+    "rateSubmit": 3.38,
+    "rateAttempt": 6.84,
+    "rateAll": 0.35
+   }
+  ]
+ },
+ {
+  "date": "2018-12-18",
+  "avgSolved": 1.09,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11636,
+    "title": "Hello World!",
+    "uvaTitle": null,
+    "submissions": 3061,
+    "attempted": 1953,
+    "solved": 1654,
+    "rateSubmit": 54.03,
+    "rateAttempt": 84.69,
+    "rateAll": 63.03
+   },
+   {
+    "pos": 2,
+    "uva": 10550,
+    "title": "Combination Lock",
+    "uvaTitle": null,
+    "submissions": 1124,
+    "attempted": 692,
+    "solved": 539,
+    "rateSubmit": 47.95,
+    "rateAttempt": 77.89,
+    "rateAll": 20.54
+   },
+   {
+    "pos": 3,
+    "uva": 10101,
+    "title": "Bangla Numbers",
+    "uvaTitle": null,
+    "submissions": 2205,
+    "attempted": 869,
+    "solved": 491,
+    "rateSubmit": 22.27,
+    "rateAttempt": 56.5,
+    "rateAll": 18.71
+   },
+   {
+    "pos": 4,
+    "uva": 294,
+    "title": "Divisors",
+    "uvaTitle": null,
+    "submissions": 220,
+    "attempted": 164,
+    "solved": 124,
+    "rateSubmit": 56.36,
+    "rateAttempt": 75.61,
+    "rateAll": 4.73
+   },
+   {
+    "pos": 5,
+    "uva": 1262,
+    "title": "Password",
+    "uvaTitle": null,
+    "submissions": 35,
+    "attempted": 32,
+    "solved": 29,
+    "rateSubmit": 82.86,
+    "rateAttempt": 90.63,
+    "rateAll": 1.11
+   },
+   {
+    "pos": 6,
+    "uva": 12385,
+    "title": "Interesting Sequences",
+    "uvaTitle": null,
+    "submissions": 39,
+    "attempted": 37,
+    "solved": 22,
+    "rateSubmit": 56.41,
+    "rateAttempt": 59.46,
+    "rateAll": 0.84
+   },
+   {
+    "pos": 7,
+    "uva": 12041,
+    "title": "BFS (Binary Fibonacci String)",
+    "uvaTitle": null,
+    "submissions": 57,
+    "attempted": 37,
+    "solved": 5,
+    "rateSubmit": 8.77,
+    "rateAttempt": 13.51,
+    "rateAll": 0.19
+   }
+  ]
+ },
+ {
+  "date": "2019-03-26",
+  "avgSolved": 1.09,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11678,
+    "title": "Cards' Exchange",
+    "uvaTitle": null,
+    "submissions": 1581,
+    "attempted": 966,
+    "solved": 704,
+    "rateSubmit": 44.53,
+    "rateAttempt": 72.88,
+    "rateAll": 29.09
+   },
+   {
+    "pos": 2,
+    "uva": 1583,
+    "title": "Digit Generator",
+    "uvaTitle": null,
+    "submissions": 1736,
+    "attempted": 1228,
+    "solved": 1072,
+    "rateSubmit": 61.75,
+    "rateAttempt": 87.3,
+    "rateAll": 44.3
+   },
+   {
+    "pos": 3,
+    "uva": 10420,
+    "title": "List of Conquests",
+    "uvaTitle": null,
+    "submissions": 968,
+    "attempted": 517,
+    "solved": 354,
+    "rateSubmit": 36.57,
+    "rateAttempt": 68.47,
+    "rateAll": 14.63
+   },
+   {
+    "pos": 4,
+    "uva": 10530,
+    "title": "Guessing Game",
+    "uvaTitle": null,
+    "submissions": 888,
+    "attempted": 565,
+    "solved": 453,
+    "rateSubmit": 51.01,
+    "rateAttempt": 80.18,
+    "rateAll": 18.72
+   },
+   {
+    "pos": 5,
+    "uva": 1207,
+    "title": "AGTC",
+    "uvaTitle": null,
+    "submissions": 86,
+    "attempted": 42,
+    "solved": 18,
+    "rateSubmit": 20.93,
+    "rateAttempt": 42.86,
+    "rateAll": 0.74
+   },
+   {
+    "pos": 6,
+    "uva": 11747,
+    "title": "Heavy Cycle Edges",
+    "uvaTitle": null,
+    "submissions": 76,
+    "attempted": 40,
+    "solved": 26,
+    "rateSubmit": 34.21,
+    "rateAttempt": 65,
+    "rateAll": 1.07
+   },
+   {
+    "pos": 7,
+    "uva": 10603,
+    "title": "Fill",
+    "uvaTitle": null,
+    "submissions": 15,
+    "attempted": 11,
+    "solved": 4,
+    "rateSubmit": 26.67,
+    "rateAttempt": 36.36,
+    "rateAll": 0.17
+   }
+  ]
+ },
+ {
+  "date": "2019-05-28",
+  "avgSolved": 0.81,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 1594,
+    "title": "Ducci Sequence",
+    "uvaTitle": null,
+    "submissions": 1767,
+    "attempted": 1322,
+    "solved": 1077,
+    "rateSubmit": 60.95,
+    "rateAttempt": 81.47,
+    "rateAll": 47.26
+   },
+   {
+    "pos": 2,
+    "uva": 11220,
+    "title": "Decoding the message.",
+    "uvaTitle": null,
+    "submissions": 658,
+    "attempted": 427,
+    "solved": 294,
+    "rateSubmit": 44.68,
+    "rateAttempt": 68.85,
+    "rateAll": 12.9
+   },
+   {
+    "pos": 3,
+    "uva": 10221,
+    "title": "Satellites",
+    "uvaTitle": null,
+    "submissions": 467,
+    "attempted": 207,
+    "solved": 143,
+    "rateSubmit": 30.62,
+    "rateAttempt": 69.08,
+    "rateAll": 6.27
+   },
+   {
+    "pos": 4,
+    "uva": 846,
+    "title": "Steps",
+    "uvaTitle": null,
+    "submissions": 648,
+    "attempted": 364,
+    "solved": 185,
+    "rateSubmit": 28.55,
+    "rateAttempt": 50.82,
+    "rateAll": 8.12
+   },
+   {
+    "pos": 5,
+    "uva": 1056,
+    "title": "Degrees of Separation",
+    "uvaTitle": null,
+    "submissions": 57,
+    "attempted": 39,
+    "solved": 28,
+    "rateSubmit": 49.12,
+    "rateAttempt": 71.79,
+    "rateAll": 1.23
+   },
+   {
+    "pos": 6,
+    "uva": 10810,
+    "title": "Ultra-QuickSort",
+    "uvaTitle": null,
+    "submissions": 416,
+    "attempted": 209,
+    "solved": 110,
+    "rateSubmit": 26.44,
+    "rateAttempt": 52.63,
+    "rateAll": 4.83
+   },
+   {
+    "pos": 7,
+    "uva": 12096,
+    "title": "The SetStack Computer",
+    "uvaTitle": null,
+    "submissions": 50,
+    "attempted": 30,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   }
+  ]
+ },
+ {
+  "date": "2019-09-24",
+  "avgSolved": 0.8,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11349,
+    "title": "Symmetric Matrix",
+    "uvaTitle": null,
+    "submissions": 2267,
+    "attempted": 1004,
+    "solved": 601,
+    "rateSubmit": 26.51,
+    "rateAttempt": 59.86,
+    "rateAll": 27.98
+   },
+   {
+    "pos": 2,
+    "uva": 11541,
+    "title": "Decoding",
+    "uvaTitle": null,
+    "submissions": 1134,
+    "attempted": 856,
+    "solved": 691,
+    "rateSubmit": 60.93,
+    "rateAttempt": 80.72,
+    "rateAll": 32.17
+   },
+   {
+    "pos": 3,
+    "uva": 10813,
+    "title": "Traditional BINGO",
+    "uvaTitle": null,
+    "submissions": 422,
+    "attempted": 312,
+    "solved": 266,
+    "rateSubmit": 63.03,
+    "rateAttempt": 85.26,
+    "rateAll": 12.38
+   },
+   {
+    "pos": 4,
+    "uva": 255,
+    "title": "Correct Move",
+    "uvaTitle": null,
+    "submissions": 163,
+    "attempted": 113,
+    "solved": 80,
+    "rateSubmit": 49.08,
+    "rateAttempt": 70.8,
+    "rateAll": 3.72
+   },
+   {
+    "pos": 5,
+    "uva": 679,
+    "title": "Dropping Balls",
+    "uvaTitle": null,
+    "submissions": 72,
+    "attempted": 64,
+    "solved": 49,
+    "rateSubmit": 68.06,
+    "rateAttempt": 76.56,
+    "rateAll": 2.28
+   },
+   {
+    "pos": 6,
+    "uva": 10036,
+    "title": "Divisibility",
+    "uvaTitle": null,
+    "submissions": 95,
+    "attempted": 55,
+    "solved": 17,
+    "rateSubmit": 17.89,
+    "rateAttempt": 30.91,
+    "rateAll": 0.79
+   },
+   {
+    "pos": 7,
+    "uva": 11456,
+    "title": "Trainsorting",
+    "uvaTitle": null,
+    "submissions": 113,
+    "attempted": 71,
+    "solved": 8,
+    "rateSubmit": 7.08,
+    "rateAttempt": 11.27,
+    "rateAll": 0.37
+   }
+  ]
+ },
+ {
+  "date": "2019-12-17",
+  "avgSolved": 1.51,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11677,
+    "title": "Alarm Clock",
+    "uvaTitle": null,
+    "submissions": 4779,
+    "attempted": 2382,
+    "solved": 2105,
+    "rateSubmit": 44.05,
+    "rateAttempt": 88.37,
+    "rateAll": 76.68
+   },
+   {
+    "pos": 2,
+    "uva": 11417,
+    "title": "GCD",
+    "uvaTitle": null,
+    "submissions": 2835,
+    "attempted": 1527,
+    "solved": 1169,
+    "rateSubmit": 41.23,
+    "rateAttempt": 76.56,
+    "rateAll": 42.59
+   },
+   {
+    "pos": 3,
+    "uva": 12820,
+    "title": "Cool Word",
+    "uvaTitle": null,
+    "submissions": 1151,
+    "attempted": 813,
+    "solved": 711,
+    "rateSubmit": 61.77,
+    "rateAttempt": 87.45,
+    "rateAll": 25.9
+   },
+   {
+    "pos": 4,
+    "uva": 10010,
+    "title": "Where's Waldorf?",
+    "uvaTitle": null,
+    "submissions": 165,
+    "attempted": 112,
+    "solved": 75,
+    "rateSubmit": 45.45,
+    "rateAttempt": 66.96,
+    "rateAll": 2.73
+   },
+   {
+    "pos": 5,
+    "uva": 13257,
+    "title": "License Plates",
+    "uvaTitle": null,
+    "submissions": 102,
+    "attempted": 87,
+    "solved": 40,
+    "rateSubmit": 39.22,
+    "rateAttempt": 45.98,
+    "rateAll": 1.46
+   },
+   {
+    "pos": 6,
+    "uva": 544,
+    "title": "Heavy Cargo",
+    "uvaTitle": null,
+    "submissions": 45,
+    "attempted": 33,
+    "solved": 20,
+    "rateSubmit": 44.44,
+    "rateAttempt": 60.61,
+    "rateAll": 0.73
+   },
+   {
+    "pos": 7,
+    "uva": 11987,
+    "title": "Almost Union-Find",
+    "uvaTitle": null,
+    "submissions": 83,
+    "attempted": 66,
+    "solved": 31,
+    "rateSubmit": 37.35,
+    "rateAttempt": 46.97,
+    "rateAll": 1.13
+   }
+  ]
+ },
+ {
+  "date": "2020-05-26",
+  "avgSolved": 0.87,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10268,
+    "title": "498-bis",
+    "uvaTitle": null,
+    "submissions": 920,
+    "attempted": 577,
+    "solved": 403,
+    "rateSubmit": 43.8,
+    "rateAttempt": 69.84,
+    "rateAll": 17.9
+   },
+   {
+    "pos": 2,
+    "uva": 263,
+    "title": "Number Chains",
+    "uvaTitle": null,
+    "submissions": 985,
+    "attempted": 576,
+    "solved": 396,
+    "rateSubmit": 40.2,
+    "rateAttempt": 68.75,
+    "rateAll": 17.58
+   },
+   {
+    "pos": 3,
+    "uva": 1237,
+    "title": "Expert Enough?",
+    "uvaTitle": null,
+    "submissions": 942,
+    "attempted": 606,
+    "solved": 522,
+    "rateSubmit": 55.41,
+    "rateAttempt": 86.14,
+    "rateAll": 23.18
+   },
+   {
+    "pos": 4,
+    "uva": 12918,
+    "title": "Lucky Thief",
+    "uvaTitle": null,
+    "submissions": 1523,
+    "attempted": 740,
+    "solved": 581,
+    "rateSubmit": 38.15,
+    "rateAttempt": 78.51,
+    "rateAll": 25.8
+   },
+   {
+    "pos": 5,
+    "uva": 1316,
+    "title": "Supermarket",
+    "uvaTitle": null,
+    "submissions": 131,
+    "attempted": 87,
+    "solved": 34,
+    "rateSubmit": 25.95,
+    "rateAttempt": 39.08,
+    "rateAll": 1.51
+   },
+   {
+    "pos": 6,
+    "uva": 11730,
+    "title": "Number Transformation",
+    "uvaTitle": null,
+    "submissions": 258,
+    "attempted": 142,
+    "solved": 18,
+    "rateSubmit": 6.98,
+    "rateAttempt": 12.68,
+    "rateAll": 0.8
+   },
+   {
+    "pos": 7,
+    "uva": 11284,
+    "title": "Shopping Trip",
+    "uvaTitle": null,
+    "submissions": 13,
+    "attempted": 10,
+    "solved": 3,
+    "rateSubmit": 23.08,
+    "rateAttempt": 30,
+    "rateAll": 0.13
+   }
+  ]
+ },
+ {
+  "date": "2020-06-09",
+  "avgSolved": 1.35,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11498,
+    "title": "Division of Nlogonia",
+    "uvaTitle": null,
+    "submissions": 1637,
+    "attempted": 1360,
+    "solved": 1278,
+    "rateSubmit": 78.07,
+    "rateAttempt": 93.97,
+    "rateAll": 64.29
+   },
+   {
+    "pos": 2,
+    "uva": 10189,
+    "title": "Minesweeper",
+    "uvaTitle": null,
+    "submissions": 2237,
+    "attempted": 964,
+    "solved": 749,
+    "rateSubmit": 33.48,
+    "rateAttempt": 77.7,
+    "rateAll": 37.68
+   },
+   {
+    "pos": 3,
+    "uva": 1368,
+    "title": "DNA Consensus String",
+    "uvaTitle": null,
+    "submissions": 1473,
+    "attempted": 506,
+    "solved": 327,
+    "rateSubmit": 22.2,
+    "rateAttempt": 64.62,
+    "rateAll": 16.45
+   },
+   {
+    "pos": 4,
+    "uva": 855,
+    "title": "Lunch in Grid City",
+    "uvaTitle": null,
+    "submissions": 301,
+    "attempted": 191,
+    "solved": 141,
+    "rateSubmit": 46.84,
+    "rateAttempt": 73.82,
+    "rateAll": 7.09
+   },
+   {
+    "pos": 5,
+    "uva": 10191,
+    "title": "Longest Nap",
+    "uvaTitle": null,
+    "submissions": 215,
+    "attempted": 157,
+    "solved": 123,
+    "rateSubmit": 57.21,
+    "rateAttempt": 78.34,
+    "rateAll": 6.19
+   },
+   {
+    "pos": 6,
+    "uva": 10130,
+    "title": "SuperSale",
+    "uvaTitle": null,
+    "submissions": 38,
+    "attempted": 37,
+    "solved": 22,
+    "rateSubmit": 57.89,
+    "rateAttempt": 59.46,
+    "rateAll": 1.11
+   },
+   {
+    "pos": 7,
+    "uva": 10583,
+    "title": "Ubiquitous Religions",
+    "uvaTitle": null,
+    "submissions": 108,
+    "attempted": 87,
+    "solved": 49,
+    "rateSubmit": 45.37,
+    "rateAttempt": 56.32,
+    "rateAll": 2.46
+   }
+  ]
+ },
+ {
+  "date": "2020-10-20",
+  "avgSolved": 1.09,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10050,
+    "title": "Hartals",
+    "uvaTitle": null,
+    "submissions": 1388,
+    "attempted": 1004,
+    "solved": 827,
+    "rateSubmit": 59.58,
+    "rateAttempt": 82.37,
+    "rateAll": 37.94
+   },
+   {
+    "pos": 2,
+    "uva": 458,
+    "title": "The Decoder",
+    "uvaTitle": null,
+    "submissions": 2066,
+    "attempted": 1213,
+    "solved": 980,
+    "rateSubmit": 47.43,
+    "rateAttempt": 80.79,
+    "rateAll": 44.95
+   },
+   {
+    "pos": 3,
+    "uva": 389,
+    "title": "Basically Speaking",
+    "uvaTitle": null,
+    "submissions": 800,
+    "attempted": 510,
+    "solved": 391,
+    "rateSubmit": 48.88,
+    "rateAttempt": 76.67,
+    "rateAll": 17.94
+   },
+   {
+    "pos": 4,
+    "uva": 10267,
+    "title": "Graphical Editor",
+    "uvaTitle": null,
+    "submissions": 480,
+    "attempted": 184,
+    "solved": 79,
+    "rateSubmit": 16.46,
+    "rateAttempt": 42.93,
+    "rateAll": 3.62
+   },
+   {
+    "pos": 5,
+    "uva": 615,
+    "title": "Is It A Tree?",
+    "uvaTitle": null,
+    "submissions": 173,
+    "attempted": 114,
+    "solved": 69,
+    "rateSubmit": 39.88,
+    "rateAttempt": 60.53,
+    "rateAll": 3.17
+   },
+   {
+    "pos": 6,
+    "uva": 1746,
+    "title": "String Theory",
+    "uvaTitle": null,
+    "submissions": 18,
+    "attempted": 15,
+    "solved": 2,
+    "rateSubmit": 11.11,
+    "rateAttempt": 13.33,
+    "rateAll": 0.09
+   },
+   {
+    "pos": 7,
+    "uva": 165,
+    "title": "Stamps",
+    "uvaTitle": null,
+    "submissions": 111,
+    "attempted": 67,
+    "solved": 21,
+    "rateSubmit": 18.92,
+    "rateAttempt": 31.34,
+    "rateAll": 0.96
+   }
+  ]
+ },
+ {
+  "date": "2020-12-22",
+  "avgSolved": 1.0,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11689,
+    "title": "Soda Surpler",
+    "uvaTitle": null,
+    "submissions": 2756,
+    "attempted": 1697,
+    "solved": 1392,
+    "rateSubmit": 50.51,
+    "rateAttempt": 82.03,
+    "rateAll": 62.12
+   },
+   {
+    "pos": 2,
+    "uva": 10188,
+    "title": "Automated Judge Script",
+    "uvaTitle": null,
+    "submissions": 461,
+    "attempted": 283,
+    "solved": 198,
+    "rateSubmit": 42.95,
+    "rateAttempt": 69.96,
+    "rateAll": 8.84
+   },
+   {
+    "pos": 3,
+    "uva": 10415,
+    "title": "Eb Alto Saxophone Player",
+    "uvaTitle": null,
+    "submissions": 713,
+    "attempted": 619,
+    "solved": 554,
+    "rateSubmit": 77.7,
+    "rateAttempt": 89.5,
+    "rateAll": 24.72
+   },
+   {
+    "pos": 4,
+    "uva": 11536,
+    "title": "Smallest Sub-Array",
+    "uvaTitle": null,
+    "submissions": 315,
+    "attempted": 136,
+    "solved": 26,
+    "rateSubmit": 8.25,
+    "rateAttempt": 19.12,
+    "rateAll": 1.16
+   },
+   {
+    "pos": 5,
+    "uva": 11960,
+    "title": "Divisor Game",
+    "uvaTitle": null,
+    "submissions": 704,
+    "attempted": 308,
+    "solved": 60,
+    "rateSubmit": 8.52,
+    "rateAttempt": 19.48,
+    "rateAll": 2.68
+   },
+   {
+    "pos": 6,
+    "uva": 12319,
+    "title": "Edgetown’s Traffic Jams",
+    "uvaTitle": null,
+    "submissions": 16,
+    "attempted": 14,
+    "solved": 12,
+    "rateSubmit": 75,
+    "rateAttempt": 85.71,
+    "rateAll": 0.54
+   },
+   {
+    "pos": 7,
+    "uva": 11633,
+    "title": "Food portion size",
+    "uvaTitle": null,
+    "submissions": 9,
+    "attempted": 9,
+    "solved": 3,
+    "rateSubmit": 33.33,
+    "rateAttempt": 33.33,
+    "rateAll": 0.13
+   }
+  ]
+ },
+ {
+  "date": "2021-03-23",
+  "avgSolved": 1.56,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 12019,
+    "title": "Doom's Day Algorithm",
+    "uvaTitle": null,
+    "submissions": 2937,
+    "attempted": 1951,
+    "solved": 1785,
+    "rateSubmit": 60.78,
+    "rateAttempt": 91.49,
+    "rateAll": 74.56
+   },
+   {
+    "pos": 2,
+    "uva": 10921,
+    "title": "Find the Telephone",
+    "uvaTitle": null,
+    "submissions": 2126,
+    "attempted": 1514,
+    "solved": 1381,
+    "rateSubmit": 64.96,
+    "rateAttempt": 91.22,
+    "rateAll": 57.69
+   },
+   {
+    "pos": 3,
+    "uva": 725,
+    "title": "Division",
+    "uvaTitle": null,
+    "submissions": 679,
+    "attempted": 391,
+    "solved": 287,
+    "rateSubmit": 42.27,
+    "rateAttempt": 73.4,
+    "rateAll": 11.99
+   },
+   {
+    "pos": 4,
+    "uva": 11489,
+    "title": "Integer Game",
+    "uvaTitle": null,
+    "submissions": 526,
+    "attempted": 322,
+    "solved": 211,
+    "rateSubmit": 40.11,
+    "rateAttempt": 65.53,
+    "rateAll": 8.81
+   },
+   {
+    "pos": 5,
+    "uva": 12218,
+    "title": "An Industrial Spy",
+    "uvaTitle": null,
+    "submissions": 72,
+    "attempted": 57,
+    "solved": 43,
+    "rateSubmit": 59.72,
+    "rateAttempt": 75.44,
+    "rateAll": 1.8
+   },
+   {
+    "pos": 6,
+    "uva": 11495,
+    "title": "Bubbles and Buckets",
+    "uvaTitle": null,
+    "submissions": 211,
+    "attempted": 123,
+    "solved": 24,
+    "rateSubmit": 11.37,
+    "rateAttempt": 19.51,
+    "rateAll": 1
+   },
+   {
+    "pos": 7,
+    "uva": 709,
+    "title": "Formatting Text",
+    "uvaTitle": null,
+    "submissions": 25,
+    "attempted": 13,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   }
+  ]
+ },
+ {
+  "date": "2021-10-19",
+  "avgSolved": 1.02,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 12959,
+    "title": "Strategy Game",
+    "uvaTitle": null,
+    "submissions": 2192,
+    "attempted": 1295,
+    "solved": 990,
+    "rateSubmit": 45.16,
+    "rateAttempt": 76.45,
+    "rateAll": 47.21
+   },
+   {
+    "pos": 2,
+    "uva": 10222,
+    "title": "Decode the Mad man",
+    "uvaTitle": null,
+    "submissions": 1248,
+    "attempted": 857,
+    "solved": 694,
+    "rateSubmit": 55.61,
+    "rateAttempt": 80.98,
+    "rateAll": 33.09
+   },
+   {
+    "pos": 3,
+    "uva": 12970,
+    "title": "Alcoholic Pilots",
+    "uvaTitle": null,
+    "submissions": 1239,
+    "attempted": 584,
+    "solved": 227,
+    "rateSubmit": 18.32,
+    "rateAttempt": 38.87,
+    "rateAll": 10.82
+   },
+   {
+    "pos": 4,
+    "uva": 12869,
+    "title": "Zeroes",
+    "uvaTitle": null,
+    "submissions": 439,
+    "attempted": 275,
+    "solved": 164,
+    "rateSubmit": 37.36,
+    "rateAttempt": 59.64,
+    "rateAll": 7.82
+   },
+   {
+    "pos": 5,
+    "uva": 380,
+    "title": "Call Forwarding",
+    "uvaTitle": null,
+    "submissions": 41,
+    "attempted": 35,
+    "solved": 24,
+    "rateSubmit": 58.54,
+    "rateAttempt": 68.57,
+    "rateAll": 1.14
+   },
+   {
+    "pos": 6,
+    "uva": 11258,
+    "title": "String Partition",
+    "uvaTitle": null,
+    "submissions": 49,
+    "attempted": 37,
+    "solved": 17,
+    "rateSubmit": 34.69,
+    "rateAttempt": 45.95,
+    "rateAll": 0.81
+   },
+   {
+    "pos": 7,
+    "uva": 437,
+    "title": "The Tower of Babylon",
+    "uvaTitle": null,
+    "submissions": 34,
+    "attempted": 26,
+    "solved": 13,
+    "rateSubmit": 38.24,
+    "rateAttempt": 50,
+    "rateAll": 0.62
+   }
+  ]
+ },
+ {
+  "date": "2021-12-21",
+  "avgSolved": 1.28,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 1260,
+    "title": "Sales",
+    "uvaTitle": null,
+    "submissions": 1935,
+    "attempted": 1639,
+    "solved": 1510,
+    "rateSubmit": 78.04,
+    "rateAttempt": 92.13,
+    "rateAll": 61.41
+   },
+   {
+    "pos": 2,
+    "uva": 11728,
+    "title": "Alternate Task",
+    "uvaTitle": null,
+    "submissions": 1900,
+    "attempted": 1241,
+    "solved": 941,
+    "rateSubmit": 49.53,
+    "rateAttempt": 75.83,
+    "rateAll": 38.27
+   },
+   {
+    "pos": 3,
+    "uva": 118,
+    "title": "Mutant Flatworld Explorers",
+    "uvaTitle": null,
+    "submissions": 1054,
+    "attempted": 507,
+    "solved": 288,
+    "rateSubmit": 27.32,
+    "rateAttempt": 56.8,
+    "rateAll": 11.71
+   },
+   {
+    "pos": 4,
+    "uva": 11078,
+    "title": "Open Credit System",
+    "uvaTitle": null,
+    "submissions": 947,
+    "attempted": 564,
+    "solved": 314,
+    "rateSubmit": 33.16,
+    "rateAttempt": 55.67,
+    "rateAll": 12.77
+   },
+   {
+    "pos": 5,
+    "uva": 10800,
+    "title": "Not That Kind of Graph",
+    "uvaTitle": null,
+    "submissions": 148,
+    "attempted": 111,
+    "solved": 75,
+    "rateSubmit": 50.68,
+    "rateAttempt": 67.57,
+    "rateAll": 3.05
+   },
+   {
+    "pos": 6,
+    "uva": 11792,
+    "title": "Krochanska is Here!",
+    "uvaTitle": null,
+    "submissions": 19,
+    "attempted": 18,
+    "solved": 9,
+    "rateSubmit": 47.37,
+    "rateAttempt": 50,
+    "rateAll": 0.37
+   },
+   {
+    "pos": 7,
+    "uva": 12911,
+    "title": "Subset sum",
+    "uvaTitle": null,
+    "submissions": 61,
+    "attempted": 35,
+    "solved": 5,
+    "rateSubmit": 8.2,
+    "rateAttempt": 14.29,
+    "rateAll": 0.2
+   }
+  ]
+ },
+ {
+  "date": "2022-03-22",
+  "avgSolved": 1.56,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 12908,
+    "title": "The book thief",
+    "uvaTitle": null,
+    "submissions": 1879,
+    "attempted": 1545,
+    "solved": 1427,
+    "rateSubmit": 75.94,
+    "rateAttempt": 92.36,
+    "rateAll": 55.72
+   },
+   {
+    "pos": 2,
+    "uva": 10642,
+    "title": "Can You Solve It",
+    "uvaTitle": null,
+    "submissions": 2976,
+    "attempted": 1450,
+    "solved": 979,
+    "rateSubmit": 32.9,
+    "rateAttempt": 67.52,
+    "rateAll": 38.23
+   },
+   {
+    "pos": 3,
+    "uva": 13171,
+    "title": "Pixel Art",
+    "uvaTitle": null,
+    "submissions": 1234,
+    "attempted": 1059,
+    "solved": 1008,
+    "rateSubmit": 81.69,
+    "rateAttempt": 95.18,
+    "rateAll": 39.36
+   },
+   {
+    "pos": 4,
+    "uva": 11360,
+    "title": "Having Fun with Matrices",
+    "uvaTitle": null,
+    "submissions": 545,
+    "attempted": 501,
+    "solved": 468,
+    "rateSubmit": 85.87,
+    "rateAttempt": 93.41,
+    "rateAll": 18.27
+   },
+   {
+    "pos": 5,
+    "uva": 10326,
+    "title": "The Polynomial Equation",
+    "uvaTitle": null,
+    "submissions": 182,
+    "attempted": 148,
+    "solved": 102,
+    "rateSubmit": 56.04,
+    "rateAttempt": 68.92,
+    "rateAll": 3.98
+   },
+   {
+    "pos": 6,
+    "uva": 12627,
+    "title": "Erratic Expansion",
+    "uvaTitle": null,
+    "submissions": 57,
+    "attempted": 42,
+    "solved": 11,
+    "rateSubmit": 19.3,
+    "rateAttempt": 26.19,
+    "rateAll": 0.43
+   },
+   {
+    "pos": 7,
+    "uva": 11659,
+    "title": "Informants",
+    "uvaTitle": null,
+    "submissions": 50,
+    "attempted": 32,
+    "solved": 9,
+    "rateSubmit": 18,
+    "rateAttempt": 28.13,
+    "rateAll": 0.35
+   }
+  ]
+ },
+ {
+  "date": "2022-05-24",
+  "avgSolved": 1.36,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10190,
+    "title": "Divide, But Not Quite Conquer!",
+    "uvaTitle": null,
+    "submissions": 3329,
+    "attempted": 1366,
+    "solved": 1006,
+    "rateSubmit": 30.22,
+    "rateAttempt": 73.65,
+    "rateAll": 55.46
+   },
+   {
+    "pos": 2,
+    "uva": 11000,
+    "title": "The Four in One Stadium",
+    "uvaTitle": "Bee",
+    "submissions": 1404,
+    "attempted": 1017,
+    "solved": 860,
+    "rateSubmit": 61.25,
+    "rateAttempt": 84.56,
+    "rateAll": 47.41
+   },
+   {
+    "pos": 3,
+    "uva": 12592,
+    "title": "Slogan Learning of Princess",
+    "uvaTitle": null,
+    "submissions": 562,
+    "attempted": 500,
+    "solved": 479,
+    "rateSubmit": 85.23,
+    "rateAttempt": 95.8,
+    "rateAll": 26.41
+   },
+   {
+    "pos": 4,
+    "uva": 1640,
+    "title": "The Counting Problem",
+    "uvaTitle": null,
+    "submissions": 541,
+    "attempted": 289,
+    "solved": 35,
+    "rateSubmit": 6.47,
+    "rateAttempt": 12.11,
+    "rateAll": 1.93
+   },
+   {
+    "pos": 5,
+    "uva": 108,
+    "title": "Maximum Sum",
+    "uvaTitle": null,
+    "submissions": 55,
+    "attempted": 48,
+    "solved": 33,
+    "rateSubmit": 60,
+    "rateAttempt": 68.75,
+    "rateAll": 1.82
+   },
+   {
+    "pos": 6,
+    "uva": 674,
+    "title": "Coin Change",
+    "uvaTitle": null,
+    "submissions": 128,
+    "attempted": 87,
+    "solved": 60,
+    "rateSubmit": 46.88,
+    "rateAttempt": 68.97,
+    "rateAll": 3.31
+   },
+   {
+    "pos": 7,
+    "uva": 1101,
+    "title": "addmul",
+    "uvaTitle": null,
+    "submissions": 5,
+    "attempted": 5,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   }
+  ]
+ },
+ {
+  "date": "2022-10-18",
+  "avgSolved": 1.36,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11332,
+    "title": "Summing Digits",
+    "uvaTitle": null,
+    "submissions": 2565,
+    "attempted": 1931,
+    "solved": 1729,
+    "rateSubmit": 67.41,
+    "rateAttempt": 89.54,
+    "rateAll": 73.51
+   },
+   {
+    "pos": 2,
+    "uva": 11219,
+    "title": "Basic wall maze",
+    "uvaTitle": "How old are you?",
+    "submissions": 3615,
+    "attempted": 1309,
+    "solved": 924,
+    "rateSubmit": 25.56,
+    "rateAttempt": 70.59,
+    "rateAll": 39.29
+   },
+   {
+    "pos": 3,
+    "uva": 1339,
+    "title": "Ancient Cipher",
+    "uvaTitle": null,
+    "submissions": 516,
+    "attempted": 428,
+    "solved": 352,
+    "rateSubmit": 68.22,
+    "rateAttempt": 82.24,
+    "rateAll": 14.97
+   },
+   {
+    "pos": 4,
+    "uva": 11957,
+    "title": "Checkers",
+    "uvaTitle": null,
+    "submissions": 304,
+    "attempted": 165,
+    "solved": 93,
+    "rateSubmit": 30.59,
+    "rateAttempt": 56.36,
+    "rateAll": 3.95
+   },
+   {
+    "pos": 5,
+    "uva": 815,
+    "title": "Flooded!",
+    "uvaTitle": null,
+    "submissions": 157,
+    "attempted": 80,
+    "solved": 50,
+    "rateSubmit": 31.85,
+    "rateAttempt": 62.5,
+    "rateAll": 2.13
+   },
+   {
+    "pos": 6,
+    "uva": 10397,
+    "title": "Connect the Campus",
+    "uvaTitle": null,
+    "submissions": 51,
+    "attempted": 39,
+    "solved": 23,
+    "rateSubmit": 45.1,
+    "rateAttempt": 58.97,
+    "rateAll": 0.98
+   },
+   {
+    "pos": 7,
+    "uva": 437,
+    "title": "The Tower of Babylon",
+    "uvaTitle": null,
+    "submissions": 54,
+    "attempted": 41,
+    "solved": 20,
+    "rateSubmit": 37.04,
+    "rateAttempt": 48.78,
+    "rateAll": 0.85
+   }
+  ]
+ },
+ {
+  "date": "2022-12-13",
+  "avgSolved": 1.38,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10931,
+    "title": "Parity",
+    "uvaTitle": null,
+    "submissions": 2668,
+    "attempted": 1915,
+    "solved": 1589,
+    "rateSubmit": 59.56,
+    "rateAttempt": 82.98,
+    "rateAll": 63.43
+   },
+   {
+    "pos": 2,
+    "uva": 10789,
+    "title": "Prime Frequency",
+    "uvaTitle": null,
+    "submissions": 1644,
+    "attempted": 1117,
+    "solved": 954,
+    "rateSubmit": 58.03,
+    "rateAttempt": 85.41,
+    "rateAll": 38.08
+   },
+   {
+    "pos": 3,
+    "uva": 10903,
+    "title": "Playing War",
+    "uvaTitle": "Rock-Paper-Scissors Tournament",
+    "submissions": 809,
+    "attempted": 604,
+    "solved": 512,
+    "rateSubmit": 63.29,
+    "rateAttempt": 84.77,
+    "rateAll": 20.44
+   },
+   {
+    "pos": 4,
+    "uva": 10336,
+    "title": "Rank the Languages",
+    "uvaTitle": null,
+    "submissions": 332,
+    "attempted": 242,
+    "solved": 204,
+    "rateSubmit": 61.45,
+    "rateAttempt": 84.3,
+    "rateAll": 8.14
+   },
+   {
+    "pos": 5,
+    "uva": 300,
+    "title": "Maya Calendar",
+    "uvaTitle": null,
+    "submissions": 203,
+    "attempted": 167,
+    "solved": 143,
+    "rateSubmit": 70.44,
+    "rateAttempt": 85.63,
+    "rateAll": 5.71
+   },
+   {
+    "pos": 6,
+    "uva": 11584,
+    "title": "Partitioning by Palindromes",
+    "uvaTitle": null,
+    "submissions": 94,
+    "attempted": 75,
+    "solved": 38,
+    "rateSubmit": 40.43,
+    "rateAttempt": 50.67,
+    "rateAll": 1.52
+   },
+   {
+    "pos": 7,
+    "uva": 10635,
+    "title": "The Art Gallery",
+    "uvaTitle": "Prince and Princess",
+    "submissions": 102,
+    "attempted": 62,
+    "solved": 26,
+    "rateSubmit": 25.49,
+    "rateAttempt": 41.94,
+    "rateAll": 1.04
+   }
+  ]
+ },
+ {
+  "date": "2023-03-21",
+  "avgSolved": 1.66,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10035,
+    "title": "Primary Arithmetic",
+    "uvaTitle": null,
+    "submissions": 4420,
+    "attempted": 2273,
+    "solved": 1918,
+    "rateSubmit": 43.39,
+    "rateAttempt": 84.38,
+    "rateAll": 68.23
+   },
+   {
+    "pos": 2,
+    "uva": 11824,
+    "title": "A Minimum Land Price",
+    "uvaTitle": null,
+    "submissions": 2896,
+    "attempted": 1511,
+    "solved": 1264,
+    "rateSubmit": 43.65,
+    "rateAttempt": 83.65,
+    "rateAll": 44.97
+   },
+   {
+    "pos": 3,
+    "uva": 13055,
+    "title": "Inception",
+    "uvaTitle": null,
+    "submissions": 1018,
+    "attempted": 934,
+    "solved": 877,
+    "rateSubmit": 86.15,
+    "rateAttempt": 93.9,
+    "rateAll": 31.2
+   },
+   {
+    "pos": 4,
+    "uva": 11240,
+    "title": "Antimonotonicity",
+    "uvaTitle": null,
+    "submissions": 407,
+    "attempted": 322,
+    "solved": 222,
+    "rateSubmit": 54.55,
+    "rateAttempt": 68.94,
+    "rateAll": 7.9
+   },
+   {
+    "pos": 5,
+    "uva": 160,
+    "title": "Factors and Factorials",
+    "uvaTitle": null,
+    "submissions": 441,
+    "attempted": 372,
+    "solved": 309,
+    "rateSubmit": 70.07,
+    "rateAttempt": 83.06,
+    "rateAll": 10.99
+   },
+   {
+    "pos": 6,
+    "uva": 1366,
+    "title": "Martian Mining",
+    "uvaTitle": null,
+    "submissions": 37,
+    "attempted": 36,
+    "solved": 18,
+    "rateSubmit": 48.65,
+    "rateAttempt": 50,
+    "rateAll": 0.64
+   },
+   {
+    "pos": 7,
+    "uva": 11624,
+    "title": "Fire!",
+    "uvaTitle": null,
+    "submissions": 176,
+    "attempted": 106,
+    "solved": 67,
+    "rateSubmit": 38.07,
+    "rateAttempt": 63.21,
+    "rateAll": 2.38
+   }
+  ]
+ },
+ {
+  "date": "2023-05-23",
+  "avgSolved": 1.62,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11934,
+    "title": "Magic Formula",
+    "uvaTitle": null,
+    "submissions": 2479,
+    "attempted": 2183,
+    "solved": 2053,
+    "rateSubmit": 82.82,
+    "rateAttempt": 94.04,
+    "rateAll": 77.82
+   },
+   {
+    "pos": 2,
+    "uva": 11349,
+    "title": "Symmetric Matrix",
+    "uvaTitle": null,
+    "submissions": 2538,
+    "attempted": 1349,
+    "solved": 1022,
+    "rateSubmit": 40.27,
+    "rateAttempt": 75.76,
+    "rateAll": 38.74
+   },
+   {
+    "pos": 3,
+    "uva": 834,
+    "title": "Continued Fractions",
+    "uvaTitle": null,
+    "submissions": 1477,
+    "attempted": 994,
+    "solved": 856,
+    "rateSubmit": 57.96,
+    "rateAttempt": 86.12,
+    "rateAll": 32.45
+   },
+   {
+    "pos": 4,
+    "uva": 12455,
+    "title": "Bars",
+    "uvaTitle": null,
+    "submissions": 465,
+    "attempted": 355,
+    "solved": 272,
+    "rateSubmit": 58.49,
+    "rateAttempt": 76.62,
+    "rateAll": 10.31
+   },
+   {
+    "pos": 5,
+    "uva": 512,
+    "title": "Spreadsheet Tracking",
+    "uvaTitle": null,
+    "submissions": 151,
+    "attempted": 86,
+    "solved": 48,
+    "rateSubmit": 31.79,
+    "rateAttempt": 55.81,
+    "rateAll": 1.82
+   },
+   {
+    "pos": 6,
+    "uva": 828,
+    "title": "Deciphering Messages",
+    "uvaTitle": null,
+    "submissions": 55,
+    "attempted": 42,
+    "solved": 30,
+    "rateSubmit": 54.55,
+    "rateAttempt": 71.43,
+    "rateAll": 1.14
+   },
+   {
+    "pos": 7,
+    "uva": 1714,
+    "title": "Keyboarding",
+    "uvaTitle": null,
+    "submissions": 11,
+    "attempted": 9,
+    "solved": 2,
+    "rateSubmit": 18.18,
+    "rateAttempt": 22.22,
+    "rateAll": 0.08
+   }
+  ]
+ },
+ {
+  "date": "2023-10-17",
+  "avgSolved": 0.6,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11576,
+    "title": "Scrolling Sign",
+    "uvaTitle": null,
+    "submissions": 1106,
+    "attempted": 779,
+    "solved": 443,
+    "rateSubmit": 40.05,
+    "rateAttempt": 56.87,
+    "rateAll": 17.91
+   },
+   {
+    "pos": 2,
+    "uva": 10093,
+    "title": "An Easy Problem!",
+    "uvaTitle": null,
+    "submissions": 1700,
+    "attempted": 788,
+    "solved": 315,
+    "rateSubmit": 18.53,
+    "rateAttempt": 39.97,
+    "rateAll": 12.73
+   },
+   {
+    "pos": 3,
+    "uva": 10161,
+    "title": "Ant on a Chessboard",
+    "uvaTitle": null,
+    "submissions": 1057,
+    "attempted": 795,
+    "solved": 583,
+    "rateSubmit": 55.16,
+    "rateAttempt": 73.33,
+    "rateAll": 23.57
+   },
+   {
+    "pos": 4,
+    "uva": 442,
+    "title": "Matrix Chain Multiplication",
+    "uvaTitle": null,
+    "submissions": 134,
+    "attempted": 132,
+    "solved": 105,
+    "rateSubmit": 78.36,
+    "rateAttempt": 79.55,
+    "rateAll": 4.24
+   },
+   {
+    "pos": 5,
+    "uva": 1193,
+    "title": "Radar Installation",
+    "uvaTitle": null,
+    "submissions": 63,
+    "attempted": 50,
+    "solved": 17,
+    "rateSubmit": 26.98,
+    "rateAttempt": 34,
+    "rateAll": 0.69
+   },
+   {
+    "pos": 6,
+    "uva": 10672,
+    "title": "Marbles on a tree",
+    "uvaTitle": null,
+    "submissions": 49,
+    "attempted": 40,
+    "solved": 20,
+    "rateSubmit": 40.82,
+    "rateAttempt": 50,
+    "rateAll": 0.81
+   },
+   {
+    "pos": 7,
+    "uva": 11175,
+    "title": "From D to E and Back",
+    "uvaTitle": null,
+    "submissions": 31,
+    "attempted": 25,
+    "solved": 4,
+    "rateSubmit": 12.9,
+    "rateAttempt": 16,
+    "rateAll": 0.16
+   }
+  ]
+ },
+ {
+  "date": "2023-12-12",
+  "avgSolved": 0.87,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 392,
+    "title": "Polynomial Showdown",
+    "uvaTitle": null,
+    "submissions": 2914,
+    "attempted": 1627,
+    "solved": 1224,
+    "rateSubmit": 42,
+    "rateAttempt": 75.23,
+    "rateAll": 46.31
+   },
+   {
+    "pos": 2,
+    "uva": 10443,
+    "title": "Rock, Scissors, Paper",
+    "uvaTitle": null,
+    "submissions": 542,
+    "attempted": 474,
+    "solved": 411,
+    "rateSubmit": 75.83,
+    "rateAttempt": 86.71,
+    "rateAll": 15.55
+   },
+   {
+    "pos": 3,
+    "uva": 10242,
+    "title": "Fourth Point!!",
+    "uvaTitle": null,
+    "submissions": 1451,
+    "attempted": 698,
+    "solved": 531,
+    "rateSubmit": 36.6,
+    "rateAttempt": 76.07,
+    "rateAll": 20.09
+   },
+   {
+    "pos": 4,
+    "uva": 12546,
+    "title": "LCM Pair Sum",
+    "uvaTitle": null,
+    "submissions": 108,
+    "attempted": 68,
+    "solved": 32,
+    "rateSubmit": 29.63,
+    "rateAttempt": 47.06,
+    "rateAll": 1.21
+   },
+   {
+    "pos": 5,
+    "uva": 11121,
+    "title": "Base -2",
+    "uvaTitle": null,
+    "submissions": 102,
+    "attempted": 89,
+    "solved": 55,
+    "rateSubmit": 53.92,
+    "rateAttempt": 61.8,
+    "rateAll": 2.08
+   },
+   {
+    "pos": 6,
+    "uva": 12428,
+    "title": "Enemy at the Gates",
+    "uvaTitle": null,
+    "submissions": 57,
+    "attempted": 46,
+    "solved": 29,
+    "rateSubmit": 50.88,
+    "rateAttempt": 63.04,
+    "rateAll": 1.1
+   },
+   {
+    "pos": 7,
+    "uva": 10721,
+    "title": "Bar Codes",
+    "uvaTitle": null,
+    "submissions": 48,
+    "attempted": 36,
+    "solved": 17,
+    "rateSubmit": 35.42,
+    "rateAttempt": 47.22,
+    "rateAll": 0.64
+   }
+  ]
+ },
+ {
+  "date": "2024-04-23",
+  "avgSolved": 1.26,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10041,
+    "title": "Vito's family",
+    "uvaTitle": null,
+    "submissions": 2774,
+    "attempted": 1645,
+    "solved": 1295,
+    "rateSubmit": 46.68,
+    "rateAttempt": 78.72,
+    "rateAll": 48.54
+   },
+   {
+    "pos": 2,
+    "uva": 573,
+    "title": "The Snail",
+    "uvaTitle": null,
+    "submissions": 1543,
+    "attempted": 1026,
+    "solved": 830,
+    "rateSubmit": 53.79,
+    "rateAttempt": 80.9,
+    "rateAll": 31.11
+   },
+   {
+    "pos": 3,
+    "uva": 11233,
+    "title": "Deli Deli",
+    "uvaTitle": null,
+    "submissions": 930,
+    "attempted": 730,
+    "solved": 688,
+    "rateSubmit": 73.98,
+    "rateAttempt": 94.25,
+    "rateAll": 25.79
+   },
+   {
+    "pos": 4,
+    "uva": 1118,
+    "title": "Binary Stirling Numbers",
+    "uvaTitle": null,
+    "submissions": 910,
+    "attempted": 356,
+    "solved": 227,
+    "rateSubmit": 24.95,
+    "rateAttempt": 63.76,
+    "rateAll": 8.51
+   },
+   {
+    "pos": 5,
+    "uva": 340,
+    "title": "Master-Mind Hints",
+    "uvaTitle": null,
+    "submissions": 209,
+    "attempted": 193,
+    "solved": 176,
+    "rateSubmit": 84.21,
+    "rateAttempt": 91.19,
+    "rateAll": 6.6
+   },
+   {
+    "pos": 6,
+    "uva": 580,
+    "title": "Critical Mass",
+    "uvaTitle": null,
+    "submissions": 168,
+    "attempted": 109,
+    "solved": 93,
+    "rateSubmit": 55.36,
+    "rateAttempt": 85.32,
+    "rateAll": 3.49
+   },
+   {
+    "pos": 7,
+    "uva": 10229,
+    "title": "Modular Fibonacci",
+    "uvaTitle": null,
+    "submissions": 533,
+    "attempted": 244,
+    "solved": 59,
+    "rateSubmit": 11.07,
+    "rateAttempt": 24.18,
+    "rateAll": 2.21
+   }
+  ]
+ },
+ {
+  "date": "2024-05-21",
+  "avgSolved": 1.16,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11634,
+    "title": "Generate random numbers",
+    "uvaTitle": null,
+    "submissions": 1202,
+    "attempted": 888,
+    "solved": 726,
+    "rateSubmit": 60.4,
+    "rateAttempt": 81.76,
+    "rateAll": 30.17
+   },
+   {
+    "pos": 2,
+    "uva": 12015,
+    "title": "Google is Feeling Lucky",
+    "uvaTitle": null,
+    "submissions": 1361,
+    "attempted": 1195,
+    "solved": 1105,
+    "rateSubmit": 81.19,
+    "rateAttempt": 92.47,
+    "rateAll": 45.93
+   },
+   {
+    "pos": 3,
+    "uva": 10908,
+    "title": "Largest Squares",
+    "uvaTitle": null,
+    "submissions": 1008,
+    "attempted": 646,
+    "solved": 529,
+    "rateSubmit": 52.48,
+    "rateAttempt": 81.89,
+    "rateAll": 21.99
+   },
+   {
+    "pos": 4,
+    "uva": 10858,
+    "title": "Unique Factorization",
+    "uvaTitle": null,
+    "submissions": 210,
+    "attempted": 111,
+    "solved": 60,
+    "rateSubmit": 28.57,
+    "rateAttempt": 54.05,
+    "rateAll": 2.49
+   },
+   {
+    "pos": 5,
+    "uva": 11518,
+    "title": "Dominos 2",
+    "uvaTitle": null,
+    "submissions": 512,
+    "attempted": 312,
+    "solved": 243,
+    "rateSubmit": 47.46,
+    "rateAttempt": 77.88,
+    "rateAll": 10.1
+   },
+   {
+    "pos": 6,
+    "uva": 941,
+    "title": "Permutations",
+    "uvaTitle": null,
+    "submissions": 217,
+    "attempted": 124,
+    "solved": 92,
+    "rateSubmit": 42.4,
+    "rateAttempt": 74.19,
+    "rateAll": 3.82
+   },
+   {
+    "pos": 7,
+    "uva": 1292,
+    "title": "Strategic game",
+    "uvaTitle": null,
+    "submissions": 175,
+    "attempted": 57,
+    "solved": 37,
+    "rateSubmit": 21.14,
+    "rateAttempt": 64.91,
+    "rateAll": 1.54
+   }
+  ]
+ },
+ {
+  "date": "2024-10-15",
+  "avgSolved": 1.11,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10008,
+    "title": "What's Cryptanalysis?",
+    "uvaTitle": null,
+    "submissions": 1504,
+    "attempted": 1249,
+    "solved": 1110,
+    "rateSubmit": 73.8,
+    "rateAttempt": 88.87,
+    "rateAll": 42.92
+   },
+   {
+    "pos": 2,
+    "uva": 10107,
+    "title": "What is the Median?",
+    "uvaTitle": null,
+    "submissions": 2613,
+    "attempted": 1412,
+    "solved": 1082,
+    "rateSubmit": 41.41,
+    "rateAttempt": 76.63,
+    "rateAll": 41.84
+   },
+   {
+    "pos": 3,
+    "uva": 10110,
+    "title": "Light, more light",
+    "uvaTitle": null,
+    "submissions": 1359,
+    "attempted": 805,
+    "solved": 533,
+    "rateSubmit": 39.22,
+    "rateAttempt": 66.21,
+    "rateAll": 20.61
+   },
+   {
+    "pos": 4,
+    "uva": 10539,
+    "title": "Almost Prime Numbers",
+    "uvaTitle": null,
+    "submissions": 531,
+    "attempted": 288,
+    "solved": 123,
+    "rateSubmit": 23.16,
+    "rateAttempt": 42.71,
+    "rateAll": 4.76
+   },
+   {
+    "pos": 5,
+    "uva": 10355,
+    "title": "Superman",
+    "uvaTitle": null,
+    "submissions": 153,
+    "attempted": 57,
+    "solved": 16,
+    "rateSubmit": 10.46,
+    "rateAttempt": 28.07,
+    "rateAll": 0.62
+   },
+   {
+    "pos": 6,
+    "uva": 12882,
+    "title": "City Park",
+    "uvaTitle": null,
+    "submissions": 283,
+    "attempted": 75,
+    "solved": 3,
+    "rateSubmit": 1.06,
+    "rateAttempt": 4,
+    "rateAll": 0.12
+   },
+   {
+    "pos": 7,
+    "uva": 1371,
+    "title": "Period",
+    "uvaTitle": null,
+    "submissions": 33,
+    "attempted": 23,
+    "solved": 0,
+    "rateSubmit": 0,
+    "rateAttempt": 0,
+    "rateAll": 0
+   }
+  ]
+ },
+ {
+  "date": "2024-12-10",
+  "avgSolved": 1.55,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 12250,
+    "title": "Language Detection",
+    "uvaTitle": null,
+    "submissions": 3323,
+    "attempted": 1911,
+    "solved": 1648,
+    "rateSubmit": 49.59,
+    "rateAttempt": 86.24,
+    "rateAll": 67.38
+   },
+   {
+    "pos": 2,
+    "uva": 382,
+    "title": "Perfection",
+    "uvaTitle": null,
+    "submissions": 1827,
+    "attempted": 1556,
+    "solved": 1462,
+    "rateSubmit": 80.02,
+    "rateAttempt": 93.96,
+    "rateAll": 59.77
+   },
+   {
+    "pos": 3,
+    "uva": 10268,
+    "title": "498-bis",
+    "uvaTitle": null,
+    "submissions": 845,
+    "attempted": 634,
+    "solved": 552,
+    "rateSubmit": 65.33,
+    "rateAttempt": 87.07,
+    "rateAll": 22.57
+   },
+   {
+    "pos": 4,
+    "uva": 10273,
+    "title": "Eat or Not to Eat?",
+    "uvaTitle": null,
+    "submissions": 829,
+    "attempted": 211,
+    "solved": 102,
+    "rateSubmit": 12.3,
+    "rateAttempt": 48.34,
+    "rateAll": 4.17
+   },
+   {
+    "pos": 5,
+    "uva": 10150,
+    "title": "Doublets",
+    "uvaTitle": null,
+    "submissions": 124,
+    "attempted": 45,
+    "solved": 10,
+    "rateSubmit": 8.06,
+    "rateAttempt": 22.22,
+    "rateAll": 0.41
+   },
+   {
+    "pos": 6,
+    "uva": 10626,
+    "title": "Buying Coke",
+    "uvaTitle": null,
+    "submissions": 818,
+    "attempted": 254,
+    "solved": 23,
+    "rateSubmit": 2.81,
+    "rateAttempt": 9.06,
+    "rateAll": 0.94
+   },
+   {
+    "pos": 7,
+    "uva": 1657,
+    "title": "Game",
+    "uvaTitle": null,
+    "submissions": 14,
+    "attempted": 12,
+    "solved": 2,
+    "rateSubmit": 14.29,
+    "rateAttempt": 16.67,
+    "rateAll": 0.08
+   }
+  ]
+ },
+ {
+  "date": "2025-03-25",
+  "avgSolved": 1.5,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11461,
+    "title": "Square Numbers",
+    "uvaTitle": null,
+    "submissions": 4503,
+    "attempted": 2364,
+    "solved": 1963,
+    "rateSubmit": 43.59,
+    "rateAttempt": 83.04,
+    "rateAll": 71.93
+   },
+   {
+    "pos": 2,
+    "uva": 10327,
+    "title": "Flip Sort",
+    "uvaTitle": null,
+    "submissions": 2253,
+    "attempted": 1634,
+    "solved": 1458,
+    "rateSubmit": 64.71,
+    "rateAttempt": 89.23,
+    "rateAll": 53.43
+   },
+   {
+    "pos": 3,
+    "uva": 10815,
+    "title": "Andy’s First Dictionary",
+    "uvaTitle": null,
+    "submissions": 881,
+    "attempted": 581,
+    "solved": 441,
+    "rateSubmit": 50.06,
+    "rateAttempt": 75.9,
+    "rateAll": 16.16
+   },
+   {
+    "pos": 4,
+    "uva": 13242,
+    "title": "Pool Filling",
+    "uvaTitle": null,
+    "submissions": 633,
+    "attempted": 180,
+    "solved": 85,
+    "rateSubmit": 13.43,
+    "rateAttempt": 47.22,
+    "rateAll": 3.11
+   },
+   {
+    "pos": 5,
+    "uva": 12442,
+    "title": "Forwarding Emails",
+    "uvaTitle": null,
+    "submissions": 249,
+    "attempted": 186,
+    "solved": 124,
+    "rateSubmit": 49.8,
+    "rateAttempt": 66.67,
+    "rateAll": 4.54
+   },
+   {
+    "pos": 6,
+    "uva": 10690,
+    "title": "Expression Again",
+    "uvaTitle": null,
+    "submissions": 125,
+    "attempted": 53,
+    "solved": 10,
+    "rateSubmit": 8,
+    "rateAttempt": 18.87,
+    "rateAll": 0.37
+   },
+   {
+    "pos": 7,
+    "uva": 13204,
+    "title": "Count these Permutations",
+    "uvaTitle": null,
+    "submissions": 97,
+    "attempted": 64,
+    "solved": 21,
+    "rateSubmit": 21.65,
+    "rateAttempt": 32.81,
+    "rateAll": 0.77
+   }
+  ]
+ },
+ {
+  "date": "2025-05-20",
+  "avgSolved": 1.2,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11063,
+    "title": "B2-sequence",
+    "uvaTitle": null,
+    "submissions": 4174,
+    "attempted": 1745,
+    "solved": 1143,
+    "rateSubmit": 27.38,
+    "rateAttempt": 65.5,
+    "rateAll": 45.45
+   },
+   {
+    "pos": 2,
+    "uva": 541,
+    "title": "Error Correction",
+    "uvaTitle": null,
+    "submissions": 1065,
+    "attempted": 940,
+    "solved": 848,
+    "rateSubmit": 79.62,
+    "rateAttempt": 90.21,
+    "rateAll": 33.72
+   },
+   {
+    "pos": 3,
+    "uva": 441,
+    "title": "Lotto",
+    "uvaTitle": null,
+    "submissions": 404,
+    "attempted": 372,
+    "solved": 342,
+    "rateSubmit": 84.65,
+    "rateAttempt": 91.94,
+    "rateAll": 13.6
+   },
+   {
+    "pos": 4,
+    "uva": 543,
+    "title": "Goldbach’s Conjecture",
+    "uvaTitle": null,
+    "submissions": 843,
+    "attempted": 638,
+    "solved": 525,
+    "rateSubmit": 62.28,
+    "rateAttempt": 82.29,
+    "rateAll": 20.87
+   },
+   {
+    "pos": 5,
+    "uva": 357,
+    "title": "Let Me Count The Ways",
+    "uvaTitle": null,
+    "submissions": 385,
+    "attempted": 203,
+    "solved": 110,
+    "rateSubmit": 28.57,
+    "rateAttempt": 54.19,
+    "rateAll": 4.37
+   },
+   {
+    "pos": 6,
+    "uva": 10740,
+    "title": "First Love!!!",
+    "uvaTitle": "Not the Best",
+    "submissions": 151,
+    "attempted": 63,
+    "solved": 32,
+    "rateSubmit": 21.19,
+    "rateAttempt": 50.79,
+    "rateAll": 1.27
+   },
+   {
+    "pos": 7,
+    "uva": 1234,
+    "title": "RACING",
+    "uvaTitle": null,
+    "submissions": 65,
+    "attempted": 35,
+    "solved": 20,
+    "rateSubmit": 30.77,
+    "rateAttempt": 57.14,
+    "rateAll": 0.8
+   }
+  ]
+ },
+ {
+  "date": "2025-09-30",
+  "avgSolved": 1.31,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 100,
+    "title": "The 3n + 1 problem",
+    "uvaTitle": null,
+    "submissions": 3206,
+    "attempted": 1714,
+    "solved": 1466,
+    "rateSubmit": 45.73,
+    "rateAttempt": 85.53,
+    "rateAll": 59.11
+   },
+   {
+    "pos": 2,
+    "uva": 483,
+    "title": "Word Scramble",
+    "uvaTitle": null,
+    "submissions": 1417,
+    "attempted": 1130,
+    "solved": 986,
+    "rateSubmit": 69.58,
+    "rateAttempt": 87.26,
+    "rateAll": 39.76
+   },
+   {
+    "pos": 3,
+    "uva": 673,
+    "title": "Parentheses Balance",
+    "uvaTitle": null,
+    "submissions": 2726,
+    "attempted": 975,
+    "solved": 556,
+    "rateSubmit": 20.4,
+    "rateAttempt": 57.03,
+    "rateAll": 22.42
+   },
+   {
+    "pos": 4,
+    "uva": 417,
+    "title": "Word Index",
+    "uvaTitle": null,
+    "submissions": 278,
+    "attempted": 207,
+    "solved": 153,
+    "rateSubmit": 55.04,
+    "rateAttempt": 73.91,
+    "rateAll": 6.17
+   },
+   {
+    "pos": 5,
+    "uva": 907,
+    "title": "Winterim Backpacking Trip",
+    "uvaTitle": null,
+    "submissions": 200,
+    "attempted": 97,
+    "solved": 54,
+    "rateSubmit": 27,
+    "rateAttempt": 55.67,
+    "rateAll": 2.18
+   },
+   {
+    "pos": 6,
+    "uva": 111,
+    "title": "History Grading",
+    "uvaTitle": null,
+    "submissions": 45,
+    "attempted": 32,
+    "solved": 21,
+    "rateSubmit": 46.67,
+    "rateAttempt": 65.63,
+    "rateAll": 0.85
+   },
+   {
+    "pos": 7,
+    "uva": 13211,
+    "title": "Geonosis",
+    "uvaTitle": null,
+    "submissions": 31,
+    "attempted": 20,
+    "solved": 4,
+    "rateSubmit": 12.9,
+    "rateAttempt": 20,
+    "rateAll": 0.16
+   }
+  ]
+ },
+ {
+  "date": "2025-12-09",
+  "avgSolved": 1.08,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10079,
+    "title": "Pizza Cutting",
+    "uvaTitle": null,
+    "submissions": 3623,
+    "attempted": 1776,
+    "solved": 1409,
+    "rateSubmit": 38.89,
+    "rateAttempt": 79.34,
+    "rateAll": 59.28
+   },
+   {
+    "pos": 2,
+    "uva": 11321,
+    "title": "Sort! Sort!! And Sort!!!",
+    "uvaTitle": null,
+    "submissions": 1610,
+    "attempted": 809,
+    "solved": 534,
+    "rateSubmit": 33.17,
+    "rateAttempt": 66.01,
+    "rateAll": 22.47
+   },
+   {
+    "pos": 3,
+    "uva": 706,
+    "title": "LC-Display",
+    "uvaTitle": null,
+    "submissions": 419,
+    "attempted": 380,
+    "solved": 327,
+    "rateSubmit": 78.04,
+    "rateAttempt": 86.05,
+    "rateAll": 13.76
+   },
+   {
+    "pos": 4,
+    "uva": 1203,
+    "title": "Argus",
+    "uvaTitle": null,
+    "submissions": 238,
+    "attempted": 188,
+    "solved": 157,
+    "rateSubmit": 65.97,
+    "rateAttempt": 83.51,
+    "rateAll": 6.6
+   },
+   {
+    "pos": 5,
+    "uva": 10405,
+    "title": "Jolly Jumpers",
+    "uvaTitle": "Longest Common Subsequence",
+    "submissions": 526,
+    "attempted": 177,
+    "solved": 109,
+    "rateSubmit": 20.72,
+    "rateAttempt": 61.58,
+    "rateAll": 4.59
+   },
+   {
+    "pos": 6,
+    "uva": 11806,
+    "title": "Cheerleaders",
+    "uvaTitle": null,
+    "submissions": 51,
+    "attempted": 25,
+    "solved": 5,
+    "rateSubmit": 9.8,
+    "rateAttempt": 20,
+    "rateAll": 0.21
+   },
+   {
+    "pos": 7,
+    "uva": 1660,
+    "title": "Cable TV Network",
+    "uvaTitle": null,
+    "submissions": 38,
+    "attempted": 31,
+    "solved": 16,
+    "rateSubmit": 42.11,
+    "rateAttempt": 51.61,
+    "rateAll": 0.67
+   }
+  ]
+ },
+ {
+  "date": "2026-03-24",
+  "avgSolved": 0.65,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10591,
+    "title": "Happy Number",
+    "uvaTitle": null,
+    "submissions": 2792,
+    "attempted": 1410,
+    "solved": 898,
+    "rateSubmit": 32.16,
+    "rateAttempt": 63.69,
+    "rateAll": 32.8
+   },
+   {
+    "pos": 2,
+    "uva": 10010,
+    "title": "Where's Waldorf?",
+    "uvaTitle": null,
+    "submissions": 414,
+    "attempted": 291,
+    "solved": 223,
+    "rateSubmit": 53.86,
+    "rateAttempt": 76.63,
+    "rateAll": 8.14
+   },
+   {
+    "pos": 3,
+    "uva": 10226,
+    "title": "Hardwood Species",
+    "uvaTitle": null,
+    "submissions": 1076,
+    "attempted": 522,
+    "solved": 415,
+    "rateSubmit": 38.57,
+    "rateAttempt": 79.5,
+    "rateAll": 15.16
+   },
+   {
+    "pos": 4,
+    "uva": 10365,
+    "title": "Blocks",
+    "uvaTitle": null,
+    "submissions": 265,
+    "attempted": 182,
+    "solved": 119,
+    "rateSubmit": 44.91,
+    "rateAttempt": 65.38,
+    "rateAll": 4.35
+   },
+   {
+    "pos": 5,
+    "uva": 11039,
+    "title": "Building designing",
+    "uvaTitle": null,
+    "submissions": 339,
+    "attempted": 136,
+    "solved": 86,
+    "rateSubmit": 25.37,
+    "rateAttempt": 63.24,
+    "rateAll": 3.14
+   },
+   {
+    "pos": 6,
+    "uva": 11526,
+    "title": "H(n)",
+    "uvaTitle": null,
+    "submissions": 3034,
+    "attempted": 723,
+    "solved": 30,
+    "rateSubmit": 0.99,
+    "rateAttempt": 4.15,
+    "rateAll": 1.1
+   },
+   {
+    "pos": 7,
+    "uva": 12063,
+    "title": "Zeros and Ones",
+    "uvaTitle": null,
+    "submissions": 27,
+    "attempted": 23,
+    "solved": 9,
+    "rateSubmit": 33.33,
+    "rateAttempt": 39.13,
+    "rateAll": 0.33
+   }
+  ]
+ },
+ {
+  "date": "2026-05-26",
+  "avgSolved": 0.75,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 11639,
+    "title": "Guard the Land",
+    "uvaTitle": null,
+    "submissions": 3586,
+    "attempted": 1620,
+    "solved": 786,
+    "rateSubmit": 21.92,
+    "rateAttempt": 48.52,
+    "rateAll": 29.69
+   },
+   {
+    "pos": 2,
+    "uva": 10189,
+    "title": "Minesweeper",
+    "uvaTitle": null,
+    "submissions": 1466,
+    "attempted": 998,
+    "solved": 865,
+    "rateSubmit": 59,
+    "rateAttempt": 86.67,
+    "rateAll": 32.68
+   },
+   {
+    "pos": 3,
+    "uva": 11956,
+    "title": "Brainfuck",
+    "uvaTitle": null,
+    "submissions": 386,
+    "attempted": 279,
+    "solved": 233,
+    "rateSubmit": 60.36,
+    "rateAttempt": 83.51,
+    "rateAll": 8.8
+   },
+   {
+    "pos": 4,
+    "uva": 665,
+    "title": "False coin",
+    "uvaTitle": null,
+    "submissions": 331,
+    "attempted": 119,
+    "solved": 31,
+    "rateSubmit": 9.37,
+    "rateAttempt": 26.05,
+    "rateAll": 1.17
+   },
+   {
+    "pos": 5,
+    "uva": 1062,
+    "title": "Containers",
+    "uvaTitle": null,
+    "submissions": 86,
+    "attempted": 75,
+    "solved": 50,
+    "rateSubmit": 58.14,
+    "rateAttempt": 66.67,
+    "rateAll": 1.89
+   },
+   {
+    "pos": 6,
+    "uva": 297,
+    "title": "Quadtrees",
+    "uvaTitle": null,
+    "submissions": 28,
+    "attempted": 23,
+    "solved": 9,
+    "rateSubmit": 32.14,
+    "rateAttempt": 39.13,
+    "rateAll": 0.34
+   },
+   {
+    "pos": 7,
+    "uva": 11481,
+    "title": "Square Sums",
+    "uvaTitle": null,
+    "submissions": 113,
+    "attempted": 67,
+    "solved": 9,
+    "rateSubmit": 7.96,
+    "rateAttempt": 13.43,
+    "rateAll": 0.34
+   }
+  ]
+ },
+ {
+  "date": "2026-10-06",
+  "avgSolved": 1.44,
+  "problems": [
+   {
+    "pos": 1,
+    "uva": 10696,
+    "title": "f91",
+    "uvaTitle": null,
+    "submissions": 2970,
+    "attempted": 2140,
+    "solved": 1956,
+    "rateSubmit": 65.86,
+    "rateAttempt": 91.4,
+    "rateAll": 80.16
+   },
+   {
+    "pos": 2,
+    "uva": 10252,
+    "title": "Common Permutation",
+    "uvaTitle": null,
+    "submissions": 2089,
+    "attempted": 1083,
+    "solved": 805,
+    "rateSubmit": 38.54,
+    "rateAttempt": 74.33,
+    "rateAll": 32.99
+   },
+   {
+    "pos": 3,
+    "uva": 10935,
+    "title": "Even Parity",
+    "uvaTitle": "Throwing cards away I",
+    "submissions": 882,
+    "attempted": 751,
+    "solved": 695,
+    "rateSubmit": 78.8,
+    "rateAttempt": 92.54,
+    "rateAll": 28.48
+   },
+   {
+    "pos": 4,
+    "uva": 10665,
+    "title": "Highways",
+    "uvaTitle": null,
+    "submissions": 120,
+    "attempted": 60,
+    "solved": 13,
+    "rateSubmit": 10.83,
+    "rateAttempt": 21.67,
+    "rateAll": 0.53
+   },
+   {
+    "pos": 5,
+    "uva": 10125,
+    "title": "Sumsets",
+    "uvaTitle": null,
+    "submissions": 823,
+    "attempted": 232,
+    "solved": 34,
+    "rateSubmit": 4.13,
+    "rateAttempt": 14.66,
+    "rateAll": 1.39
+   },
+   {
+    "pos": 6,
+    "uva": 10436,
+    "title": "Dog and Gopher",
+    "uvaTitle": "Cheapest way",
+    "submissions": 37,
+    "attempted": 22,
+    "solved": 11,
+    "rateSubmit": 29.73,
+    "rateAttempt": 50,
+    "rateAll": 0.45
+   },
+   {
+    "pos": 7,
+    "uva": 10154,
+    "title": "Weights and Measures",
+    "uvaTitle": null,
+    "submissions": 265,
+    "attempted": 54,
+    "solved": 8,
+    "rateSubmit": 3.02,
+    "rateAttempt": 14.81,
+    "rateAll": 0.33
+   }
+  ]
+ }
+]

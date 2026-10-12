@@ -18,9 +18,8 @@ export function PdfStatement({ problemId, fallbackHtml }: { problemId: string; f
   const pages = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    // 每個解題視窗只顯示一題，problemId 不會改變，所以不需要重設狀態
     let alive = true
-    setDoc(null)
-    setError(null)
     api
       .problemPdf(problemId)
       .then((buf) => pdfjs.getDocument({ data: new Uint8Array(buf) }).promise)

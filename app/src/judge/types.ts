@@ -100,6 +100,13 @@ export interface Exam {
   problems: ExamProblem[]
   submissions: Submission[]
   endedAtMs: number | null
+  /** 預約考卷的名稱（考古題、預測卷） */
+  title: string | null
+}
+
+export interface PlannedExam {
+  title: string
+  problemIds: string[]
 }
 
 export interface PracticeRecord {
@@ -113,6 +120,7 @@ export interface Session {
   examinee: Examinee | null
   exam: Exam | null
   practice: Record<string, PracticeRecord>
+  planned: PlannedExam | null
 }
 
 export interface SessionView {

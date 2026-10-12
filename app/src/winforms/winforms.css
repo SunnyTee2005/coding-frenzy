@@ -489,3 +489,35 @@ body,
   background: var(--wf-highlight);
   color: #fff;
 }
+
+/* ───────── TabControl ───────── */
+
+.wf-tabstrip {
+  flex: none;
+  display: flex;
+  gap: 2px;
+  padding: 4px 6px 0;
+  background: var(--wf-control);
+  border-bottom: 1px solid #898c95;
+}
+
+.wf-tab {
+  padding: 3px 12px 4px;
+  margin-bottom: -1px;
+  border: 1px solid #898c95;
+  border-radius: 3px 3px 0 0;
+  background: linear-gradient(#f2f2f2, #dedede);
+  cursor: default;
+}
+
+.wf-tab:hover {
+  background: linear-gradient(#eaf6fd, #d0ecfb);
+}
+
+.wf-tab.active {
+  position: relative;
+  background: #fff;
+  border-bottom-color: #fff;
+  padding-top: 5px;
+  margin-top: -2px;
+}

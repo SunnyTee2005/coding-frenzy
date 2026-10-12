@@ -35,7 +35,7 @@ function load(): Store {
   } catch {
     // localStorage 不可用時用預設值
   }
-  return { session: { phase: 'license', examinee: null, exam: null, practice: {} }, drafts: {}, saves: [] }
+  return { session: { phase: 'license', examinee: null, exam: null, practice: {}, planned: null }, drafts: {}, saves: [] }
 }
 
 const listeners = new Set<(s: Session) => void>()
@@ -141,14 +141,24 @@ export const mockBackend: Backend = {
     const store = load()
     store.session.phase = 'exam'
     store.session.examinee = { idNo, ticket, name: '模擬考生', authCode: String(Date.now() % 1000000).padStart(6, '0') }
+    const planned = store.session.planned
+    const ids = planned ? planned.problemIds : problemIds
+    store.session.planned = null
     store.session.exam = {
       code: '00A',
       startedAtMs: Date.now(),
       durationMs: 3 * 3600 * 1000,
-      problems: problemIds.map((problemId, i) => ({ label: `00A${i + 1}`, problemId })),
+      problems: ids.map((problemId, i) => ({ label: `00A${i + 1}`, problemId })),
       submissions: [],
       endedAtMs: null,
+      title: planned?.title ?? null,
     }
+    save(store)
+    return delay(undefined, 0)
+  },
+  sessionPlanExam: (title, problemIds) => {
+    const store = load()
+    store.session = { phase: 'login', examinee: null, exam: null, practice: store.session.practice, planned: { title, problemIds } }
     save(store)
     return delay(undefined, 0)
   },
@@ -160,7 +170,7 @@ export const mockBackend: Backend = {
   },
   sessionReset: () => {
     const store = load()
-    store.session = { phase: 'license', examinee: null, exam: null, practice: store.session.practice }
+    store.session = { phase: 'license', examinee: null, exam: null, practice: store.session.practice, planned: null }
     save(store)
     return delay(undefined, 0)
   },

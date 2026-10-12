@@ -9,6 +9,8 @@ export default defineConfig({
     port: 1420,
     strictPort: true,
     watch: { ignored: ['**/src-tauri/**'] },
+    // 考古題統計與題型標籤放在 repo 根目錄的 data/
+    fs: { allow: ['..'] },
   },
   test: {
     environment: 'node',
