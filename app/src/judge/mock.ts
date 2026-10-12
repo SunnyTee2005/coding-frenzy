@@ -102,6 +102,7 @@ export const mockBackend: Backend = {
     ]),
   problems: () => delay(PROBLEMS.map((p) => p.meta)),
   problem: (id) => delay(PROBLEMS.find((p) => p.meta.id === id) ?? PROBLEMS[0]),
+  problemPdf: () => Promise.reject('瀏覽器 mock 不提供題目 PDF'),
   runTests: (_id, _lang, source) => delay(fakeRun(source, '1 2\n'), 400),
   runCustom: (_id, _lang, source, input) => delay(fakeRun(source, input), 400),
   formalJudge: (mode, id, _lang, source) => {

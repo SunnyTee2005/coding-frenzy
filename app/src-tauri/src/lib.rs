@@ -4,6 +4,7 @@
 //! 考試狀態有變動時廣播 `session-changed`，讓所有視窗同步。
 
 mod session;
+mod statements;
 
 use cpe_judge::{
     builtin_languages, list_problems, load_problem, load_tests, toolchain, Compiled, JudgeEnv, Language,
@@ -11,6 +12,7 @@ use cpe_judge::{
 };
 use serde::{Deserialize, Serialize};
 use session::{now_ms, CodeDraft, Examinee, SavedCode, Session, Store};
+use statements::StatementCache;
 use std::collections::HashMap;
 use std::path::PathBuf;
 use std::sync::{Arc, Mutex};
@@ -21,6 +23,7 @@ struct AppState {
     problems_dir: PathBuf,
     env: JudgeEnv,
     store: Store,
+    statements: StatementCache,
     session: Mutex<Session>,
     /// 編譯好的標準解，用來產生自訂測資的「正確輸出串」。
     reference: Mutex<HashMap<String, Arc<Compiled>>>,
@@ -105,6 +108,19 @@ struct ProblemDetail {
 fn problem(state: State<'_, AppState>, id: String) -> CmdResult<ProblemDetail> {
     let p = load_problem(&problem_dir(&state, &id)?).map_err(err)?;
     Ok(ProblemDetail { meta: p.meta, statement: p.statement })
+}
+
+/// 題目原文 PDF（和考場一樣直接顯示）。回傳原始 bytes，前端用 pdf.js 繪製。
+#[tauri::command]
+async fn problem_pdf(app: AppHandle, id: String) -> CmdResult<tauri::ipc::Response> {
+    blocking(move || {
+        let state = app.state::<AppState>();
+        let p = load_problem(&problem_dir(&state, &id)?).map_err(err)?;
+        let uva = p.meta.uva.ok_or("這一題沒有 UVa 編號")?;
+        let bytes = state.statements.get(uva, &statements::default_sources(uva))?;
+        Ok(tauri::ipc::Response::new(bytes))
+    })
+    .await
 }
 
 // ───────────── 測試與評判 ─────────────
@@ -402,7 +418,9 @@ pub fn run() {
     tauri::Builder::default()
         .setup(|app| {
             let resources = app.path().resource_dir()?;
-            let store = Store::new(app.path().app_data_dir()?)?;
+            let data_dir = app.path().app_data_dir()?;
+            let store = Store::new(data_dir.clone())?;
+            let statements = StatementCache::new(data_dir.join("statements"))?;
             let session = store.load_session();
             app.manage(AppState {
                 problems_dir: resources.join("problems"),
@@ -412,6 +430,7 @@ pub fn run() {
                     compile_timeout: Duration::from_secs(30),
                 },
                 store,
+                statements,
                 session: Mutex::new(session),
                 reference: Mutex::new(HashMap::new()),
             });
@@ -423,6 +442,7 @@ pub fn run() {
             languages,
             problems,
             problem,
+            problem_pdf,
             run_tests,
             run_custom,
             formal_judge,

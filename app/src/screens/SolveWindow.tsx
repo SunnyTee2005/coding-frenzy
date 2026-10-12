@@ -12,6 +12,7 @@ import { useDialogs } from '../winforms/Dialogs'
 import { DockPane, Splitter } from '../winforms/Dock'
 import { CodeEditor } from '../editor/CodeEditor'
 import { BuildPanel, type JudgeBadge } from './solve/BuildPanel'
+import { PdfStatement } from './solve/PdfStatement'
 
 export function SolveWindow({ mode, problemId }: { mode: Mode | 'view'; problemId: string }) {
   const [problem, setProblem] = useState<ProblemDetail | null>(null)
@@ -23,8 +24,8 @@ export function SolveWindow({ mode, problemId }: { mode: Mode | 'view'; problemI
   return <Solver mode={mode} problem={problem} />
 }
 
-function Statement({ html }: { html: string }) {
-  return <div className="uva-statement" dangerouslySetInnerHTML={{ __html: html }} />
+function Statement({ problem }: { problem: ProblemDetail }) {
+  return <PdfStatement problemId={problem.meta.id} fallbackHtml={problem.statement} />
 }
 
 /** 「看題」：只看題文，不開編輯器。 */
@@ -32,7 +33,7 @@ function StatementOnly({ problem }: { problem: ProblemDetail }) {
   return (
     <Window title={`UVA${problem.meta.uva ?? problem.meta.id} ${problem.meta.title}`}>
       <div className="ie-page">
-        <Statement html={problem.statement} />
+        <Statement problem={problem} />
       </div>
     </Window>
   )
@@ -375,7 +376,7 @@ function Solver({ mode, problem }: { mode: Mode; problem: ProblemDetail }) {
           {show.statement && (
             <>
               <DockPane title="題文" onClose={() => toggle('statement', false)} style={{ height: statementH, flex: 'none' }}>
-                <Statement html={problem.statement} />
+                <Statement problem={problem} />
               </DockPane>
               <Splitter direction="h" onDrag={(d) => setStatementH((h) => Math.max(60, h + d))} />
             </>

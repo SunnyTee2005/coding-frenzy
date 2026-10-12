@@ -21,6 +21,7 @@
     "@lezer/highlight": "^1.2.5",
     "@tauri-apps/api": "^2.12.3",
     "codemirror": "^6.0.2",
+    "pdfjs-dist": "^4.10.38",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

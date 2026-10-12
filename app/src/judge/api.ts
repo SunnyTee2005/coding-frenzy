@@ -26,6 +26,8 @@ export interface Backend {
   languages(): Promise<Language[]>
   problems(): Promise<ProblemMeta[]>
   problem(id: string): Promise<ProblemDetail>
+  /** 題目原文 PDF 的 bytes */
+  problemPdf(id: string): Promise<ArrayBuffer>
   runTests(id: string, lang: string, source: string, set: TestSet): Promise<TestRun>
   runCustom(id: string, lang: string, source: string, input: string): Promise<TestRun>
   formalJudge(mode: Mode, id: string, lang: string, source: string): Promise<FormalResult>
@@ -52,6 +54,7 @@ const tauriBackend: Backend = {
   languages: () => invoke('languages'),
   problems: () => invoke('problems'),
   problem: (id) => invoke('problem', { id }),
+  problemPdf: (id) => invoke<ArrayBuffer>('problem_pdf', { id }),
   runTests: (id, lang, source, set) => invoke('run_tests', { id, lang, source, set }),
   runCustom: (id, lang, source, input) => invoke('run_custom', { id, lang, source, input }),
   formalJudge: (mode, id, lang, source) => invoke('formal_judge', { mode, id, lang, source }),
