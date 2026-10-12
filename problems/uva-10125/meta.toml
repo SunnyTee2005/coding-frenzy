@@ -1,0 +1,9 @@
+id = "10125"
+title = "Sumsets"
+stars = 3
+time_limit = 3.0
+uva = 10125
+
+[tests]
+public = 3
+hidden = 10

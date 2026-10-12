@@ -1,0 +1,9 @@
+id = "10229"
+title = "Modular Fibonacci"
+stars = 3
+time_limit = 3.0
+uva = 10229
+
+[tests]
+public = 3
+hidden = 10

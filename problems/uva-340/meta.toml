@@ -1,0 +1,9 @@
+id = "340"
+title = "Master-Mind Hints"
+stars = 2
+time_limit = 3.0
+uva = 340
+
+[tests]
+public = 3
+hidden = 10

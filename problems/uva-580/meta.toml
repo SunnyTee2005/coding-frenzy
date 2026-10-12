@@ -1,0 +1,9 @@
+id = "580"
+title = "Critical Mass"
+stars = 2
+time_limit = 3.0
+uva = 580
+
+[tests]
+public = 3
+hidden = 10

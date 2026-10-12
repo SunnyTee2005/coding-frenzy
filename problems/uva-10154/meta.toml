@@ -1,0 +1,9 @@
+id = "10154"
+title = "Weights and Measures"
+stars = 3
+time_limit = 3.0
+uva = 10154
+
+[tests]
+public = 3
+hidden = 10
