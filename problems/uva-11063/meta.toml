@@ -1,0 +1,9 @@
+id = "11063"
+title = "B2-Sequence"
+stars = 1
+time_limit = 3.0
+uva = 11063
+
+[tests]
+public = 3
+hidden = 10

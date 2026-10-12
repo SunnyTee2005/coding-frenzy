@@ -1,0 +1,9 @@
+id = "382"
+title = "Perfection"
+stars = 1
+time_limit = 3.0
+uva = 382
+
+[tests]
+public = 3
+hidden = 10

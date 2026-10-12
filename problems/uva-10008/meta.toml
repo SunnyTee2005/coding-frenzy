@@ -1,0 +1,9 @@
+id = "10008"
+title = "What's Cryptanalysis?"
+stars = 1
+time_limit = 3.0
+uva = 10008
+
+[tests]
+public = 3
+hidden = 10
