@@ -1,0 +1,12 @@
+"""UVa 10079 測資：python3 gen.py <public|hidden> <編號>，輸入寫到 stdout。"""
+import random
+import sys
+
+kind, k = sys.argv[1], int(sys.argv[2])
+rng = random.Random(f"10079-{kind}-{k}")
+out = sys.stdout.write
+
+xs = [rng.randint(0, 210000000) for _ in range(rng.randint(3, 200))]
+if kind == "hidden" and k == 1:
+    xs = [0, 1, 2, 3, 210000000]
+out("".join(f"{x}\n" for x in xs) + "-1\n")

@@ -1,0 +1,9 @@
+id = "10226"
+title = "Hardwood Species"
+stars = 2
+time_limit = 3.0
+uva = 10226
+
+[tests]
+public = 3
+hidden = 10

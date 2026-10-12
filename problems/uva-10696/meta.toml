@@ -1,0 +1,9 @@
+id = "10696"
+title = "f91"
+stars = 1
+time_limit = 3.0
+uva = 10696
+
+[tests]
+public = 3
+hidden = 10

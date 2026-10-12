@@ -1,0 +1,9 @@
+id = "100"
+title = "The 3n + 1 problem"
+stars = 1
+time_limit = 3.0
+uva = 100
+
+[tests]
+public = 3
+hidden = 10
