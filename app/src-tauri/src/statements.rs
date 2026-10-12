@@ -1,17 +1,18 @@
 //! 題文：和考場一樣直接顯示 UVa 原文 PDF。
 //!
-//! PDF 不打包進 App，第一次開題時才從公開網址下載（先 onlinejudge.org、再 CPE 鏡像），
+//! PDF 不打包進 App，第一次開題時才從公開網址下載（先 CPE 鏡像、再 onlinejudge.org），
 //! 存在 app data 的 `statements/` 快取，之後離線也能看。
 
 use std::io;
 use std::path::{Path, PathBuf};
 use std::time::Duration;
 
-/// 依序嘗試的下載來源。
+/// 依序嘗試的下載來源。CPE 會修改部分題目（例如 UVa 10921 的 PDF 註明 "Modified from UVA10921"），
+/// 所以先用 CPE 自己提供的 PDF，沒有才用 UVa 原版。
 pub fn default_sources(uva: u32) -> Vec<String> {
     vec![
-        format!("https://onlinejudge.org/external/{}/{uva}.pdf", uva / 100),
         format!("https://cpe.mcu.edu.tw/cpe/problemPdf/{uva}.pdf"),
+        format!("https://onlinejudge.org/external/{}/{uva}.pdf", uva / 100),
     ]
 }
 
@@ -141,7 +142,8 @@ mod tests {
 
     #[test]
     fn default_sources_use_uva_volume() {
-        assert_eq!(default_sources(10189)[0], "https://onlinejudge.org/external/101/10189.pdf");
-        assert_eq!(default_sources(272)[0], "https://onlinejudge.org/external/2/272.pdf");
+        assert_eq!(default_sources(10189)[0], "https://cpe.mcu.edu.tw/cpe/problemPdf/10189.pdf");
+        assert_eq!(default_sources(10189)[1], "https://onlinejudge.org/external/101/10189.pdf");
+        assert_eq!(default_sources(272)[1], "https://onlinejudge.org/external/2/272.pdf");
     }
 }

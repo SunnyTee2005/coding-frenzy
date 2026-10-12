@@ -1,0 +1,11 @@
+id = "12468"
+title = "Zapping"
+stars = 1
+time_limit = 3.0
+uva = 12468
+cpe26 = 26041
+category = "算子運算"
+
+[tests]
+public = 3
+hidden = 10

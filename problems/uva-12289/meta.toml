@@ -1,0 +1,11 @@
+id = "12289"
+title = "One-Two-Three"
+stars = 1
+time_limit = 3.0
+uva = 12289
+cpe26 = 26021
+category = "字串字元"
+
+[tests]
+public = 3
+hidden = 10

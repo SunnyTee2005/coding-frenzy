@@ -1,0 +1,11 @@
+id = "13178"
+title = "Is it multiple of 3?"
+stars = 1
+time_limit = 3.0
+uva = 13178
+cpe26 = 26043
+category = "算子運算"
+
+[tests]
+public = 3
+hidden = 10

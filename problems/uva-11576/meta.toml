@@ -1,0 +1,11 @@
+id = "11576"
+title = "Scrolling Sign"
+stars = 1
+time_limit = 3.0
+uva = 11576
+cpe26 = 26023
+category = "字串字元"
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,11 @@
+id = "11942"
+title = "Lumberjack Sequencing"
+stars = 1
+time_limit = 3.0
+uva = 11942
+cpe26 = 26123
+category = "排序處秩"
+
+[tests]
+public = 3
+hidden = 10

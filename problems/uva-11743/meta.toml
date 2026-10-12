@@ -1,0 +1,11 @@
+id = "11743"
+title = "Credit Check"
+stars = 1
+time_limit = 3.0
+uva = 11743
+cpe26 = 26083
+category = "規則模擬"
+
+[tests]
+public = 3
+hidden = 10

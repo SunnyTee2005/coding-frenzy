@@ -3,7 +3,7 @@
 
 用法：python3 tools/build_tests.py [題號...]   （不給題號就處理全部）
 
-sample/ 是題目上的範例，手寫維護，不會被覆蓋。
+sample/*.in 是題目原文的範例輸入；對應的 .out 不存在時由 sol.cpp 算出（已存在的不覆蓋）。
 產生完請再跑 `cargo run -p cpe-judge -- verify problems` 驗證。
 """
 import pathlib
@@ -33,6 +33,10 @@ def build(problem: pathlib.Path) -> None:
             check=True,
         )
         total = 0
+        for inp in sorted((problem / "sample").glob("*.in")):
+            out = inp.with_suffix(".out")
+            if not out.exists():
+                out.write_bytes(subprocess.run([str(exe)], input=inp.read_bytes(), check=True, capture_output=True, timeout=60).stdout)
         for kind in ("public", "hidden"):
             out_dir = problem / kind
             if out_dir.exists():

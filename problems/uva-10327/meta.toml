@@ -1,0 +1,11 @@
+id = "10327"
+title = "Flip Sort"
+stars = 1
+time_limit = 3.0
+uva = 10327
+cpe26 = 26121
+category = "排序處秩"
+
+[tests]
+public = 3
+hidden = 10
