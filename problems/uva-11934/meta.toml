@@ -1,0 +1,9 @@
+id = "11934"
+title = "Magic Formula"
+stars = 1
+time_limit = 3.0
+uva = 11934
+
+[tests]
+public = 3
+hidden = 10

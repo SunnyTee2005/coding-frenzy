@@ -1,0 +1,9 @@
+id = "10908"
+title = "Largest Square"
+stars = 1
+time_limit = 3.0
+uva = 10908
+
+[tests]
+public = 3
+hidden = 10

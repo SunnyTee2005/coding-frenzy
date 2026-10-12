@@ -28,4 +28,4 @@ for _ in range(rng.randint(3, 20)):
     cases.append(b)
 if kind == "hidden" and k == 1:
     cases = [[1, 2], [2, 1], [1, 1], [1, 2, 3], [1, 2, 4, 8, 16], [9999, 10000], [5, 6, 8]]
-out("".join(f"{len(b)}\n{' '.join(map(str, b))}\n" for b in cases))
+out("".join(f"{len(b)}\n{' '.join(map(str, b))}\n\n" for b in cases))
