@@ -1,0 +1,9 @@
+id = "665"
+title = "False coin"
+stars = 2
+time_limit = 3.0
+uva = 665
+
+[tests]
+public = 3
+hidden = 10

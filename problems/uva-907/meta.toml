@@ -1,0 +1,9 @@
+id = "907"
+title = "Winterim Backpacking Trip"
+stars = 3
+time_limit = 3.0
+uva = 907
+
+[tests]
+public = 3
+hidden = 10

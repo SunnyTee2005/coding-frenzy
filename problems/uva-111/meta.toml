@@ -1,0 +1,9 @@
+id = "111"
+title = "History Grading"
+stars = 2
+time_limit = 3.0
+uva = 111
+
+[tests]
+public = 3
+hidden = 10

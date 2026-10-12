@@ -1,0 +1,9 @@
+id = "1203"
+title = "Argus"
+stars = 2
+time_limit = 3.0
+uva = 1203
+
+[tests]
+public = 3
+hidden = 10

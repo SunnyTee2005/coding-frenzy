@@ -1,0 +1,9 @@
+id = "1062"
+title = "Containers"
+stars = 2
+time_limit = 3.0
+uva = 1062
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,9 @@
+id = "11526"
+title = "H(n)"
+stars = 3
+time_limit = 3.0
+uva = 11526
+
+[tests]
+public = 3
+hidden = 10

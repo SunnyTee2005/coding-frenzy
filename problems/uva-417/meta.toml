@@ -1,0 +1,9 @@
+id = "417"
+title = "Word Index"
+stars = 2
+time_limit = 3.0
+uva = 417
+
+[tests]
+public = 3
+hidden = 10
