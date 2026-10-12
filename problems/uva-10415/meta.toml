@@ -1,0 +1,9 @@
+id = "10415"
+title = "Eb Alto Saxophone Player"
+stars = 1
+time_limit = 3.0
+uva = 10415
+
+[tests]
+public = 3
+hidden = 10

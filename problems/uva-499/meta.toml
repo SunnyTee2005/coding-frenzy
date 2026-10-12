@@ -1,0 +1,9 @@
+id = "499"
+title = "What's The Frequency, Kenneth?"
+stars = 1
+time_limit = 3.0
+uva = 499
+
+[tests]
+public = 3
+hidden = 10
