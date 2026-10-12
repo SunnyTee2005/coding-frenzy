@@ -1,0 +1,9 @@
+id = "725"
+title = "Division"
+stars = 1
+time_limit = 3.0
+uva = 725
+
+[tests]
+public = 3
+hidden = 10

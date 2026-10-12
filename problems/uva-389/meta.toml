@@ -1,0 +1,9 @@
+id = "389"
+title = "Basically Speaking"
+stars = 1
+time_limit = 3.0
+uva = 389
+
+[tests]
+public = 3
+hidden = 10

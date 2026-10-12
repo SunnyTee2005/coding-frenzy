@@ -1,0 +1,9 @@
+id = "12019"
+title = "Doom's Day Algorithm"
+stars = 1
+time_limit = 3.0
+uva = 12019
+
+[tests]
+public = 3
+hidden = 10

@@ -1,0 +1,9 @@
+id = "11498"
+title = "Division of Nlogonia"
+stars = 1
+time_limit = 3.0
+uva = 11498
+
+[tests]
+public = 3
+hidden = 10
