@@ -1,0 +1,9 @@
+id = "11321"
+title = "Sort! Sort!! And Sort!!!"
+stars = 1
+time_limit = 3.0
+uva = 11321
+
+[tests]
+public = 3
+hidden = 10
